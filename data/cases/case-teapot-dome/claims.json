@@ -1,0 +1,2211 @@
+{
+  "schemaVersion": 1,
+  "kind": "claims",
+  "claims": [
+    {
+      "id": "clm-teapot-dome-reserve",
+      "text": "Teapot Dome, about 9,321 acres in Natrona County, Wyoming, was Naval Petroleum Reserve No. 3, created by executive order on April 30, 1915.",
+      "category": "BACKGROUND",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-1",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "section": "Opinion, statement of the lease",
+            "excerpt": "The lease covered 9,321 acres in Natrona County, Wyoming — commonly known as Teapot Dome — being Naval Reserve No. 3 created April 30, 1915"
+          }
+        }
+      ],
+      "entityIds": ["loc-teapot-dome"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-denby-appointed",
+      "text": "On March 5, 1921, Edwin Denby became Secretary of the Navy and Albert B. Fall became Secretary of the Interior.",
+      "category": "PERSON",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-2",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "488",
+            "excerpt": "March 5, 1921, Edwin Denby became Secretary of the Navy and Albert B. Fall, Secretary of the Interior."
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall", "per-edwin-denby"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-exec-order-1921",
+      "text": "On May 31, 1921, President Harding signed an executive order purporting to put the naval oil reserves under the administration of the Secretary of the Interior.",
+      "category": "BACKGROUND",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931", "src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-3",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "507",
+            "excerpt": "On May 31, 1921, President Harding promulgated an Executive Order"
+          }
+        },
+        {
+          "id": "evd-4",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "488",
+            "excerpt": "May 31, 1921, the President promulgated an executive order purporting to commit the administration and conservation of all oil and gas bearing lands in the Reserves"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-keen-control",
+      "text": "The Supreme Court found that from the beginning Fall was keen to control the leasing of the naval petroleum reserves.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the U.S. Supreme Court (Mammoth Oil Co. v. United States, 1927)",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-5",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "37",
+            "excerpt": "From the beginning Fall was keen to control the leasing of the naval petroleum reserves."
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-letter-doheny-quote",
+      "text": "On July 8, 1921, Fall wrote to Doheny that he would handle the naval leases \"exactly as I think best.\"",
+      "category": "QUOTE",
+      "assertion": {
+        "type": "QUOTE",
+        "speaker": "Albert B. Fall",
+        "quoteText": "I shall handle matters exactly as I think best",
+        "context": "Letter from Fall to Edward L. Doheny, July 8, 1921, as quoted by the Supreme Court"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-6",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "492",
+            "excerpt": "He understands the situation and that I shall handle matters exactly as I think best"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall", "per-edward-doheny"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-robison-secrecy",
+      "text": "According to the court findings, Fall and Admiral John K. Robison agreed that the Elk Hills contract should be kept secret so that Congress and the public would not know what was being done.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the trial court's findings in the Elk Hills suit, upheld by the Supreme Court",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-7",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "493",
+            "excerpt": "agreed that the proposed contract should be kept secret so that Congress and the public should not know what was being done"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall", "per-john-robison"],
+      "notes": "The Court added: \"it is to be said that Robison’s motives in this were not the same as Fall’s.\" Do not imply Robison shared Fall's purpose.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-doheny-100k-delivered",
+      "text": "On November 30, 1921, Edward L. Doheny sent Fall $100,000 in currency; Doheny's son carried it from New York to Washington and gave it to Fall.",
+      "category": "EVENT",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-pan-american-1927", "src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-8",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "494",
+            "excerpt": "Doheny sent him $100,000 in currency. The money was obtained in New York on the check of Doheny’s son who carried it to Washington and gave it to Fall."
+          }
+        },
+        {
+          "id": "evd-9",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "508",
+            "excerpt": "accepted from Edward L. Doheny, on November 30, 1921, the sum of $100,000"
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny", "per-albert-fall"],
+      "notes": "The transfer itself is not disputed (Doheny testified the money passed). Its CHARACTER — loan or bribe — is the contested question; see clm-loan-vs-bribe.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-loan-vs-bribe",
+      "text": "Doheny maintained the $100,000 was a loan; the government said it was a bribe.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "Edward L. Doheny",
+        "verb": "CLAIMED"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-brownsville-1930-03-22", "src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-10",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-brownsville-1930-03-22",
+            "paragraph": "Doheny trial report",
+            "excerpt": "He said Doheny said it was a loan and the government said it was a bribe."
+          }
+        },
+        {
+          "id": "evd-11",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "498",
+            "excerpt": "it was a loan and not a bribe"
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-note-torn",
+      "text": "According to the court findings, a few weeks after the money was given, Doheny tore Fall's signature off the $100,000 note.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the trial court's findings in the Elk Hills suit, upheld by the Supreme Court",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-12",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "494",
+            "excerpt": "A few weeks after it was given, Doheny tore Fall’s signature"
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny", "per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-elk-hills-no-competition",
+      "text": "According to the court findings, the December 11, 1922 Elk Hills lease to Doheny's company was arranged without competition of any kind.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the trial court's findings in the Elk Hills suit, upheld by the Supreme Court",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-13",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "497",
+            "excerpt": "The lease of December 11 was arranged without competition of any kind."
+          }
+        }
+      ],
+      "entityIds": ["org-pan-american"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-scotus-pan-am-corruption",
+      "text": "In March 1927 the Supreme Court upheld cancellation of Doheny's Elk Hills contracts and leases, describing them as a single transaction \"consummated by conspiracy, corruption and fraud.\"",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the U.S. Supreme Court (Pan American Petroleum v. United States, 1927)",
+        "verb": "STATED"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-14",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "509",
+            "excerpt": "constitute a single transaction not authorized by law and consummated by conspiracy, corruption and fraud"
+          }
+        }
+      ],
+      "entityIds": ["org-pan-american", "per-edward-doheny", "per-albert-fall"],
+      "notes": "A CIVIL ruling cancelling contracts. It is not a criminal conviction of anyone.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-ranch-visit",
+      "text": "Sinclair visited Fall at his ranch at Three Rivers, New Mexico, on December 31, 1921, or January 1, 1922.",
+      "category": "EVENT",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927", "src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-15",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "42",
+            "excerpt": "Then Fall went to his ranch at Three Rivers, New Mexico, where, December 31, came Sinclair"
+          }
+        },
+        {
+          "id": "evd-16",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "512",
+            "excerpt": "came to Three Rivers with his wife and another lady and gentleman on December 31, 1921, or January 1, 1922"
+          }
+        }
+      ],
+      "entityIds": [
+        "per-harry-sinclair",
+        "per-albert-fall",
+        "loc-three-rivers"
+      ],
+      "notes": "The Supreme Court called the showing about what was discussed regarding Teapot Dome \"meager.\" Do not imply the lease was agreed there.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-proposal",
+      "text": "Sinclair submitted his proposal to lease Teapot Dome on February 3, 1922.",
+      "category": "EVENT",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-17",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "512",
+            "excerpt": "The date of Sinclair’s proposition for lease was February 3, 1922."
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-mammoth-organized",
+      "text": "On February 28, 1922, Sinclair had the Mammoth Oil Company organized; he owned all its shares.",
+      "category": "PERSON",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927", "src-sinclair-senate-1929"],
+      "evidence": [
+        {
+          "id": "evd-18",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "44",
+            "excerpt": "February 28, 1922, Sinclair caused the Mammoth Company to be organized"
+          }
+        },
+        {
+          "id": "evd-19",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-senate-1929",
+            "page": "294",
+            "excerpt": "appellant caused the Mammoth Oil Company to be organized and owned all its shares"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair", "org-mammoth-oil"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-lease-signed",
+      "text": "On April 7, 1922, the Secretaries of the Interior and the Navy made a lease of Teapot Dome to Sinclair's Mammoth Oil Company; Fall signed it that day.",
+      "category": "EVENT",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-senate-1929", "src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-20",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-senate-1929",
+            "page": "286",
+            "excerpt": "April 7, 1922, the Secretary of the Navy and the Secretary of the Interior made a lease of lands in Reserve No. 3 to the Mammoth Oil Company."
+          }
+        },
+        {
+          "id": "evd-21",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "45",
+            "excerpt": "April 7, Fall signed as Secretary of the Interior"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall", "org-mammoth-oil", "loc-teapot-dome"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-lease-secrecy",
+      "text": "The Supreme Court found the Teapot Dome lease was kept secret and that there was never any legitimate reason for that secrecy.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the U.S. Supreme Court (Mammoth Oil Co. v. United States, 1927)",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-22",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "46",
+            "excerpt": "There was never any legitimate reason for secrecy."
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-mammoth-trial-no-fraud",
+      "text": "In the government's civil suit over Teapot Dome, the trial court found no fraud and dismissed the case; the Court of Appeals reversed, holding the lease was obtained by fraud and corruption.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-23",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "30",
+            "excerpt": "found that there was no fraud, and dismissed the case."
+          }
+        },
+        {
+          "id": "evd-24",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "30",
+            "excerpt": "held that the lease and agreement were obtained by fraud and corruption, reversed the decree"
+          }
+        }
+      ],
+      "entityIds": ["org-mammoth-oil"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-scotus-mammoth-fraud",
+      "text": "In October 1927 the Supreme Court held that the Teapot Dome lease was made fraudulently \"by means of collusion and conspiracy\" between Fall and Sinclair, and ordered it cancelled.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the U.S. Supreme Court (Mammoth Oil Co. v. United States, 1927)",
+        "verb": "STATED"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-25",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "53",
+            "excerpt": "the lease and agreement were made fraudulently by means of collusion and conspiracy between them"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall", "per-harry-sinclair", "org-mammoth-oil"],
+      "notes": "CIVIL finding. Sinclair was later ACQUITTED of criminal conspiracy (1928). Never present this as a criminal finding against Sinclair.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-scotus-no-bribery-finding",
+      "text": "The Supreme Court expressly did not decide whether Fall was bribed in connection with the Teapot Dome lease.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the U.S. Supreme Court (Mammoth Oil Co. v. United States, 1927)",
+        "verb": "STATED"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-26",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "53",
+            "excerpt": "there is no occasion to consider and we do not determine whether Fall was bribed in respect of the lease or agreement"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall", "per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-liberty-bonds-traced",
+      "text": "The Supreme Court found that $200,000 of Liberty Bonds held by Fall's son-in-law were, by their serial numbers, conclusively shown to come from bonds bought for the Continental Trading Company.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the U.S. Supreme Court (Mammoth Oil Co. v. United States, 1927)",
+        "verb": "STATED"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-27",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "49",
+            "excerpt": "$200,000 were, by the numbers thereon, conclusively shown to have been included"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall", "org-continental-trading"],
+      "notes": "Who financially controlled Continental was never established in this record. Do not name an owner.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-continental-records-destroyed",
+      "text": "The Continental Trading Company was dissolved shortly after May 1923 and all its records were destroyed, according to the Supreme Court.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the U.S. Supreme Court (Mammoth Oil Co. v. United States, 1927)",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-28",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "48",
+            "excerpt": "all its records were destroyed"
+          }
+        }
+      ],
+      "entityIds": ["org-continental-trading"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-witnesses-refused",
+      "text": "Key witnesses would not testify about the bonds: Fall's son-in-law invoked his privilege against self-incrimination, and two oil executives went to France and refused to testify.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the U.S. Supreme Court (Mammoth Oil Co. v. United States, 1927)",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-29",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "49",
+            "excerpt": "invoking the rule against compulsory self-incrimination, he declined to give any information as to where he got the bonds"
+          }
+        },
+        {
+          "id": "evd-30",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "49",
+            "excerpt": "Blackmer and O’Neil went to France"
+          }
+        }
+      ],
+      "entityIds": ["per-mt-everhart"],
+      "notes": "Invoking the privilege is a legal right and is NOT evidence of guilt. The son-in-law was not charged in these sources.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-left-office",
+      "text": "Fall left office as Secretary of the Interior on March 4, 1923.",
+      "category": "PERSON",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-31",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "50",
+            "excerpt": "ceased to be Secretary, March 4, 1923"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-25k",
+      "text": "Shortly after Fall left office in 1923, Sinclair gave him $25,000 in bonds.",
+      "category": "EVENT",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-32",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "50",
+            "excerpt": "Shortly afterwards, Sinclair gave him $25,000"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair", "per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-zevely-loan",
+      "text": "Sinclair's counsel J. W. Zevely testified that the $25,000 was a loan from Sinclair, not a fee.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "J. W. Zevely, Sinclair's counsel",
+        "verb": "TESTIFIED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "evidence": [
+        {
+          "id": "evd-33",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-mammoth-oil-1927",
+            "page": "51",
+            "excerpt": "the bonds were not given as a fee but as a loan from Sinclair"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-senate-resolution-282",
+      "text": "On April 29, 1922, the Senate adopted Resolution 282, asking the Interior Secretary for information and authorizing its Committee on Public Lands and Surveys to investigate the naval oil leases.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-senate-1929"],
+      "evidence": [
+        {
+          "id": "evd-34",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-senate-1929",
+            "page": "287",
+            "excerpt": "the Senate adopted Resolution 282, calling upon the Secretary of the Interior for information"
+          }
+        }
+      ],
+      "entityIds": ["org-senate-committee"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-denial-quote",
+      "text": "In a December 26, 1923 letter to the Senate committee, Fall denied ever receiving \"one cent on account of any oil lease\" from Doheny or Sinclair.",
+      "category": "QUOTE",
+      "assertion": {
+        "type": "QUOTE",
+        "speaker": "Albert B. Fall",
+        "quoteText": "nor have I ever received from either of said parties one cent on account of any oil lease",
+        "context": "Letter to the Senate Committee on Public Lands, December 26, 1923, as quoted in Fall v. United States"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-35",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "512",
+            "excerpt": "nor have I ever received from either of said parties one cent on account of any oil lease"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-mclean-story",
+      "text": "Fall told the Senate committee the $100,000 came from Edward B. McLean, who denied it in his own testimony.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "Albert B. Fall",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-36",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "512",
+            "excerpt": "After he had stated that he received the $100,000 to purchase the Harris ranch from Edward B. McLean, which Mr. McLean denied in his testimony given before the Senate committee"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-joint-resolution-1924",
+      "text": "On February 8, 1924, Congress passed a joint resolution stating the leases were executed \"under circumstances indicating fraud and corruption\" and directing suits to cancel them.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "Congress (Joint Resolution of February 8, 1924)",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-pan-american-1927"],
+      "evidence": [
+        {
+          "id": "evd-37",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "491",
+            "excerpt": "A Joint Resolution adopted by the Senate and House of Representatives and approved by the President, February 8, 1924"
+          }
+        },
+        {
+          "id": "evd-38",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-pan-american-1927",
+            "page": "491",
+            "excerpt": "were executed under circumstances indicating fraud and corruption"
+          }
+        }
+      ],
+      "entityIds": [],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-refused-date",
+      "text": "On March 22, 1924, Sinclair appeared before the Senate committee and refused to answer its questions.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-senate-1929"],
+      "evidence": [
+        {
+          "id": "evd-39",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-senate-1929",
+            "page": "288",
+            "excerpt": "on March 22, 1924, the matters referred to in these resolutions being under inquiry"
+          }
+        },
+        {
+          "id": "evd-40",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-senate-1929",
+            "page": "290",
+            "excerpt": "I decline to answer on the advice of counsel on the same ground."
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair", "org-senate-committee"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-refusal-quote",
+      "text": "Sinclair told the committee he would \"reserve any evidence I may be able to give for those courts\" and decline to answer.",
+      "category": "QUOTE",
+      "assertion": {
+        "type": "QUOTE",
+        "speaker": "Harry F. Sinclair",
+        "quoteText": "I shall reserve any evidence I may be able to give for those courts",
+        "context": "Statement to the Senate Committee on Public Lands, March 22, 1924"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-senate-1929"],
+      "evidence": [
+        {
+          "id": "evd-41",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-senate-1929",
+            "page": "290",
+            "excerpt": "I shall reserve any evidence I may be able to give for those courts"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-doheny-indicted-conspiracy",
+      "text": "On May 27, 1925, Fall and Doheny were indicted for conspiracy to defraud the United States.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-42",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "510",
+            "excerpt": "On May 27, 1925, Fall and Doheny were indicted for conspiracy to defraud the United States."
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall", "per-edward-doheny"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-conspiracy-acquittal",
+      "text": "Fall was acquitted of conspiring with Doheny to defraud the United States.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-albert-fall",
+        "legalStatus": "ACQUITTED",
+        "matter": "Conspiracy to defraud the United States with Doheny (indicted May 27, 1925)"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931", "src-wash-times-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-43",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "508",
+            "excerpt": "the trial resulting in a verdict of not guilty"
+          }
+        },
+        {
+          "id": "evd-44",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-times-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "He and Fall were tried jointly on a conspiracy indictment and both were acquitted."
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "notes": "Verdict date not stated in these sources (gap).",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-doheny-conspiracy-acquittal",
+      "text": "Doheny was acquitted of conspiring with Fall to defraud the United States.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-edward-doheny",
+        "legalStatus": "ACQUITTED",
+        "matter": "Conspiracy to defraud the United States with Fall (indicted May 27, 1925)"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931", "src-wash-times-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-45",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "508",
+            "excerpt": "the trial resulting in a verdict of not guilty"
+          }
+        },
+        {
+          "id": "evd-46",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-times-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "He and Fall were tried jointly on a conspiracy indictment and both were acquitted."
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-fall-trial-1927",
+      "text": "Sinclair and Fall went on trial for conspiracy to defraud on October 17, 1927.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-47",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "757",
+            "excerpt": "Charged with conspiracy to defraud, Sinclair and Fall were put on trial October 17th, in the Supreme Court, District of Columbia."
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair", "per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-ordered-shadowing",
+      "text": "Sinclair admitted under oath that he authorized hiring detectives from the William J. Burns agency, through Henry Mason Day, to shadow the jurors.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-48",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "755",
+            "excerpt": "The answer of Harry F. Sinclair admitted that he authorized the employment through Day of operatives of the Detective Agency for the purpose of shadowing the members of the jury without establishing contact"
+          }
+        }
+      ],
+      "entityIds": [
+        "per-harry-sinclair",
+        "per-henry-mason-day",
+        "org-burns-agency"
+      ],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-shadowing-belief",
+      "text": "Sinclair said he believed the government itself had kept jurors under surveillance and that he, as a citizen, had the same right.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "Harry F. Sinclair (sworn answer)",
+        "verb": "STATED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-49",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "756",
+            "excerpt": "he believed that he, as a citizen of the United States, had the same right and privilege"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-no-juror-approached",
+      "text": "The evidence did not show that any detective was instructed to approach, or did approach, a juror.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-50",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "758",
+            "excerpt": "does not disclose that any operative was instructed to approach"
+          }
+        }
+      ],
+      "entityIds": ["org-burns-agency"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-false-report-glasscock",
+      "text": "A Burns operative's report of October 22, 1927 purposely and falsely stated that juror Glasscock had consulted a representative of the United States.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-51",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "758",
+            "excerpt": "purposely and falsely stated that the third (Glasscock) had consulted a representative of the United States"
+          }
+        }
+      ],
+      "entityIds": ["org-burns-agency"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-mistrial-1927",
+      "text": "The 1927 conspiracy trial of Sinclair and Fall ended in a mistrial on November 2, 1927.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-52",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "756",
+            "excerpt": "mistrial was entered on November 2d in United States v. Sinclair & Fall"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair", "per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-contempt-court",
+      "text": "Sinclair was found guilty of criminal contempt of court for the jury surveillance and sentenced to six months in prison; the Supreme Court affirmed in June 1929.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-harry-sinclair",
+        "legalStatus": "CONVICTED",
+        "matter": "Criminal contempt of court — surveillance of the 1927 jury"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-53",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "761",
+            "excerpt": "Sinclair to imprisonment for six months"
+          }
+        },
+        {
+          "id": "evd-54",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "768",
+            "excerpt": "as to the other appellants it is affirmed"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-day-contempt-court",
+      "text": "Henry Mason Day was found guilty of contempt of court for the jury surveillance and sentenced to four months; the Supreme Court affirmed.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-henry-mason-day",
+        "legalStatus": "CONVICTED",
+        "matter": "Criminal contempt of court — surveillance of the 1927 jury"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-55",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "761",
+            "excerpt": "Day for four months"
+          }
+        },
+        {
+          "id": "evd-56",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "768",
+            "excerpt": "as to the other appellants it is affirmed"
+          }
+        }
+      ],
+      "entityIds": ["per-henry-mason-day"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-wsburns-contempt-court",
+      "text": "W. Sherman Burns, an officer of the detective agency, was found guilty of contempt of court and fined $1,000; the Supreme Court affirmed.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-w-sherman-burns",
+        "legalStatus": "CONVICTED",
+        "matter": "Criminal contempt of court — surveillance of the 1927 jury"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-57",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "761",
+            "excerpt": "was sentenced to pay a fine of One Thousand Dollars"
+          }
+        },
+        {
+          "id": "evd-58",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "768",
+            "excerpt": "as to the other appellants it is affirmed"
+          }
+        }
+      ],
+      "entityIds": ["per-w-sherman-burns"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-wjburns-contempt-trial",
+      "text": "William J. Burns was found guilty of contempt by the trial court and sentenced to fifteen days.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-william-j-burns",
+        "legalStatus": "CONVICTED",
+        "matter": "Criminal contempt of court — surveillance of the 1927 jury (trial court)"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-59",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "761",
+            "excerpt": "for fifteen days"
+          }
+        }
+      ],
+      "entityIds": ["per-william-j-burns"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-wjburns-reversed",
+      "text": "The Supreme Court reversed William J. Burns's contempt conviction, finding no material evidence to support the charge against him.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-william-j-burns",
+        "legalStatus": "OVERTURNED",
+        "matter": "Criminal contempt of court — surveillance of the 1927 jury"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "evidence": [
+        {
+          "id": "evd-60",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "768",
+            "excerpt": "The judgment as to William J. Burns must be reversed"
+          }
+        },
+        {
+          "id": "evd-61",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-jury-1929",
+            "page": "761",
+            "excerpt": "we can find no material evidence to support the charge against him"
+          }
+        }
+      ],
+      "entityIds": ["per-william-j-burns"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-conspiracy-acquittal",
+      "text": "On April 21, 1928, a jury acquitted Sinclair of conspiring with Fall to defraud the government in the leasing of Teapot Dome.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-harry-sinclair",
+        "legalStatus": "ACQUITTED",
+        "matter": "Conspiracy to defraud the United States — Teapot Dome lease (1928 retrial)"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": [
+        "src-evening-star-1928-04-21",
+        "src-wash-daily-news-1928-04-21"
+      ],
+      "evidence": [
+        {
+          "id": "evd-62",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-evening-star-1928-04-21",
+            "page": "1",
+            "excerpt": "today was acquitted of the charge of conspiring with former Secretary of the Interior Albert B. Fall to defraud the Government in connection with the leasing of Teapot Dome"
+          }
+        },
+        {
+          "id": "evd-63",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-daily-news-1928-04-21",
+            "page": "1",
+            "excerpt": "HARRY F. SINCLAIR ACQUITTED OF CONSPIRACY CHARGE"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-severance-1928",
+      "text": "Fall was not tried with Sinclair in 1928; his lawyers obtained a separate trial on the ground of poor health.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-evening-star-1928-04-21"],
+      "evidence": [
+        {
+          "id": "evd-64",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-evening-star-1928-04-21",
+            "page": "1",
+            "excerpt": "his attorneys obtained a severance on the ground of poor health"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-jury-two-hours",
+      "text": "The 1928 jury deliberated about two hours before acquitting Sinclair.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "DETAIL",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": [
+        "src-evening-star-1928-04-21",
+        "src-wash-daily-news-1928-04-21"
+      ],
+      "evidence": [
+        {
+          "id": "evd-65",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-evening-star-1928-04-21",
+            "page": "1",
+            "excerpt": "after a deliberation of two hours"
+          }
+        },
+        {
+          "id": "evd-66",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-daily-news-1928-04-21",
+            "page": "1",
+            "excerpt": "Jury Frees Oil Man After Two Hours’ Deliberation"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-righteous-quote",
+      "text": "The Evening Star reported Sinclair's only comment on the verdict was \"It's a righteous verdict.\"",
+      "category": "QUOTE",
+      "assertion": {
+        "type": "QUOTE",
+        "speaker": "Harry F. Sinclair",
+        "quoteText": "It’s a righteous verdict.",
+        "context": "After the verdict, April 21, 1928, as reported by the Evening Star"
+      },
+      "importance": "DETAIL",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-evening-star-1928-04-21"],
+      "evidence": [
+        {
+          "id": "evd-67",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-evening-star-1928-04-21",
+            "page": "1",
+            "excerpt": "His only comment was, \"It’s a righteous verdict."
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "notes": "The Washington Daily News reported a DIFFERENT 'only' comment (clm-sinclair-pleased-quote). Present both or neither.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-pleased-quote",
+      "text": "The Washington Daily News reported Sinclair said only \"I am not surprised, I am very much pleased.\"",
+      "category": "QUOTE",
+      "assertion": {
+        "type": "QUOTE",
+        "speaker": "Harry F. Sinclair",
+        "quoteText": "I am not surprised, I am very much pleased",
+        "context": "After the verdict, April 21, 1928, as reported by the Washington Daily News"
+      },
+      "importance": "DETAIL",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-wash-daily-news-1928-04-21"],
+      "evidence": [
+        {
+          "id": "evd-68",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-daily-news-1928-04-21",
+            "page": "1",
+            "excerpt": "I am not surprised, I am very much pleased"
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-sinclair-senate-contempt",
+      "text": "Sinclair was convicted of contempt of the Senate for refusing to answer the committee and sentenced to three months in jail and a $500 fine; the Supreme Court affirmed in April 1929.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-harry-sinclair",
+        "legalStatus": "CONVICTED",
+        "matter": "Contempt of the Senate — refusing to answer a Senate committee (R.S. § 102)"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-sinclair-senate-1929"],
+      "evidence": [
+        {
+          "id": "evd-69",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-senate-1929",
+            "page": "284",
+            "excerpt": "He was sentenced to jail for three months and to pay a fine of $500."
+          }
+        },
+        {
+          "id": "evd-70",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-sinclair-senate-1929",
+            "page": "299",
+            "excerpt": "The conviction on the first count must be affirmed."
+          }
+        }
+      ],
+      "entityIds": ["per-harry-sinclair"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-bribery-conviction",
+      "text": "Fall was convicted of bribery — accepting $100,000 from Doheny — in the Supreme Court of the District of Columbia.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-albert-fall",
+        "legalStatus": "CONVICTED",
+        "matter": "Bribery: accepting $100,000 from Edward L. Doheny (Criminal Code § 117)"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-71",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "507",
+            "excerpt": "Appellant Albert B. Fall was convicted in the Supreme Court of the District of Columbia of the crime of bribery"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-sentence",
+      "text": "Fall was sentenced to a $100,000 fine and one year in prison.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-72",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "507",
+            "excerpt": "from a judgment sentencing him to pay a fine of $100,000 with imprisonment for one year"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-convicted-about-six-months",
+      "text": "As of March 22, 1930, Fall's bribery conviction had come about six months earlier.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "DETAIL",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-wash-times-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-73",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-times-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "Upon his conviction six months ago. Fall was sentenced to serve a year in prison"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "notes": "Approximate dating only (newspaper says 'six months ago').",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-wheelchair",
+      "text": "Fall, over seventy and an invalid, was brought into the courtroom in a wheelchair, wrapped in blankets, for his bribery trial.",
+      "category": "EVENT",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-74",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "514",
+            "excerpt": "The defendant, over seventy years of age, an invalid, was"
+          }
+        },
+        {
+          "id": "evd-75",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "515",
+            "excerpt": "brought into the courtroom in a wheel chair, wrapped in blankets, to stand trial on the indictment for bribery"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-counsel-lied-quote",
+      "text": "Fall's own defense counsel told the jury that Fall \"deliberately lied to the Senate of the United States.\"",
+      "category": "QUOTE",
+      "assertion": {
+        "type": "QUOTE",
+        "speaker": "Fall's defense counsel",
+        "quoteText": "He deliberately lied to the Senate of the United States",
+        "context": "Closing argument at Fall's bribery trial, quoted in Fall v. United States"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-76",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "515",
+            "excerpt": "He deliberately lied to the Senate of the United States, as he had a right to do and as he should have done under those circumstances."
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "notes": "Counsel's full sentence continues: 'as he had a right to do and as he should have done under those circumstances.' Do not cut it to change its meaning.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-judge-not-lying-quote",
+      "text": "The trial judge told the jury Fall \"is not charged in this indictment with lying.\"",
+      "category": "QUOTE",
+      "assertion": {
+        "type": "QUOTE",
+        "speaker": "the trial judge in Fall's bribery trial",
+        "quoteText": "this defendant is not charged in this indictment with lying",
+        "context": "Jury charge, quoted in Fall v. United States"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-77",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "514",
+            "excerpt": "this defendant is not charged in this indictment with lying"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-doheny-bribery-acquittal",
+      "text": "On March 22, 1930, a jury acquitted Edward L. Doheny of bribing Albert B. Fall.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-edward-doheny",
+        "legalStatus": "ACQUITTED",
+        "matter": "Bribery: giving $100,000 to Albert B. Fall"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-wash-times-1930-03-22", "src-brownsville-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-78",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-times-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "acquitted today of the charge of bribing Albert B. Fall"
+          }
+        },
+        {
+          "id": "evd-79",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-brownsville-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "Edward L. Doheny was acquitted today on a charge of bribing a"
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-doheny-jury-loan",
+      "text": "The Associated Press reported the jury accepted Doheny's position that the $100,000 he gave Fall was a loan.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the Associated Press (Brownsville Herald)",
+        "verb": "REPORTED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-brownsville-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-80",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-brownsville-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "plea that the $100,000 he gave to Albert B. Fall, President Harding's secretary of the interior, was a loan"
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-judge-possible-both",
+      "text": "According to the AP report, the judge in Doheny's trial instructed the jury it was possible for Fall to have been found guilty and for Doheny to be not guilty.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the Associated Press (Brownsville Herald)",
+        "verb": "REPORTED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-brownsville-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-81",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-brownsville-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "already convicted of receiving a bribe from Edward Doheny"
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny", "per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-doheny-jury-time",
+      "text": "The jury in Doheny's bribery trial was out one hour and five minutes.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "DETAIL",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-wash-times-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-82",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-times-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "The jury was out one hour and five minutes."
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-only-guilty",
+      "text": "The Washington Times reported that Doheny had beaten the bribery charge on which Fall was convicted.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "The Washington Times",
+        "verb": "REPORTED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-wash-times-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-83",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-times-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "Doheny now has beaten the bribery charge, upon which Fall was convicted."
+          }
+        }
+      ],
+      "entityIds": ["per-edward-doheny", "per-albert-fall"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      },
+      "notes": "Importance lowered from CORE at verification: this is one paper’s characterization; the underlying CORE facts are clm-fall-bribery-conviction and clm-doheny-bribery-acquittal."
+    },
+    {
+      "id": "clm-fall-not-jailed-1930",
+      "text": "As of March 22, 1930, Fall's case was on appeal and he had not gone to jail.",
+      "category": "AFTERMATH",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-wash-times-1930-03-22"],
+      "evidence": [
+        {
+          "id": "evd-84",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-wash-times-1930-03-22",
+            "paragraph": "Doheny verdict story",
+            "excerpt": "Fall has never gone to jail"
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "notes": "Bounded fact: true AS OF March 1930 only.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-conviction-affirmed",
+      "text": "On April 6, 1931, the Court of Appeals of the District of Columbia affirmed Fall's bribery conviction.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-fall-1931"],
+      "evidence": [
+        {
+          "id": "evd-85",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-fall-1931",
+            "page": "515",
+            "excerpt": "The judgment is affirmed."
+          }
+        }
+      ],
+      "entityIds": ["per-albert-fall"],
+      "notes": "Date from the opinion's filing date (source publicationDate).",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-first-cabinet-prison",
+      "text": "Fall was the first U.S. cabinet officer to go to prison for crimes committed in office.",
+      "category": "AFTERMATH",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "confidence": "LOW",
+      "sourceIds": [],
+      "evidence": [],
+      "entityIds": ["per-albert-fall"],
+      "notes": "Popular claim. No source in this workspace supports it. Needs a primary or two independent strong sources before use.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    },
+    {
+      "id": "clm-fall-served-sentence",
+      "text": "Fall served his prison sentence in 1931–1932.",
+      "category": "AFTERMATH",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "confidence": "LOW",
+      "sourceIds": [],
+      "evidence": [],
+      "entityIds": ["per-albert-fall"],
+      "notes": "Widely reported but not yet sourced here. Obtain Bureau of Prisons / NARA records or contemporary reports.",
+      "verification": {
+        "verifiedBy": "skill:source-verification@1.1",
+        "verifiedAt": "2026-10-06",
+        "method": "Excerpts checked verbatim against hashed snapshots; authority policy (assessClaimSupport)"
+      }
+    }
+  ]
+}

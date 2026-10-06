@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "kind": "timeline",
+  "events": [
+    {
+      "id": "evt-reserve-created",
+      "when": {
+        "precision": "EXACT",
+        "date": "1915-04-30"
+      },
+      "description": "Teapot Dome set aside as Naval Petroleum Reserve No. 3.",
+      "personIds": [],
+      "locationIds": ["loc-teapot-dome"],
+      "claimIds": ["clm-teapot-dome-reserve"],
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-fall-takes-office",
+      "when": {
+        "precision": "EXACT",
+        "date": "1921-03-05"
+      },
+      "description": "Fall becomes Secretary of the Interior; Denby, Secretary of the Navy.",
+      "personIds": ["per-albert-fall", "per-edwin-denby"],
+      "locationIds": [],
+      "claimIds": ["clm-fall-denby-appointed"],
+      "sourceIds": ["src-pan-american-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-executive-order",
+      "when": {
+        "precision": "EXACT",
+        "date": "1921-05-31"
+      },
+      "description": "Harding executive order puts the naval oil reserves under the Interior Secretary.",
+      "personIds": ["per-albert-fall"],
+      "locationIds": [],
+      "claimIds": ["clm-exec-order-1921"],
+      "sourceIds": ["src-fall-1931", "src-pan-american-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-fall-letter-doheny",
+      "when": {
+        "precision": "EXACT",
+        "date": "1921-07-08"
+      },
+      "description": "Fall writes Doheny that he will handle naval leases \"exactly as I think best.\"",
+      "personIds": ["per-albert-fall", "per-edward-doheny"],
+      "locationIds": [],
+      "claimIds": ["clm-fall-letter-doheny-quote"],
+      "sourceIds": ["src-pan-american-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-100k-delivered",
+      "when": {
+        "precision": "EXACT",
+        "date": "1921-11-30"
+      },
+      "description": "Doheny sends Fall $100,000 in cash, carried to Washington by Doheny’s son.",
+      "personIds": ["per-edward-doheny", "per-albert-fall"],
+      "locationIds": [],
+      "claimIds": ["clm-doheny-100k-delivered"],
+      "sourceIds": ["src-pan-american-1927", "src-fall-1931"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-sinclair-ranch-visit",
+      "when": {
+        "precision": "RANGE",
+        "start": "1921-12-31",
+        "end": "1922-01-01"
+      },
+      "description": "Sinclair visits Fall’s ranch at Three Rivers, New Mexico.",
+      "personIds": ["per-harry-sinclair", "per-albert-fall"],
+      "locationIds": ["loc-three-rivers"],
+      "claimIds": ["clm-sinclair-ranch-visit"],
+      "sourceIds": ["src-mammoth-oil-1927", "src-fall-1931"],
+      "certainty": "CONFIRMED",
+      "notes": "Fall’s own letter gives the date as December 31, 1921, or January 1, 1922."
+    },
+    {
+      "id": "evt-sinclair-proposal",
+      "when": {
+        "precision": "EXACT",
+        "date": "1922-02-03"
+      },
+      "description": "Sinclair submits his proposal to lease Teapot Dome.",
+      "personIds": ["per-harry-sinclair"],
+      "locationIds": [],
+      "claimIds": ["clm-sinclair-proposal"],
+      "sourceIds": ["src-fall-1931"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-mammoth-organized",
+      "when": {
+        "precision": "EXACT",
+        "date": "1922-02-28"
+      },
+      "description": "Sinclair has the Mammoth Oil Company organized.",
+      "personIds": ["per-harry-sinclair"],
+      "locationIds": [],
+      "claimIds": ["clm-mammoth-organized"],
+      "sourceIds": ["src-mammoth-oil-1927", "src-sinclair-senate-1929"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-lease-signed",
+      "when": {
+        "precision": "EXACT",
+        "date": "1922-04-07"
+      },
+      "description": "Teapot Dome leased to the Mammoth Oil Company; Fall signs.",
+      "personIds": ["per-albert-fall"],
+      "locationIds": ["loc-teapot-dome"],
+      "claimIds": ["clm-lease-signed", "clm-lease-secrecy"],
+      "sourceIds": ["src-sinclair-senate-1929", "src-mammoth-oil-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-senate-resolution",
+      "when": {
+        "precision": "EXACT",
+        "date": "1922-04-29"
+      },
+      "description": "Senate adopts Resolution 282 to investigate the naval oil leases.",
+      "personIds": [],
+      "locationIds": [],
+      "claimIds": ["clm-senate-resolution-282"],
+      "sourceIds": ["src-sinclair-senate-1929"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-fall-leaves-office",
+      "when": {
+        "precision": "EXACT",
+        "date": "1923-03-04"
+      },
+      "description": "Fall leaves the Interior Department.",
+      "personIds": ["per-albert-fall"],
+      "locationIds": [],
+      "claimIds": ["clm-fall-left-office"],
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-sinclair-25k",
+      "when": {
+        "precision": "RANGE",
+        "start": "1923-03",
+        "end": "1923-06"
+      },
+      "description": "Sinclair gives Fall $25,000 in bonds; Sinclair’s counsel later testifies it was a loan.",
+      "personIds": ["per-harry-sinclair", "per-albert-fall"],
+      "locationIds": [],
+      "claimIds": ["clm-sinclair-25k", "clm-zevely-loan"],
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "certainty": "CONFIRMED",
+      "notes": "Court: \"shortly afterwards\" (after March 4, 1923); bonds released about late May 1923."
+    },
+    {
+      "id": "evt-fall-denial-letter",
+      "when": {
+        "precision": "EXACT",
+        "date": "1923-12-26"
+      },
+      "description": "Fall writes the Senate committee denying he received money from Doheny or Sinclair.",
+      "personIds": ["per-albert-fall"],
+      "locationIds": [],
+      "claimIds": ["clm-fall-denial-quote", "clm-fall-mclean-story"],
+      "sourceIds": ["src-fall-1931"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-joint-resolution",
+      "when": {
+        "precision": "EXACT",
+        "date": "1924-02-08"
+      },
+      "description": "Congress directs suits to cancel the leases, citing circumstances indicating fraud and corruption.",
+      "personIds": [],
+      "locationIds": [],
+      "claimIds": ["clm-joint-resolution-1924"],
+      "sourceIds": ["src-pan-american-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-sinclair-refuses",
+      "when": {
+        "precision": "EXACT",
+        "date": "1924-03-22"
+      },
+      "description": "Sinclair refuses to answer the Senate committee.",
+      "personIds": ["per-harry-sinclair"],
+      "locationIds": [],
+      "claimIds": ["clm-sinclair-refused-date", "clm-sinclair-refusal-quote"],
+      "sourceIds": ["src-sinclair-senate-1929"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-conspiracy-indictment",
+      "when": {
+        "precision": "EXACT",
+        "date": "1925-05-27"
+      },
+      "description": "Fall and Doheny indicted for conspiracy to defraud the United States.",
+      "personIds": ["per-albert-fall", "per-edward-doheny"],
+      "locationIds": [],
+      "claimIds": ["clm-fall-doheny-indicted-conspiracy"],
+      "sourceIds": ["src-fall-1931"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-conspiracy-acquittal",
+      "when": {
+        "precision": "UNKNOWN",
+        "afterEventId": "evt-conspiracy-indictment",
+        "beforeEventId": "evt-fall-bribery-conviction",
+        "note": "Verdict date not given in these sources."
+      },
+      "description": "Fall and Doheny acquitted of conspiracy.",
+      "personIds": ["per-albert-fall", "per-edward-doheny"],
+      "locationIds": [],
+      "claimIds": [
+        "clm-fall-conspiracy-acquittal",
+        "clm-doheny-conspiracy-acquittal"
+      ],
+      "sourceIds": ["src-fall-1931", "src-wash-times-1930-03-22"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-scotus-pan-american",
+      "when": {
+        "precision": "EXACT",
+        "date": "1927-03-07"
+      },
+      "description": "Supreme Court upholds cancellation of the Elk Hills contracts and leases.",
+      "personIds": [],
+      "locationIds": ["loc-elk-hills"],
+      "claimIds": ["clm-scotus-pan-am-corruption"],
+      "sourceIds": ["src-pan-american-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-scotus-mammoth",
+      "when": {
+        "precision": "EXACT",
+        "date": "1927-10-10"
+      },
+      "description": "Supreme Court orders the Teapot Dome lease cancelled as fraudulent.",
+      "personIds": [],
+      "locationIds": ["loc-teapot-dome"],
+      "claimIds": [
+        "clm-scotus-mammoth-fraud",
+        "clm-scotus-no-bribery-finding",
+        "clm-mammoth-trial-no-fraud"
+      ],
+      "sourceIds": ["src-mammoth-oil-1927"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-conspiracy-trial-opens",
+      "when": {
+        "precision": "EXACT",
+        "date": "1927-10-17"
+      },
+      "description": "Sinclair and Fall go on trial for conspiracy.",
+      "personIds": ["per-harry-sinclair", "per-albert-fall"],
+      "locationIds": [],
+      "claimIds": ["clm-sinclair-fall-trial-1927"],
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-jury-shadowed",
+      "when": {
+        "precision": "RANGE",
+        "start": "1927-10-18",
+        "end": "1927-11-02"
+      },
+      "description": "Burns detectives, hired on Sinclair’s authorization, shadow the jurors.",
+      "personIds": ["per-harry-sinclair", "per-henry-mason-day"],
+      "locationIds": [],
+      "claimIds": [
+        "clm-sinclair-ordered-shadowing",
+        "clm-no-juror-approached",
+        "clm-false-report-glasscock"
+      ],
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-mistrial",
+      "when": {
+        "precision": "EXACT",
+        "date": "1927-11-02"
+      },
+      "description": "Mistrial declared.",
+      "personIds": ["per-harry-sinclair", "per-albert-fall"],
+      "locationIds": [],
+      "claimIds": ["clm-mistrial-1927"],
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-sinclair-acquitted",
+      "when": {
+        "precision": "EXACT",
+        "date": "1928-04-21"
+      },
+      "description": "Sinclair acquitted of conspiracy at retrial; Fall had been severed for poor health.",
+      "personIds": ["per-harry-sinclair"],
+      "locationIds": [],
+      "claimIds": [
+        "clm-sinclair-conspiracy-acquittal",
+        "clm-fall-severance-1928"
+      ],
+      "sourceIds": [
+        "src-evening-star-1928-04-21",
+        "src-wash-daily-news-1928-04-21"
+      ],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-senate-contempt-affirmed",
+      "when": {
+        "precision": "EXACT",
+        "date": "1929-04-08"
+      },
+      "description": "Supreme Court affirms Sinclair’s contempt-of-Senate conviction.",
+      "personIds": ["per-harry-sinclair"],
+      "locationIds": [],
+      "claimIds": ["clm-sinclair-senate-contempt"],
+      "sourceIds": ["src-sinclair-senate-1929"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-jury-contempt-affirmed",
+      "when": {
+        "precision": "EXACT",
+        "date": "1929-06-03"
+      },
+      "description": "Supreme Court affirms jury-surveillance contempt for Sinclair, Day, W. Sherman Burns; reverses William J. Burns.",
+      "personIds": [
+        "per-harry-sinclair",
+        "per-henry-mason-day",
+        "per-william-j-burns",
+        "per-w-sherman-burns"
+      ],
+      "locationIds": [],
+      "claimIds": ["clm-sinclair-contempt-court", "clm-wjburns-reversed"],
+      "sourceIds": ["src-sinclair-jury-1929"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-fall-bribery-conviction",
+      "when": {
+        "precision": "APPROXIMATE",
+        "date": "1929-09",
+        "qualifier": "CIRCA"
+      },
+      "description": "Fall convicted of accepting the $100,000 bribe.",
+      "personIds": ["per-albert-fall"],
+      "locationIds": [],
+      "claimIds": [
+        "clm-fall-bribery-conviction",
+        "clm-fall-sentence",
+        "clm-fall-convicted-about-six-months"
+      ],
+      "sourceIds": ["src-fall-1931", "src-wash-times-1930-03-22"],
+      "certainty": "PROBABLE",
+      "notes": "Conviction is certain; the date is approximate (\"six months\" before March 22, 1930)."
+    },
+    {
+      "id": "evt-doheny-acquitted",
+      "when": {
+        "precision": "EXACT",
+        "date": "1930-03-22"
+      },
+      "description": "Doheny acquitted of bribing Fall.",
+      "personIds": ["per-edward-doheny"],
+      "locationIds": [],
+      "claimIds": ["clm-doheny-bribery-acquittal", "clm-doheny-jury-time"],
+      "sourceIds": ["src-wash-times-1930-03-22", "src-brownsville-1930-03-22"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-fall-affirmed",
+      "when": {
+        "precision": "EXACT",
+        "date": "1931-04-06"
+      },
+      "description": "Court of Appeals affirms Fall’s bribery conviction.",
+      "personIds": ["per-albert-fall"],
+      "locationIds": [],
+      "claimIds": ["clm-fall-conviction-affirmed"],
+      "sourceIds": ["src-fall-1931"],
+      "certainty": "CONFIRMED"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gap-conspiracy-trial",
+      "afterEventId": "evt-conspiracy-indictment",
+      "beforeEventId": "evt-scotus-pan-american",
+      "description": "Date of the Fall–Doheny conspiracy trial and verdict not in our sources."
+    },
+    {
+      "id": "gap-sentences-served",
+      "afterEventId": "evt-fall-affirmed",
+      "description": "Whether and when Fall and Sinclair served their sentences is not yet documented."
+    }
+  ]
+}

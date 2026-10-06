@@ -36,7 +36,11 @@ export const STAGE_GRAPH: StageDefinition[] = [
     requiresArtifacts: [],
     requiresGates: [],
     produces: ["sources", "claims", "entities", "research"],
-    inputs: (ws) => ws.project,
+    // Identity only: housekeeping fields (status, updatedAt) must not stale research.
+    inputs: (ws) => {
+      const { id, caseName, caseType, jurisdiction, isSynthetic } = ws.project;
+      return { id, caseName, caseType, jurisdiction, isSynthetic };
+    },
     description: "Sources, claim ledger (UNVERIFIED), entities, research brief",
   },
   {

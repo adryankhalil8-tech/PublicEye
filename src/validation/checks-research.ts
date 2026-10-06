@@ -292,3 +292,34 @@ export const checkResearchBrief = (ctx: ValidationContext) => {
     checkRefs(ctx, x.sourceIds, ctx.sources, "source", at("research", x.id));
   }
 };
+
+/**
+ * Real cases: every citable source behind a CORE claim needs a local,
+ * hashed snapshot (npm run snapshot) so the citation survives link rot and
+ * reviewers can check excerpts against the bytes actually read.
+ */
+export const checkSnapshots = (ctx: ValidationContext) => {
+  if (ctx.ws.project.isSynthetic) return;
+  const coreSources = new Set(
+    ctx.ws.claims.claims
+      .filter((c) => c.importance === "CORE")
+      .flatMap((c) =>
+        c.evidence
+          .filter((e) => e.stance === "SUPPORTS")
+          .map((e) => e.reference.sourceId),
+      ),
+  );
+  for (const s of ctx.ws.sources.sources) {
+    if (
+      s.snapshot ||
+      s.authorityLevel === "DISCOVERY_ONLY" ||
+      !coreSources.has(s.id)
+    )
+      continue;
+    ctx.c.warn(
+      "SOURCE_NOT_SNAPSHOTTED",
+      at("sources", s.id),
+      "supports a CORE claim but has no snapshot — run npm run snapshot",
+    );
+  }
+};

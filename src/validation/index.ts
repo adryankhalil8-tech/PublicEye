@@ -5,6 +5,7 @@ import {
   checkEntities,
   checkProject,
   checkResearchBrief,
+  checkSnapshots,
   checkSources,
 } from "./checks-research";
 import {
@@ -33,6 +34,7 @@ export const validateWorkspace = (ws: CaseWorkspace): ValidationIssue[] => {
   checkDuplicateIds(ctx);
   checkProject(ctx);
   checkSources(ctx);
+  checkSnapshots(ctx);
   checkClaims(ctx);
   checkEntities(ctx);
   checkResearchBrief(ctx);

@@ -1,7 +1,7 @@
 ---
 name: crime-documentary
 description: Master orchestrator for producing one crime/court documentary case end to end. Knows stage order, prerequisites, outputs, human gates, validation, resume, and failure behavior, and dispatches the right sub-skill. Use when asked to "produce", "continue", or "resume" a case. It does not do sub-skills' work itself.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # crime-documentary (orchestrator)
@@ -24,6 +24,14 @@ skip a prerequisite.
 - A short status report to the human: what ran, what is waiting, why.
 
 ## PROCESS
+
+**Before a case exists:** run the `case-discovery` skill, present the
+candidates, and STOP. A human selects one
+(`npm run candidate -- select <cand-id> --by="human:<name>"`); then scaffold
+it with `npm run new:case` and `npm run pipeline -- init`.
+
+**Before requesting Gate 1:** run `npm run review-packet -- <case>` and point
+the human to `output/review-packet.md`.
 
 Always start with:
 

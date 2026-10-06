@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "kind": "case-candidate",
+  "id": "cand-teapot-dome",
+  "name": "Teapot Dome bribery and contempt cases (1922–1931)",
+  "summary": "Federal oil-lease scandal. Interior Secretary Albert B. Fall's bribery conviction was affirmed by the D.C. Circuit (Fall v. United States, 49 F.2d 506, 1931); oilman Harry Sinclair's contempt case reached the Supreme Court (Sinclair v. United States, 279 U.S. 263, 1929). Reportedly the oilman accused of paying Fall was acquitted — to be verified.",
+  "caseType": "CORRUPTION",
+  "jurisdiction": {
+    "country": "United States",
+    "region": "District of Columbia",
+    "courts": [
+      "Supreme Court of the United States",
+      "U.S. Court of Appeals, D.C. Circuit"
+    ]
+  },
+  "era": "1922–1931",
+  "discoveredVia": [
+    {
+      "url": "https://www.courtlistener.com/?q=caseName%3A(Sinclair)%20AND%20%22Teapot%20Dome%22",
+      "title": "CourtListener search: Sinclair + Teapot Dome"
+    }
+  ],
+  "knownPrimarySources": [
+    {
+      "url": "https://www.courtlistener.com/opinion/101414/sinclair-v-united-states/",
+      "title": "Sinclair v. United States, 279 U.S. 263 (1929)"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/6948641/fall-v-united-states/",
+      "title": "Fall v. United States, 49 F.2d 506 (D.C. Cir. 1931)"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/6940554/parker-v-sinclair/",
+      "title": "Parker v. Sinclair, 25 F.2d 570 (2d Cir. 1928)"
+    }
+  ],
+  "sensitivityFlags": [],
+  "status": "SELECTED",
+  "decision": {
+    "by": "human:Adryan",
+    "at": "2026-10-06T23:00:44.298Z",
+    "notes": "test run"
+  },
+  "rationale": "The cleanest primary record of the three, including Supreme Court opinions. It offers a striking documented contrast between outcomes for different defendants, a natural reveal structure, and every principal is long deceased.",
+  "risks": [
+    "Corruption rather than violent crime — less instant 'true crime' pull; the hook must come from the documented contrast",
+    "Many overlapping proceedings (civil lease cases, Senate contempt, jury-shadowing contempt, bribery trials) — scope must be narrowed",
+    "Several trial-level outcomes may not be on CourtListener; newspapers/National Archives needed"
+  ],
+  "isSynthetic": false,
+  "createdAt": "2026-10-06",
+  "notes": "Discovery summary from general knowledge — UNVERIFIED. Not a claim; research must verify every element against primary records."
+}

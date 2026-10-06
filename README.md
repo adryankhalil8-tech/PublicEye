@@ -11,7 +11,8 @@ stated as fact, an unverified claim in the script, an unlabeled
 reconstruction, an unlicensed image, an unapproved script being voiced —
 fail validation or are refused by the pipeline.
 
-> **Status:** Foundation and architecture integration complete (v0.2.0).
+> **Status:** Phase 1 (Real Case Intelligence) in progress — research tooling built, three candidate cases proposed, waiting on case selection.
+> Foundation and architecture integration complete (v0.2.0).
 > The full pipeline runs end to end on a synthetic fixture — including real
 > local narration, measured timing, a render, and QA. **No real case has been
 > researched or produced yet.** See [docs/PROJECT_PROGRESS.md](docs/PROJECT_PROGRESS.md).
@@ -51,7 +52,7 @@ optional paid-provider opt-in (off by default).
 ## Commands
 
 | Command                                                                  | What it does                                                  |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------- | ------- | --------- | ------------------------------------------------------------- |
 | `npm run dev`                                                            | Open Remotion Studio                                          |
 | `npm run compositions`                                                   | List compositions                                             |
 | `npm run new:case -- <slug> "<Name>"`                                    | Scaffold `data/cases/case-<slug>/`                            |
@@ -67,6 +68,10 @@ optional paid-provider opt-in (off by default).
 | `npm run qa -- <case>`                                                   | QA report (ffprobe, silence detection, editorial checks)      |
 | `npm run render:fixture:master`                                          | Fixture master: narration, no burned captions                 |
 | `npm run render:fixture:captioned`                                       | Fixture captioned derivative                                  |
+| `npm run cl -- search                                                    | cluster                                                       | opinion | budget …` | CourtListener lookups (cached, rate-limited; token in `.env`) |
+| `npm run snapshot -- <case> <src-id> [--file=…]`                         | Save + hash exactly what a source said                        |
+| `npm run candidate -- list                                               | validate                                                      | select  | reject …` | Case candidates; selection is human-only                      |
+| `npm run review-packet -- <case>`                                        | Gate 1 review packet with excerpt checks                      |
 | `npm run skills:sync`                                                    | Copy `skills/*` into `.claude/skills` and `.agents/skills`    |
 | `npm test` · `typecheck` · `lint` · `format`                             | Quality tools                                                 |
 | `npm run health`                                                         | Run all gates, time them, log the result                      |

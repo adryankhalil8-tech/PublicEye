@@ -467,3 +467,20 @@ describe("cost gate", () => {
     ).toThrow(CostApprovalRequiredError);
   });
 });
+
+describe("stage inputs", () => {
+  it("housekeeping edits to case.json do not make research stale", () => {
+    const ws = fixture();
+    const before = fingerprint(stageDefinition("RESEARCH").inputs(ws));
+    const edited = structuredClone(ws);
+    edited.project.status = "SCRIPT";
+    edited.project.updatedAt = "2030-01-01";
+    expect(fingerprint(stageDefinition("RESEARCH").inputs(edited))).toBe(
+      before,
+    );
+    edited.project.caseName = "Something else";
+    expect(fingerprint(stageDefinition("RESEARCH").inputs(edited))).not.toBe(
+      before,
+    );
+  });
+});

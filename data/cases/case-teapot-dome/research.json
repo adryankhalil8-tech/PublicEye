@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "research-brief",
+  "summary": "In 1921–22 Interior Secretary Albert B. Fall, after gaining control of the Navy's oil reserves, leased Elk Hills (California) to Edward L. Doheny's companies and Teapot Dome (Wyoming) to Harry F. Sinclair's Mammoth Oil Company, in secret and without competition. Doheny had sent Fall $100,000 in cash; Sinclair-linked Liberty Bonds and $25,000 also reached Fall. The Supreme Court cancelled both sets of leases as fraudulent (1927, civil). In the criminal cases, Fall and Doheny were acquitted of conspiracy; Sinclair's first conspiracy trial collapsed when he had the jury shadowed (he was jailed for contempt of court and, separately, of the Senate) and he was acquitted at retrial in 1928; Fall was convicted of accepting the $100,000 bribe (affirmed 1931); and in 1930 Doheny was acquitted of giving it.",
+  "sensitivityFlags": ["CONTESTED_OUTCOME"],
+  "openQuestions": [
+    {
+      "id": "q-conspiracy-verdict-date",
+      "question": "When was the Fall–Doheny conspiracy trial held and the verdict returned?",
+      "status": "OPEN",
+      "relatedClaimIds": [
+        "clm-fall-conspiracy-acquittal",
+        "clm-doheny-conspiracy-acquittal"
+      ]
+    },
+    {
+      "id": "q-fall-prison",
+      "question": "Did Fall serve his prison sentence, and when? Was he the first cabinet officer imprisoned for crimes in office?",
+      "status": "OPEN",
+      "relatedClaimIds": [
+        "clm-fall-served-sentence",
+        "clm-fall-first-cabinet-prison"
+      ]
+    },
+    {
+      "id": "q-sinclair-served",
+      "question": "When did Sinclair serve his contempt sentences?",
+      "status": "OPEN",
+      "relatedClaimIds": [
+        "clm-sinclair-contempt-court",
+        "clm-sinclair-senate-contempt"
+      ]
+    },
+    {
+      "id": "q-continental-owners",
+      "question": "Who owned or benefited from the Continental Trading Company, whose bonds reached Fall's son-in-law?",
+      "status": "UNRESOLVABLE",
+      "relatedClaimIds": [
+        "clm-liberty-bonds-traced",
+        "clm-continental-records-destroyed",
+        "clm-witnesses-refused"
+      ],
+      "resolution": "Not established in this record; witnesses refused to testify and the records were destroyed. Later Senate investigations may address it — not yet obtained."
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "ctr-civil-vs-criminal",
+      "description": "Civil courts (Supreme Court, 1927) found the leases were obtained through corruption, fraud, and conspiracy involving Fall, Doheny, and Sinclair; criminal juries acquitted Doheny (conspiracy and bribery) and Sinclair (conspiracy), while convicting Fall of bribery.",
+      "claimIds": [
+        "clm-scotus-pan-am-corruption",
+        "clm-scotus-mammoth-fraud",
+        "clm-doheny-bribery-acquittal",
+        "clm-sinclair-conspiracy-acquittal",
+        "clm-fall-bribery-conviction"
+      ],
+      "sourceIds": [
+        "src-pan-american-1927",
+        "src-mammoth-oil-1927",
+        "src-wash-times-1930-03-22",
+        "src-evening-star-1928-04-21",
+        "src-fall-1931"
+      ],
+      "resolution": "Not a factual contradiction: different proceedings, standards of proof, and questions (civil cancellation vs. criminal guilt; the bribery case against Fall turned on HIS intent, Doheny's on HIS). Narrate both outcomes precisely; never merge them."
+    },
+    {
+      "id": "ctr-sinclair-comment",
+      "description": "Two papers each report a different remark as Sinclair's 'only' comment on his 1928 acquittal.",
+      "claimIds": [
+        "clm-sinclair-righteous-quote",
+        "clm-sinclair-pleased-quote"
+      ],
+      "sourceIds": [
+        "src-evening-star-1928-04-21",
+        "src-wash-daily-news-1928-04-21"
+      ],
+      "resolution": "Possibly said at different moments. If quoted, attribute each to its paper."
+    }
+  ],
+  "sourcesToObtain": [
+    {
+      "description": "Contemporary report of the Fall–Doheny conspiracy verdict (Library of Congress, Chronicling America)"
+    },
+    {
+      "description": "Fall's imprisonment records (Federal Bureau of Prisons / National Archives) or contemporary reports, 1931–1932"
+    },
+    {
+      "description": "Senate Committee on Public Lands and Surveys hearings on the naval oil leases (Congressional Serial Set)"
+    },
+    {
+      "description": "Reports of Sinclair serving his contempt sentences (1929)"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/1497526/united-states-v-mammoth-oil-co/",
+      "description": "United States v. Mammoth Oil Co., 14 F.2d 705 (8th Cir. 1926) — the appeals ruling that first found fraud"
+    }
+  ],
+  "notes": "Scope deliberately limited to the leases, the money, and the court outcomes. McGrain v. Daugherty and the Daugherty investigations are related but out of scope for a first video."
+}

@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "kind": "run-manifest",
+  "runId": "run-20261006230514",
+  "projectId": "case-teapot-dome",
+  "createdAt": "2026-10-06T23:05:14.348Z",
+  "updatedAt": "2026-10-06T23:46:05.851Z",
+  "currentStage": "SCRIPT",
+  "overallStatus": "IN_PROGRESS",
+  "stages": [
+    {
+      "stage": "RESEARCH",
+      "status": "COMPLETE",
+      "attemptCount": 2,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-06T23:23:00.124Z",
+      "completedAt": "2026-10-06T23:23:02.824Z",
+      "inputsFingerprint": "fp1-1578eaa738d27c",
+      "items": []
+    },
+    {
+      "stage": "VERIFICATION",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-06T23:21:55.059Z",
+      "completedAt": "2026-10-06T23:21:57.899Z",
+      "inputsFingerprint": "fp1-188b1f045cda03",
+      "items": []
+    },
+    {
+      "stage": "TIMELINE",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-06T23:22:21.976Z",
+      "completedAt": "2026-10-06T23:22:24.797Z",
+      "inputsFingerprint": "fp1-1327d55377491b",
+      "items": []
+    },
+    {
+      "stage": "GATE_RESEARCH",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-06T23:39:03.434Z",
+      "completedAt": "2026-10-06T23:39:06.885Z",
+      "items": []
+    },
+    {
+      "stage": "STORY",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-06T23:45:53.464Z",
+      "completedAt": "2026-10-06T23:45:55.878Z",
+      "inputsFingerprint": "fp1-05ca697f55999e",
+      "items": []
+    },
+    {
+      "stage": "SCRIPT",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-06T23:46:00.891Z",
+      "completedAt": "2026-10-06T23:46:03.337Z",
+      "inputsFingerprint": "fp1-1b9b4dbc0f74e7",
+      "items": []
+    },
+    {
+      "stage": "GATE_SCRIPT",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "NARRATION",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "ALIGNMENT",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "VISUAL_BIBLE",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "VISUAL_PLAN",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "GATE_PRE_PRODUCTION",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "ASSETS",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "RENDER",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "TECHNICAL_QA",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "EDITORIAL_QA",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "CAPTIONS",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "PACKAGE",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "GATE_PUBLICATION",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    }
+  ],
+  "artifacts": [],
+  "failures": [],
+  "gates": [
+    {
+      "id": "gate-research-1",
+      "runId": "run-20261006230514",
+      "type": "RESEARCH",
+      "status": "APPROVED",
+      "requestedAt": "2026-10-06T23:22:30.810Z",
+      "resolvedAt": "2026-10-06T23:34:22.284Z",
+      "resolvedBy": "human:Adryan",
+      "subjectFingerprint": "fp1-175b21b61e7270",
+      "checklist": [
+        {
+          "id": "core-claims-supported",
+          "question": "Are all CORE claims SUPPORTED by the evidence as read in the source?",
+          "answer": "YES"
+        },
+        {
+          "id": "allegations-attributed",
+          "question": "Are allegations recorded as ATTRIBUTED claims, never as facts?",
+          "answer": "YES"
+        },
+        {
+          "id": "legal-outcomes-correct",
+          "question": "Is every named person's legal status (charged, convicted, acquitted…) correct and current?",
+          "answer": "YES"
+        },
+        {
+          "id": "contradictions-documented",
+          "question": "Are contradictions between sources documented, not silently resolved?",
+          "answer": "YES"
+        },
+        {
+          "id": "timeline-gaps-understood",
+          "question": "Are the major timeline gaps and uncertain dates understood?",
+          "answer": "YES"
+        },
+        {
+          "id": "sensitivity-reviewed",
+          "question": "Have minors, living private individuals, and victims' families been considered?",
+          "answer": "YES"
+        }
+      ],
+      "blockingIssues": [],
+      "notes": "…"
+    },
+    {
+      "id": "gate-script-1",
+      "runId": "run-20261006230514",
+      "type": "SCRIPT",
+      "status": "PENDING",
+      "requestedAt": "2026-10-06T23:46:05.851Z",
+      "subjectFingerprint": "fp1-157998d6b85ce1",
+      "checklist": [
+        {
+          "id": "script-accurate",
+          "question": "Does every factual sentence match its cited claims?"
+        },
+        {
+          "id": "framing-fair",
+          "question": "Is uncertainty audible and is framing fair to everyone named?"
+        },
+        {
+          "id": "no-invention",
+          "question": "Is the script free of invented dialogue, thoughts, motives, and events?"
+        },
+        {
+          "id": "ready-to-voice",
+          "question": "Is the script final enough to produce narration?"
+        }
+      ],
+      "blockingIssues": []
+    }
+  ],
+  "costApprovals": [],
+  "cost": {
+    "estimatedUsd": 0,
+    "approvedUsd": 0,
+    "spentUsd": 0
+  }
+}

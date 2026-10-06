@@ -1,55 +1,55 @@
 {
-  "date": "2026-10-01T00:15:19.400Z",
-  "version": "0.2.0",
+  "date": "2026-10-06T23:48:32.651Z",
+  "version": "0.3.0-dev",
   "remotion": "4.0.530",
   "gates": [
     {
       "name": "format",
       "cmd": "npm run format:check",
       "pass": true,
-      "seconds": 4.1
+      "seconds": 4.8
     },
     {
       "name": "lint",
       "cmd": "npm run lint",
       "pass": true,
-      "seconds": 4.3
+      "seconds": 5
     },
     {
       "name": "typecheck",
       "cmd": "npm run typecheck",
       "pass": true,
-      "seconds": 10.9
+      "seconds": 11.3
     },
     {
       "name": "tests",
       "cmd": "npx vitest run --reporter=default --reporter=json --outputFile=\"C:\\\\Users\\\\Student\\\\Desktop\\\\Personal Codes\\\\PublicEyeYT\\\\.health\\\\vitest.json\"",
       "pass": true,
-      "seconds": 7.2
+      "seconds": 7.8
     },
     {
       "name": "fixture",
       "cmd": "npx tsx scripts/validate-case.ts \"C:\\\\Users\\\\Student\\\\Desktop\\\\Personal Codes\\\\PublicEyeYT\\\\fixtures\\\\cases\\\\synthetic-tern-river-payroll\"",
       "pass": true,
-      "seconds": 2.6
+      "seconds": 2.4
     },
     {
       "name": "compositions",
       "cmd": "npm run compositions",
       "pass": true,
-      "seconds": 6.8
+      "seconds": 7.5
     },
     {
       "name": "bundle",
       "cmd": "npm run build",
       "pass": true,
-      "seconds": 6
+      "seconds": 6.6
     }
   ],
   "allPassed": true,
   "tests": {
-    "total": 214,
-    "passed": 214,
+    "total": 232,
+    "passed": 232,
     "failed": 0
   },
   "fixture": {
@@ -59,10 +59,10 @@
     "shots": 11
   },
   "codebase": {
-    "srcFiles": 73,
-    "srcLines": 8695,
-    "testFiles": 12,
-    "testLines": 2244
+    "srcFiles": 76,
+    "srcLines": 9139,
+    "testFiles": 13,
+    "testLines": 2477
   },
-  "totalGateSeconds": 41.9
+  "totalGateSeconds": 45.4
 }

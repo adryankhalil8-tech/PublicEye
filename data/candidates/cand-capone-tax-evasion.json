@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "case-candidate",
+  "status": "CANDIDATE",
+  "isSynthetic": false,
+  "createdAt": "2026-10-06",
+  "id": "cand-capone-tax-evasion",
+  "name": "United States v. Al Capone (federal income-tax prosecution, 1931–1932)",
+  "summary": "Federal prosecution of Chicago crime boss Alphonse Capone for income-tax evasion. His conviction was affirmed by the Seventh Circuit in 1932 (Capone v. United States, 56 F.2d 927). He is widely associated with violent crime, but this federal case concerned tax offenses.",
+  "caseType": "ORGANIZED_CRIME",
+  "jurisdiction": {
+    "country": "United States",
+    "region": "Illinois (N.D. Ill.); 7th Circuit",
+    "courts": [
+      "U.S. District Court, N.D. Illinois",
+      "U.S. Court of Appeals, 7th Circuit"
+    ]
+  },
+  "era": "1929–1934",
+  "discoveredVia": [
+    {
+      "url": "https://www.courtlistener.com/?q=caseName%3A(Capone)%20AND%20%22income%20tax%22",
+      "title": "CourtListener search: Capone + income tax, 1931–1933"
+    }
+  ],
+  "knownPrimarySources": [
+    {
+      "url": "https://www.courtlistener.com/opinion/1479640/capone-v-united-states/",
+      "title": "Capone v. United States, 56 F.2d 927 (7th Cir. 1932)"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/1527624/capone-v-aderhold/",
+      "title": "Capone v. Aderhold, 2 F. Supp. 280 (N.D. Ga. 1933)"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/1477670/capone-v-aderhold/",
+      "title": "Capone v. Aderhold, 65 F.2d 130 (5th Cir. 1933)"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/1498085/guzik-v-united-states/",
+      "title": "Guzik v. United States, 54 F.2d 618 (7th Cir. 1931) — associate's tax case"
+    }
+  ],
+  "sensitivityFlags": [],
+  "rationale": "Strong hook with a crisp, single federal legal outcome. It is the ideal test of the allegation-vs-conviction rule: much of the violence attributed to Capone was never adjudicated, so the script must keep it attributed while stating the tax conviction plainly.",
+  "risks": [
+    "Heavy folklore and myth online (Untouchables lore) — many claims will be CONTRADICTED or DISCOVERY_ONLY",
+    "Violence claims are mostly allegation; guilt labels must be avoided for unadjudicated acts",
+    "Trial transcript is not on CourtListener; may need National Archives records for trial detail"
+  ],
+  "notes": "Discovery summary from general knowledge — UNVERIFIED. Not a claim; research must verify every element against primary records."
+}

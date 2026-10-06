@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "kind": "story-plan",
+  "angle": {
+    "id": "ang-one-payment-two-verdicts",
+    "title": "One Payment, Two Verdicts",
+    "logline": "A cabinet secretary was convicted of accepting a $100,000 bribe; the oilman who sent him the money was acquitted of giving it. The court record explains how both verdicts came to stand.",
+    "centralQuestion": "How could one jury convict Fall of taking Doheny's $100,000 as a bribe while another acquitted Doheny of giving it?",
+    "whyItWorks": "The contrast is real, documented, and counter-intuitive, so tension comes from the record itself. It also forces the precision the case demands: civil findings vs. criminal verdicts, and each man's own trial.",
+    "requiredClaimIds": [
+      "clm-doheny-100k-delivered",
+      "clm-loan-vs-bribe",
+      "clm-fall-bribery-conviction",
+      "clm-doheny-bribery-acquittal",
+      "clm-fall-conviction-affirmed",
+      "clm-scotus-no-bribery-finding"
+    ],
+    "risks": [
+      "Blurring civil fraud findings into criminal guilt for Doheny or Sinclair — every civil finding is attributed to the court that made it.",
+      "Viewers may hear the two verdicts as a contradiction; the AP-reported jury instruction (each verdict was possible) must be included.",
+      "The Fall–Doheny conspiracy verdict date is not in the record; it is narrated without a date."
+    ]
+  },
+  "alternativeAngles": [
+    {
+      "id": "ang-shadowed-jury",
+      "title": "The Shadowed Jury",
+      "logline": "Harry Sinclair's conspiracy trial collapsed when he had detectives follow the jurors; he went to prison for contempt, yet was acquitted of the conspiracy itself.",
+      "centralQuestion": "How did the man at the center of Teapot Dome end up imprisoned for contempt but acquitted of conspiracy?",
+      "whyItWorks": "A strong, primary-sourced turning point with a clear courtroom arc.",
+      "requiredClaimIds": [
+        "clm-sinclair-ordered-shadowing",
+        "clm-mistrial-1927",
+        "clm-sinclair-contempt-court",
+        "clm-sinclair-conspiracy-acquittal",
+        "clm-sinclair-senate-contempt"
+      ],
+      "risks": [
+        "Sidelines the $100,000 and Fall's conviction, the best-documented outcome.",
+        "Whether and when Sinclair served his sentences is an open question."
+      ]
+    },
+    {
+      "id": "ang-follow-the-bonds",
+      "title": "Follow the Bonds",
+      "logline": "Liberty Bonds traced by serial number from a shell company to Fall's son-in-law — and a money trail that ends in destroyed records and silent witnesses.",
+      "centralQuestion": "Where did the bonds come from, and why could no one say?",
+      "whyItWorks": "A strong document detail with genuine mystery.",
+      "requiredClaimIds": [
+        "clm-liberty-bonds-traced",
+        "clm-continental-records-destroyed",
+        "clm-witnesses-refused"
+      ],
+      "risks": [
+        "The central question (who owned Continental Trading) is UNRESOLVABLE in this record — the angle would end on a gap.",
+        "Risk of implying guilt from witnesses invoking a legal privilege."
+      ]
+    }
+  ],
+  "hook": {
+    "strategy": "CONTRAST",
+    "description": "Open on the documented delivery of $100,000 in cash (November 30, 1921), then state the two opposite verdicts about that same money. No rhetorical question in the hook; the contrast carries it.",
+    "claimIds": [
+      "clm-doheny-100k-delivered",
+      "clm-fall-bribery-conviction",
+      "clm-doheny-bribery-acquittal"
+    ]
+  },
+  "centralQuestion": "How could one jury convict Fall of taking Doheny's $100,000 as a bribe while another acquitted Doheny of giving it?",
+  "narrativeArc": [
+    "HOOK",
+    "BACKGROUND",
+    "INCITING_EVENT",
+    "INVESTIGATION",
+    "COURT_CASE",
+    "COURT_CASE",
+    "VERDICT_OUTCOME",
+    "ENDING"
+  ],
+  "sequences": [
+    {
+      "id": "seq-cold-open",
+      "section": "HOOK",
+      "title": "The Cash",
+      "purpose": "Establish the single payment and the two opposite verdicts, so the viewer watches for how both happened.",
+      "targetDurationSec": 36,
+      "beats": [
+        {
+          "id": "sb-cash-delivered",
+          "description": "Doheny's son carries $100,000 in cash from New York to Washington and gives it to Fall.",
+          "claimIds": ["clm-doheny-100k-delivered", "clm-fall-denby-appointed"],
+          "eventIds": ["evt-100k-delivered"]
+        },
+        {
+          "id": "sb-two-verdicts-teased",
+          "description": "One jury convicts Fall of accepting it as a bribe; another acquits Doheny of giving it.",
+          "claimIds": [
+            "clm-fall-bribery-conviction",
+            "clm-doheny-bribery-acquittal"
+          ],
+          "eventIds": ["evt-fall-bribery-conviction", "evt-doheny-acquitted"]
+        }
+      ]
+    },
+    {
+      "id": "seq-the-reserves",
+      "section": "BACKGROUND",
+      "title": "The Navy's Oil",
+      "purpose": "Explain the reserves and how Fall came to control their leasing — briefly.",
+      "targetDurationSec": 38,
+      "beats": [
+        {
+          "id": "sb-reserve",
+          "description": "Teapot Dome set aside in 1915 as Naval Petroleum Reserve No. 3.",
+          "claimIds": ["clm-teapot-dome-reserve"],
+          "eventIds": ["evt-reserve-created"]
+        },
+        {
+          "id": "sb-exec-order",
+          "description": "Fall takes office (March 1921); Harding's executive order puts the reserves under Interior (May 1921).",
+          "claimIds": ["clm-fall-denby-appointed", "clm-exec-order-1921"],
+          "eventIds": ["evt-fall-takes-office", "evt-executive-order"]
+        },
+        {
+          "id": "sb-keen-letter",
+          "description": "Supreme Court: Fall keen to control leasing. Fall's July 1921 letter to Doheny: 'exactly as I think best.'",
+          "claimIds": ["clm-fall-keen-control", "clm-fall-letter-doheny-quote"],
+          "eventIds": ["evt-fall-letter-doheny"]
+        }
+      ]
+    },
+    {
+      "id": "seq-two-leases",
+      "section": "INCITING_EVENT",
+      "title": "Two Leases",
+      "purpose": "The money and the leases, in date order: Doheny's cash and Elk Hills, then Sinclair and Teapot Dome. Present the loan/bribe dispute as competing positions.",
+      "targetDurationSec": 79,
+      "beats": [
+        {
+          "id": "sb-loan-or-bribe",
+          "description": "The $100,000: Doheny said loan, the government said bribe; per the court findings, Doheny later tore Fall's signature off the note.",
+          "claimIds": [
+            "clm-doheny-100k-delivered",
+            "clm-loan-vs-bribe",
+            "clm-note-torn"
+          ],
+          "eventIds": ["evt-100k-delivered"]
+        },
+        {
+          "id": "sb-elk-hills",
+          "description": "Elk Hills lease to Doheny's company, without competition; secrecy agreed with Admiral Robison (per court findings).",
+          "claimIds": ["clm-elk-hills-no-competition", "clm-robison-secrecy"]
+        },
+        {
+          "id": "sb-sinclair-lease",
+          "description": "Sinclair visits Fall's ranch, proposes the lease, organizes Mammoth Oil; the Teapot Dome lease is signed April 7, 1922 and kept secret.",
+          "claimIds": [
+            "clm-sinclair-ranch-visit",
+            "clm-sinclair-proposal",
+            "clm-mammoth-organized",
+            "clm-lease-signed",
+            "clm-lease-secrecy"
+          ],
+          "eventIds": [
+            "evt-sinclair-ranch-visit",
+            "evt-sinclair-proposal",
+            "evt-mammoth-organized",
+            "evt-lease-signed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seq-money-trail",
+      "section": "INVESTIGATION",
+      "title": "The Money Trail",
+      "purpose": "The Senate investigation: Fall's denial, the bonds, the silent witnesses, Sinclair's refusal. Plant Fall's denial and Sinclair's refusal for later payoffs.",
+      "targetDurationSec": 89,
+      "beats": [
+        {
+          "id": "sb-senate-inquiry",
+          "description": "Senate authorizes the investigation (April 1922).",
+          "claimIds": ["clm-senate-resolution-282"],
+          "eventIds": ["evt-senate-resolution"]
+        },
+        {
+          "id": "sb-25k",
+          "description": "Fall leaves office; Sinclair gives him $25,000 in bonds; Sinclair's counsel testifies it was a loan.",
+          "claimIds": [
+            "clm-fall-left-office",
+            "clm-sinclair-25k",
+            "clm-zevely-loan"
+          ],
+          "eventIds": ["evt-fall-leaves-office", "evt-sinclair-25k"]
+        },
+        {
+          "id": "sb-fall-denial",
+          "description": "Fall's December 1923 letter: not 'one cent on account of any oil lease'; his McLean explanation, which McLean denied.",
+          "claimIds": ["clm-fall-denial-quote", "clm-fall-mclean-story"],
+          "eventIds": ["evt-fall-denial-letter"]
+        },
+        {
+          "id": "sb-bonds",
+          "description": "Liberty Bonds traced to Continental Trading; records destroyed; witnesses invoke privilege or refuse to testify (no inference of guilt).",
+          "claimIds": [
+            "clm-liberty-bonds-traced",
+            "clm-continental-records-destroyed",
+            "clm-witnesses-refused"
+          ]
+        },
+        {
+          "id": "sb-sinclair-refuses",
+          "description": "Sinclair refuses to answer the committee, reserving his evidence 'for those courts.'",
+          "claimIds": [
+            "clm-sinclair-refused-date",
+            "clm-sinclair-refusal-quote"
+          ],
+          "eventIds": ["evt-sinclair-refuses"]
+        }
+      ]
+    },
+    {
+      "id": "seq-civil-rulings",
+      "section": "COURT_CASE",
+      "title": "The Civil Track",
+      "purpose": "The courts cancel the leases — and expressly do not decide the bribery question for Teapot Dome. Draw the civil/criminal line out loud.",
+      "targetDurationSec": 67,
+      "beats": [
+        {
+          "id": "sb-trial-no-fraud",
+          "description": "Teapot Dome civil suit: trial court finds no fraud; appeals court reverses.",
+          "claimIds": ["clm-mammoth-trial-no-fraud"]
+        },
+        {
+          "id": "sb-scotus-cancels",
+          "description": "Supreme Court 1927: Elk Hills consummated by conspiracy, corruption and fraud; Teapot Dome lease fraudulent, cancelled.",
+          "claimIds": [
+            "clm-scotus-pan-am-corruption",
+            "clm-scotus-mammoth-fraud"
+          ],
+          "eventIds": ["evt-scotus-pan-american", "evt-scotus-mammoth"]
+        },
+        {
+          "id": "sb-no-bribery-finding",
+          "description": "The Court states it is not deciding whether Fall was bribed over Teapot Dome. These are civil rulings, not criminal verdicts.",
+          "claimIds": ["clm-scotus-no-bribery-finding"]
+        }
+      ]
+    },
+    {
+      "id": "seq-criminal-trials",
+      "section": "COURT_CASE",
+      "title": "The Criminal Track",
+      "purpose": "Conspiracy acquittals, the shadowed jury, contempt convictions (and the Burns reversal), Sinclair's acquittal, and his Senate contempt conviction.",
+      "targetDurationSec": 116,
+      "beats": [
+        {
+          "id": "sb-conspiracy-acquittals",
+          "description": "Fall and Doheny accused together of conspiracy (May 1925); both acquitted (date not in record).",
+          "claimIds": [
+            "clm-fall-doheny-indicted-conspiracy",
+            "clm-fall-conspiracy-acquittal",
+            "clm-doheny-conspiracy-acquittal"
+          ],
+          "eventIds": ["evt-conspiracy-indictment", "evt-conspiracy-acquittal"]
+        },
+        {
+          "id": "sb-shadowed-jury",
+          "description": "October 1927 trial; Burns detectives shadow the jurors on Sinclair's authorization; Sinclair's stated justification; no juror shown to have been approached; mistrial.",
+          "claimIds": [
+            "clm-sinclair-fall-trial-1927",
+            "clm-sinclair-ordered-shadowing",
+            "clm-shadowing-belief",
+            "clm-no-juror-approached",
+            "clm-mistrial-1927"
+          ],
+          "eventIds": [
+            "evt-conspiracy-trial-opens",
+            "evt-jury-shadowed",
+            "evt-mistrial"
+          ]
+        },
+        {
+          "id": "sb-contempt",
+          "description": "Contempt of court: Sinclair, Day, W. Sherman Burns convicted and affirmed; William J. Burns convicted then reversed.",
+          "claimIds": [
+            "clm-sinclair-contempt-court",
+            "clm-day-contempt-court",
+            "clm-wsburns-contempt-court",
+            "clm-wjburns-contempt-trial",
+            "clm-wjburns-reversed"
+          ],
+          "eventIds": ["evt-jury-contempt-affirmed"]
+        },
+        {
+          "id": "sb-sinclair-acquitted",
+          "description": "Fall severed for poor health; Sinclair acquitted April 21, 1928; separately, Senate contempt conviction affirmed.",
+          "claimIds": [
+            "clm-fall-severance-1928",
+            "clm-sinclair-conspiracy-acquittal",
+            "clm-sinclair-jury-two-hours",
+            "clm-sinclair-senate-contempt"
+          ],
+          "eventIds": ["evt-sinclair-acquitted", "evt-senate-contempt-affirmed"]
+        }
+      ]
+    },
+    {
+      "id": "seq-bribery-verdicts",
+      "section": "VERDICT_OUTCOME",
+      "title": "Two Verdicts",
+      "purpose": "Pay off the hook: Fall's bribery trial and conviction, Doheny's acquittal, and the reported jury instruction that makes both verdicts possible.",
+      "targetDurationSec": 90,
+      "beats": [
+        {
+          "id": "sb-fall-trial",
+          "description": "Fall in a wheelchair; his own counsel's 'deliberately lied' argument in full; the judge: not on trial for lying.",
+          "claimIds": [
+            "clm-fall-wheelchair",
+            "clm-counsel-lied-quote",
+            "clm-judge-not-lying-quote"
+          ]
+        },
+        {
+          "id": "sb-fall-convicted",
+          "description": "Fall convicted of bribery; $100,000 fine and one year.",
+          "claimIds": ["clm-fall-bribery-conviction", "clm-fall-sentence"],
+          "eventIds": ["evt-fall-bribery-conviction"]
+        },
+        {
+          "id": "sb-doheny-acquitted",
+          "description": "Doheny acquitted March 22, 1930; AP: jury accepted the loan position; judge's reported instruction that both outcomes were possible.",
+          "claimIds": [
+            "clm-doheny-bribery-acquittal",
+            "clm-doheny-jury-time",
+            "clm-doheny-jury-loan",
+            "clm-judge-possible-both"
+          ],
+          "eventIds": ["evt-doheny-acquitted"]
+        },
+        {
+          "id": "sb-affirmed",
+          "description": "As of March 1930 Fall had not gone to jail; conviction affirmed April 6, 1931.",
+          "claimIds": [
+            "clm-fall-not-jailed-1930",
+            "clm-fall-conviction-affirmed"
+          ],
+          "eventIds": ["evt-fall-affirmed"]
+        }
+      ]
+    },
+    {
+      "id": "seq-ending",
+      "section": "ENDING",
+      "title": "What the Record Says",
+      "purpose": "Answer the central question honestly per man, restate the Teapot Dome non-finding, and name what this record does not settle.",
+      "targetDurationSec": 45,
+      "beats": [
+        {
+          "id": "sb-answers",
+          "description": "For Fall, yes (convicted, affirmed); for Doheny, no (acquitted); on Teapot Dome, the Supreme Court did not decide.",
+          "claimIds": [
+            "clm-fall-bribery-conviction",
+            "clm-fall-conviction-affirmed",
+            "clm-doheny-bribery-acquittal",
+            "clm-scotus-no-bribery-finding"
+          ]
+        },
+        {
+          "id": "sb-unknowns",
+          "description": "Not settled in this record: whether/when Fall served his sentence; who stood behind Continental Trading.",
+          "claimIds": [
+            "clm-fall-served-sentence",
+            "clm-continental-records-destroyed"
+          ]
+        }
+      ]
+    }
+  ],
+  "reveals": [
+    {
+      "id": "rev-two-verdicts",
+      "description": "The hook states the opposite verdicts; the full trials and the reported jury instruction explaining how both could stand are delivered in the verdicts sequence.",
+      "claimIds": [
+        "clm-fall-bribery-conviction",
+        "clm-doheny-bribery-acquittal",
+        "clm-judge-possible-both"
+      ],
+      "setupSequenceId": "seq-cold-open",
+      "payoffSequenceId": "seq-bribery-verdicts"
+    },
+    {
+      "id": "rev-denial-vs-counsel",
+      "description": "Fall's 1923 denial of receiving 'one cent' is planted in the money trail; at his bribery trial his own counsel argues he deliberately lied to the Senate (with the full continuation).",
+      "claimIds": ["clm-fall-denial-quote", "clm-counsel-lied-quote"],
+      "setupSequenceId": "seq-money-trail",
+      "payoffSequenceId": "seq-bribery-verdicts"
+    },
+    {
+      "id": "rev-reserved-for-courts",
+      "description": "Sinclair reserves his evidence 'for those courts'; in court, his trial collapses over the jury he had shadowed.",
+      "claimIds": [
+        "clm-sinclair-refusal-quote",
+        "clm-sinclair-ordered-shadowing",
+        "clm-mistrial-1927"
+      ],
+      "setupSequenceId": "seq-money-trail",
+      "payoffSequenceId": "seq-criminal-trials"
+    },
+    {
+      "id": "rev-no-bribery-finding",
+      "description": "After the secret Teapot Dome lease is set up, the Supreme Court cancels it as fraudulent yet expressly declines to decide whether Fall was bribed over it.",
+      "claimIds": ["clm-scotus-mammoth-fraud", "clm-scotus-no-bribery-finding"],
+      "setupSequenceId": "seq-two-leases",
+      "payoffSequenceId": "seq-civil-rulings"
+    }
+  ],
+  "pacing": {
+    "targetTotalSec": 540,
+    "notes": "Script estimate is about 561s at 150 wpm (case target 480s, within the 20% tolerance). The criminal track is the longest sequence because it carries the most legal outcomes; background is kept under 40s. Final timing comes from measured narration after Gate 2a."
+  },
+  "emotionalProgression": [
+    { "sequenceId": "seq-cold-open", "tone": "CURIOSITY", "intensity": 3 },
+    { "sequenceId": "seq-the-reserves", "tone": "CURIOSITY", "intensity": 2 },
+    { "sequenceId": "seq-two-leases", "tone": "UNEASE", "intensity": 3 },
+    { "sequenceId": "seq-money-trail", "tone": "TENSION", "intensity": 3 },
+    { "sequenceId": "seq-civil-rulings", "tone": "GRAVITY", "intensity": 3 },
+    { "sequenceId": "seq-criminal-trials", "tone": "SURPRISE", "intensity": 4 },
+    { "sequenceId": "seq-bribery-verdicts", "tone": "GRAVITY", "intensity": 5 },
+    { "sequenceId": "seq-ending", "tone": "REFLECTIVE", "intensity": 2 }
+  ],
+  "endingStrategy": {
+    "type": "RESOLUTION",
+    "description": "Answer the central question per man as the courts did — Fall convicted and affirmed, Doheny acquitted — restate that the Supreme Court did not decide the Teapot Dome bribery question, and say plainly what this record leaves open.",
+    "claimIds": [
+      "clm-fall-bribery-conviction",
+      "clm-fall-conviction-affirmed",
+      "clm-doheny-bribery-acquittal",
+      "clm-scotus-no-bribery-finding"
+    ]
+  }
+}

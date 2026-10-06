@@ -61,6 +61,21 @@ export const caseCandidateSchema = z.object({
     .default([]),
   sensitivityFlags: z.array(sensitivityFlagSchema).default([]),
   status: z.enum(["CANDIDATE", "SHORTLISTED", "SELECTED", "REJECTED"]),
+  /**
+   * Case selection is a human decision. SELECTED/REJECTED require a
+   * human:<name> decision; agents only propose (CANDIDATE/SHORTLISTED).
+   */
+  decision: z
+    .object({
+      by: nonEmpty,
+      at: isoTimestampSchema,
+      notes: z.string().optional(),
+    })
+    .optional(),
+  /** Why this case suits the channel: documentation, stakes, angle potential. */
+  rationale: z.string().optional(),
+  /** Known risks: contested verdict, living relatives, thin record… */
+  risks: z.array(z.string()).default([]),
   rejectionReason: z.string().optional(),
   isSynthetic: z.boolean().default(false),
   createdAt: isoTimestampSchema,

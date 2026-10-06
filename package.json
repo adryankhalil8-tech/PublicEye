@@ -1,6 +1,6 @@
 {
   "name": "public-eye-yt",
-  "version": "0.2.0",
+  "version": "0.3.0-dev",
   "description": "Local-first, free-first production system for faceless crime/court documentary videos (Remotion).",
   "license": "UNLICENSED",
   "private": true,
@@ -18,6 +18,10 @@
     "still:fixture": "remotion still src/remotion/index.ts FixturePreview out/fixture-preview.png --frame=120",
     "validate:case": "tsx scripts/validate-case.ts",
     "new:case": "tsx scripts/new-case.ts",
+    "cl": "tsx scripts/courtlistener.ts",
+    "snapshot": "tsx scripts/snapshot.ts",
+    "candidate": "tsx scripts/candidate.ts",
+    "review-packet": "tsx scripts/review-packet.ts",
     "build:manifest": "tsx scripts/build-manifest.ts",
     "narrate": "tsx scripts/narrate.ts",
     "pipeline": "tsx scripts/pipeline.ts",

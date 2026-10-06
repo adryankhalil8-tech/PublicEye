@@ -73,6 +73,20 @@ export const assetUsageStatusSchema = z.enum([
 ]);
 export type AssetUsageStatus = z.infer<typeof assetUsageStatusSchema>;
 
+export const sourceSnapshotSchema = z.object({
+  /** Workspace-relative path, e.g. "snapshots/src-opinion.json". */
+  localPath: nonEmpty,
+  sha256: z.string().regex(/^[0-9a-f]{64}$/, "must be a hex SHA-256"),
+  bytes: z.number().int().positive(),
+  contentType: nonEmpty,
+  retrievedAt: isoTimestampSchema,
+  /** API = CourtListener API; FETCHED = direct GET; USER_PROVIDED = downloaded by a person. */
+  method: z.enum(["API", "FETCHED", "USER_PROVIDED"]),
+  /** URL actually retrieved (may differ from the citation URL, e.g. an API endpoint). */
+  retrievedFrom: z.string().optional(),
+});
+export type SourceSnapshot = z.infer<typeof sourceSnapshotSchema>;
+
 export const caseSourceSchema = z.object({
   id: idSchema("source"),
   url: z.url(),
@@ -89,6 +103,12 @@ export const caseSourceSchema = z.object({
   recordIdentifier: z.string().optional(),
   rightsStatus: rightsStatusSchema.optional(),
   assetUsageStatus: assetUsageStatusSchema.optional(),
+  /**
+   * Local, hashed copy of exactly what was read, so a citation survives link
+   * rot and a reviewer can check the excerpt against the bytes. Files live in
+   * the case's snapshots/ folder (git-ignored); the hash is committed.
+   */
+  snapshot: sourceSnapshotSchema.optional(),
   notes: z.string().optional(),
 });
 export type CaseSource = z.infer<typeof caseSourceSchema>;

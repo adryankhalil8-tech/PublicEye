@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "kind": "script",
+  "title": "Teapot Dome: One Payment, Two Verdicts",
+  "status": "DRAFT",
+  "wordsPerMinute": 150,
+  "units": [
+    {
+      "id": "nu-hook-cash",
+      "sequenceId": "seq-cold-open",
+      "text": "On November 30, 1921, one hundred thousand dollars in cash went from New York to Washington. Edward Doheny's son carried it, and handed it to the Secretary of the Interior, Albert Fall.",
+      "framing": "STATED",
+      "claimIds": ["clm-doheny-100k-delivered", "clm-fall-denby-appointed"],
+      "deliveryNotes": "Even, unhurried. Let the number land.",
+      "pauseAfterSec": 0.5
+    },
+    {
+      "id": "nu-hook-verdicts",
+      "sequenceId": "seq-cold-open",
+      "text": "Years later, two juries looked at that same money. One convicted Fall of accepting it as a bribe. The other acquitted Doheny of giving it.",
+      "framing": "STATED",
+      "claimIds": [
+        "clm-fall-bribery-conviction",
+        "clm-doheny-bribery-acquittal"
+      ],
+      "pauseAfterSec": 0.8
+    },
+    {
+      "id": "nu-hook-title",
+      "sequenceId": "seq-cold-open",
+      "text": "One payment. Two opposite verdicts. This is the Teapot Dome scandal, told from the court record.",
+      "framing": "NON_FACTUAL",
+      "claimIds": [],
+      "pauseAfterSec": 1
+    },
+    {
+      "id": "nu-setup-reserve",
+      "sequenceId": "seq-the-reserves",
+      "text": "Teapot Dome is a stretch of Wyoming set aside in 1915 as Naval Petroleum Reserve Number Three.",
+      "framing": "STATED",
+      "claimIds": ["clm-teapot-dome-reserve"]
+    },
+    {
+      "id": "nu-setup-order",
+      "sequenceId": "seq-the-reserves",
+      "text": "In March 1921, Albert Fall became Secretary of the Interior. Less than three months later, President Harding signed an executive order that purported to put the Navy's oil reserves under Fall's department.",
+      "framing": "STATED",
+      "claimIds": ["clm-fall-denby-appointed", "clm-exec-order-1921"]
+    },
+    {
+      "id": "nu-setup-keen",
+      "sequenceId": "seq-the-reserves",
+      "text": "According to the Supreme Court, Fall was keen, from the beginning, to control the leasing of those reserves.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-fall-keen-control"]
+    },
+    {
+      "id": "nu-setup-letter",
+      "sequenceId": "seq-the-reserves",
+      "text": "That July, Fall wrote to Edward Doheny that he would handle matters \"exactly as I think best.\"",
+      "framing": "STATED",
+      "claimIds": ["clm-fall-letter-doheny-quote"],
+      "pauseAfterSec": 0.5
+    },
+    {
+      "id": "nu-deals-cash",
+      "sequenceId": "seq-two-leases",
+      "text": "That November came the cash: one hundred thousand dollars, delivered to Fall by Doheny's son.",
+      "framing": "STATED",
+      "claimIds": ["clm-doheny-100k-delivered"]
+    },
+    {
+      "id": "nu-deals-loan",
+      "sequenceId": "seq-two-leases",
+      "text": "Doheny maintained it was a loan. The government said it was a bribe.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-loan-vs-bribe"]
+    },
+    {
+      "id": "nu-deals-note",
+      "sequenceId": "seq-two-leases",
+      "text": "According to the court findings, a few weeks after the money changed hands, Doheny tore Fall's signature off the note.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-note-torn"],
+      "pauseAfterSec": 0.5
+    },
+    {
+      "id": "nu-deals-elk-hills",
+      "sequenceId": "seq-two-leases",
+      "text": "Doheny's company went on to lease the Elk Hills reserve. According to the courts, that lease was arranged without competition of any kind, and Fall and a Navy admiral, John Robison, agreed to keep the contract secret from Congress and the public.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-elk-hills-no-competition", "clm-robison-secrecy"]
+    },
+    {
+      "id": "nu-deals-sinclair",
+      "sequenceId": "seq-two-leases",
+      "text": "Meanwhile, Harry Sinclair visited Fall at his ranch in Three Rivers, New Mexico, around New Year's Day, 1922. In early February, Sinclair proposed to lease Teapot Dome.",
+      "framing": "STATED",
+      "claimIds": ["clm-sinclair-ranch-visit", "clm-sinclair-proposal"]
+    },
+    {
+      "id": "nu-deals-lease",
+      "sequenceId": "seq-two-leases",
+      "text": "At the end of February, he had the Mammoth Oil Company organized, with every share his own. On April 7, 1922, the Interior and Navy Secretaries leased Teapot Dome to Mammoth Oil. Fall signed it that day.",
+      "framing": "STATED",
+      "claimIds": ["clm-mammoth-organized", "clm-lease-signed"]
+    },
+    {
+      "id": "nu-deals-secret",
+      "sequenceId": "seq-two-leases",
+      "text": "The lease was kept secret. According to the Supreme Court, there was never any legitimate reason for that secrecy.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-lease-secrecy"],
+      "pauseAfterSec": 0.8
+    },
+    {
+      "id": "nu-trail-senate",
+      "sequenceId": "seq-money-trail",
+      "text": "That same month, the Senate authorized a committee to investigate the naval oil leases.",
+      "framing": "STATED",
+      "claimIds": ["clm-senate-resolution-282"]
+    },
+    {
+      "id": "nu-trail-25k",
+      "sequenceId": "seq-money-trail",
+      "text": "Fall left office on March 4, 1923. Shortly afterward, Sinclair gave him twenty-five thousand dollars in bonds.",
+      "framing": "STATED",
+      "claimIds": ["clm-fall-left-office", "clm-sinclair-25k"]
+    },
+    {
+      "id": "nu-trail-zevely",
+      "sequenceId": "seq-money-trail",
+      "text": "Sinclair's lawyer, J. W. Zevely, later testified that it was a loan, not a fee.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-zevely-loan"]
+    },
+    {
+      "id": "nu-trail-denial",
+      "sequenceId": "seq-money-trail",
+      "text": "In December 1923, Fall wrote to the Senate committee. He denied ever receiving from Doheny or Sinclair \"one cent on account of any oil lease.\"",
+      "framing": "STATED",
+      "claimIds": ["clm-fall-denial-quote"],
+      "deliveryNotes": "Read the quoted words plainly; no sarcasm.",
+      "pauseAfterSec": 0.5
+    },
+    {
+      "id": "nu-trail-mclean",
+      "sequenceId": "seq-money-trail",
+      "text": "He told the committee the hundred thousand dollars had come from a different man, Edward B. McLean. McLean denied it in his own testimony.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-fall-mclean-story"]
+    },
+    {
+      "id": "nu-trail-bonds",
+      "sequenceId": "seq-money-trail",
+      "text": "Then there were the bonds. According to the Supreme Court, two hundred thousand dollars in Liberty Bonds held by Fall's son-in-law were traced, by serial number, to bonds bought for a firm called the Continental Trading Company.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-liberty-bonds-traced"]
+    },
+    {
+      "id": "nu-trail-silence",
+      "sequenceId": "seq-money-trail",
+      "text": "That company had been dissolved and all its records destroyed, according to the Court. Fall's son-in-law invoked his privilege against self-incrimination. Two oil executives went to France and refused to testify.",
+      "framing": "ATTRIBUTED",
+      "claimIds": [
+        "clm-continental-records-destroyed",
+        "clm-witnesses-refused"
+      ],
+      "deliveryNotes": "Neutral. Invoking the privilege is a legal right, not evidence of guilt; do not color it."
+    },
+    {
+      "id": "nu-trail-sinclair-refuses",
+      "sequenceId": "seq-money-trail",
+      "text": "On March 22, 1924, Sinclair appeared before the committee and refused to answer its questions. He said he would \"reserve any evidence I may be able to give for those courts.\"",
+      "framing": "STATED",
+      "claimIds": ["clm-sinclair-refused-date", "clm-sinclair-refusal-quote"],
+      "pauseAfterSec": 0.8
+    },
+    {
+      "id": "nu-civil-two-tracks",
+      "sequenceId": "seq-civil-rulings",
+      "text": "From here, the story runs on two separate tracks: civil suits over the leases, and criminal trials of the men. They asked different questions.",
+      "framing": "NON_FACTUAL",
+      "claimIds": [],
+      "pauseAfterSec": 0.5
+    },
+    {
+      "id": "nu-civil-trial-court",
+      "sequenceId": "seq-civil-rulings",
+      "text": "In the Teapot Dome civil suit, the trial court found no fraud and threw the government's case out. The appeals court reversed that, holding the lease was obtained by fraud and corruption.",
+      "framing": "STATED",
+      "claimIds": ["clm-mammoth-trial-no-fraud"]
+    },
+    {
+      "id": "nu-civil-elk-hills",
+      "sequenceId": "seq-civil-rulings",
+      "text": "In March 1927, the Supreme Court upheld the cancellation of Doheny's Elk Hills contracts and leases, and stated that they were consummated by conspiracy, corruption and fraud.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-scotus-pan-am-corruption"]
+    },
+    {
+      "id": "nu-civil-teapot",
+      "sequenceId": "seq-civil-rulings",
+      "text": "That October, the Court said the Teapot Dome lease had been made fraudulently, through collusion and conspiracy between Fall and Sinclair, and ordered it cancelled.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-scotus-mammoth-fraud"]
+    },
+    {
+      "id": "nu-civil-no-bribery",
+      "sequenceId": "seq-civil-rulings",
+      "text": "But the Court also stated, explicitly, that it was not deciding whether Fall had been bribed in connection with that lease.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-scotus-no-bribery-finding"],
+      "pauseAfterSec": 1
+    },
+    {
+      "id": "nu-civil-not-criminal",
+      "sequenceId": "seq-civil-rulings",
+      "text": "Those were civil rulings, about the leases. Whether anyone had committed a crime was a question for juries.",
+      "framing": "NON_FACTUAL",
+      "claimIds": [],
+      "pauseAfterSec": 0.5
+    },
+    {
+      "id": "nu-crim-conspiracy",
+      "sequenceId": "seq-criminal-trials",
+      "text": "In May 1925, Fall and Doheny were jointly accused of conspiring to defraud the United States. The records gathered here do not give the date of the verdict, but both men were acquitted.",
+      "framing": "STATED",
+      "claimIds": [
+        "clm-fall-doheny-indicted-conspiracy",
+        "clm-fall-conspiracy-acquittal",
+        "clm-doheny-conspiracy-acquittal"
+      ]
+    },
+    {
+      "id": "nu-crim-shadowing",
+      "sequenceId": "seq-criminal-trials",
+      "text": "In October 1927, Sinclair and Fall went on trial for conspiracy to defraud. Detectives from the William J. Burns agency shadowed the jurors. Sinclair later admitted under oath that he had authorized hiring them, through his associate Henry Mason Day.",
+      "framing": "STATED",
+      "claimIds": [
+        "clm-sinclair-fall-trial-1927",
+        "clm-sinclair-ordered-shadowing"
+      ]
+    },
+    {
+      "id": "nu-crim-belief",
+      "sequenceId": "seq-criminal-trials",
+      "text": "Sinclair said he believed the government itself had kept jurors under surveillance, and that, as a citizen, he had the same right.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-shadowing-belief"]
+    },
+    {
+      "id": "nu-crim-no-approach",
+      "sequenceId": "seq-criminal-trials",
+      "text": "The evidence did not show that any detective approached a juror.",
+      "framing": "STATED",
+      "claimIds": ["clm-no-juror-approached"]
+    },
+    {
+      "id": "nu-crim-mistrial",
+      "sequenceId": "seq-criminal-trials",
+      "text": "On November 2, 1927, the trial ended in a mistrial.",
+      "framing": "STATED",
+      "claimIds": ["clm-mistrial-1927"],
+      "pauseAfterSec": 0.8
+    },
+    {
+      "id": "nu-crim-contempt",
+      "sequenceId": "seq-criminal-trials",
+      "text": "Sinclair was found guilty of criminal contempt of court and sentenced to six months in prison. Day received four months; W. Sherman Burns, an officer of the agency, a thousand dollar fine. The Supreme Court affirmed all three.",
+      "framing": "STATED",
+      "claimIds": [
+        "clm-sinclair-contempt-court",
+        "clm-day-contempt-court",
+        "clm-wsburns-contempt-court"
+      ]
+    },
+    {
+      "id": "nu-crim-wjburns",
+      "sequenceId": "seq-criminal-trials",
+      "text": "William J. Burns, the head of the agency, was convicted at trial too, but the Supreme Court reversed his conviction, finding no material evidence to support the charge against him.",
+      "framing": "STATED",
+      "claimIds": ["clm-wjburns-contempt-trial", "clm-wjburns-reversed"],
+      "deliveryNotes": "Do not trim the reversal from this line."
+    },
+    {
+      "id": "nu-crim-retrial",
+      "sequenceId": "seq-criminal-trials",
+      "text": "Sinclair was retried in 1928, alone; Fall's lawyers had won him a separate trial on the ground of poor health. On April 21, 1928, after about two hours of deliberation, the jury acquitted Sinclair.",
+      "framing": "STATED",
+      "claimIds": [
+        "clm-fall-severance-1928",
+        "clm-sinclair-conspiracy-acquittal",
+        "clm-sinclair-jury-two-hours"
+      ]
+    },
+    {
+      "id": "nu-crim-senate-contempt",
+      "sequenceId": "seq-criminal-trials",
+      "text": "Separately, Sinclair was convicted of contempt of the Senate for refusing to answer, and sentenced to three months in jail and a five hundred dollar fine. The Supreme Court affirmed that too.",
+      "framing": "STATED",
+      "claimIds": ["clm-sinclair-senate-contempt"],
+      "pauseAfterSec": 1
+    },
+    {
+      "id": "nu-ver-wheelchair",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "That left the hundred thousand dollars. At his bribery trial, Fall, over seventy and an invalid, was brought into the courtroom in a wheelchair, wrapped in blankets.",
+      "framing": "STATED",
+      "claimIds": ["clm-fall-wheelchair"]
+    },
+    {
+      "id": "nu-ver-counsel",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "His own lawyer told the jury: \"He deliberately lied to the Senate of the United States,\" and went on to argue that Fall had a right to do so, and should have, under those circumstances.",
+      "framing": "STATED",
+      "claimIds": ["clm-counsel-lied-quote"],
+      "deliveryNotes": "Keep the full argument together; the second half is what the lawyer meant."
+    },
+    {
+      "id": "nu-ver-judge",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "The judge told the jury that Fall was not on trial for lying.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-judge-not-lying-quote"],
+      "pauseAfterSec": 0.5
+    },
+    {
+      "id": "nu-ver-fall-convicted",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "The jury convicted Albert Fall of bribery: of accepting Doheny's hundred thousand dollars. He was sentenced to a one hundred thousand dollar fine and one year in prison.",
+      "framing": "STATED",
+      "claimIds": ["clm-fall-bribery-conviction", "clm-fall-sentence"],
+      "pauseAfterSec": 1
+    },
+    {
+      "id": "nu-ver-doheny-acquitted",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "Then Doheny stood trial for giving that same money. On March 22, 1930, after one hour and five minutes, the jury acquitted him.",
+      "framing": "STATED",
+      "claimIds": ["clm-doheny-bribery-acquittal", "clm-doheny-jury-time"]
+    },
+    {
+      "id": "nu-ver-loan",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "According to the Associated Press, the jury accepted Doheny's position that the money was a loan.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-doheny-jury-loan"]
+    },
+    {
+      "id": "nu-ver-both-possible",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "The AP reported that the judge had told the jurors it was possible for Fall to have been guilty and for Doheny to be not guilty.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-judge-possible-both"],
+      "pauseAfterSec": 0.8
+    },
+    {
+      "id": "nu-ver-not-jailed",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "As of that day, Fall had still not gone to jail. His case was on appeal.",
+      "framing": "STATED",
+      "claimIds": ["clm-fall-not-jailed-1930"]
+    },
+    {
+      "id": "nu-ver-affirmed",
+      "sequenceId": "seq-bribery-verdicts",
+      "text": "On April 6, 1931, the appeals court affirmed his conviction.",
+      "framing": "STATED",
+      "claimIds": [
+        "clm-fall-conviction-affirmed",
+        "clm-fall-bribery-conviction"
+      ],
+      "pauseAfterSec": 1.2
+    },
+    {
+      "id": "nu-end-question",
+      "sequenceId": "seq-ending",
+      "text": "So, was it a bribe?",
+      "framing": "NON_FACTUAL",
+      "claimIds": [],
+      "pauseAfterSec": 0.8
+    },
+    {
+      "id": "nu-end-answers",
+      "sequenceId": "seq-ending",
+      "text": "For Albert Fall, a jury said yes, and an appeals court upheld it. For Edward Doheny, a jury said no.",
+      "framing": "STATED",
+      "claimIds": [
+        "clm-fall-bribery-conviction",
+        "clm-fall-conviction-affirmed",
+        "clm-doheny-bribery-acquittal"
+      ]
+    },
+    {
+      "id": "nu-end-teapot",
+      "sequenceId": "seq-ending",
+      "text": "And on the lease that gave the scandal its name, the Supreme Court stated outright that it was not deciding whether Fall had been bribed.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-scotus-no-bribery-finding"]
+    },
+    {
+      "id": "nu-end-unknown",
+      "sequenceId": "seq-ending",
+      "text": "Some things the records gathered here do not settle: when, or whether, Fall served his sentence, and who stood behind the Continental Trading Company, whose records, according to the Court, were destroyed.",
+      "framing": "UNCERTAIN",
+      "claimIds": [
+        "clm-fall-served-sentence",
+        "clm-liberty-bonds-traced",
+        "clm-continental-records-destroyed"
+      ],
+      "pauseAfterSec": 0.8
+    },
+    {
+      "id": "nu-end-close",
+      "sequenceId": "seq-ending",
+      "text": "One payment. Two verdicts. Both are part of the record.",
+      "framing": "NON_FACTUAL",
+      "claimIds": [],
+      "pauseAfterSec": 2
+    }
+  ],
+  "notes": "Draft for Gate 2a. Every factual unit cites SUPPORTED claims; the only non-SUPPORTED claim (clm-fall-served-sentence, INSUFFICIENT_EVIDENCE) appears solely in an UNCERTAIN unit stating it is not settled. Civil findings (fraud, conspiracy, corruption) are always attributed to the court that made them and kept separate from the criminal verdicts. Counsel's 'deliberately lied' quote is narrated with its full continuation. The judge's 'not charged in this indictment with lying' instruction is paraphrased. Numbers are written as words for read-aloud."
+}

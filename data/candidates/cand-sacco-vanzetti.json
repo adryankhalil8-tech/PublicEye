@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "kind": "case-candidate",
+  "status": "CANDIDATE",
+  "isSynthetic": false,
+  "createdAt": "2026-10-06",
+  "id": "cand-sacco-vanzetti",
+  "name": "Commonwealth v. Sacco and Vanzetti (1920–1927)",
+  "summary": "1920 South Braintree, Massachusetts payroll robbery in which two men were killed. Nicola Sacco and Bartolomeo Vanzetti were convicted and, after appeals to the Massachusetts Supreme Judicial Court (e.g. Commonwealth v. Sacco, 259 Mass. 128; 261 Mass. 12), executed in 1927. Their guilt has been disputed ever since.",
+  "caseType": "HOMICIDE",
+  "jurisdiction": {
+    "country": "United States",
+    "region": "Massachusetts",
+    "courts": [
+      "Massachusetts Superior Court",
+      "Massachusetts Supreme Judicial Court",
+      "Supreme Court of the United States"
+    ]
+  },
+  "era": "1920–1927",
+  "discoveredVia": [
+    {
+      "url": "https://www.courtlistener.com/?q=caseName%3A(Sacco)",
+      "title": "CourtListener search: Sacco, 1921–1928"
+    }
+  ],
+  "knownPrimarySources": [
+    {
+      "url": "https://www.courtlistener.com/opinion/6564204/commonwealth-v-sacco/",
+      "title": "Commonwealth v. Sacco, 259 Mass. 128 (1927)"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/6564416/commonwealth-v-sacco/",
+      "title": "Commonwealth v. Sacco, 261 Mass. 12 (1927)"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/8185107/sacco-v-massachusetts/",
+      "title": "Sacco v. Massachusetts, 275 U.S. 574 (1927)"
+    }
+  ],
+  "sensitivityFlags": [
+    "CONTESTED_OUTCOME",
+    "GRAPHIC_VIOLENCE",
+    "VICTIM_FAMILY_SENSITIVITY"
+  ],
+  "rationale": "One of the most famous contested trials in U.S. history, with deep primary and secondary records. It would be the strongest test of DISPUTED handling.",
+  "risks": [
+    "Hardest first case: convicted and executed, yet guilt is still disputed — every framing choice is contested",
+    "Politically charged; the two murder victims must not be overshadowed",
+    "Large secondary literature with strong partisanship — source discipline is critical"
+  ],
+  "notes": "Discovery summary from general knowledge — UNVERIFIED. Not a claim; research must verify every element against primary records."
+}

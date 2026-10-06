@@ -1,7 +1,7 @@
 ---
 name: case-research
 description: Turn a selected true-crime / court case into a structured, source-linked research package (sources.json, claims.json, entities.json, research.json, research.md). Use when starting research on a case or adding sources to an existing case workspace. Does not verify claims (use source-verification) or write story/script.
-version: 1.1.0
+version: 1.2.0
 ---
 
 # case-research
@@ -39,13 +39,19 @@ people, places, open questions, and contradictions. Everything downstream
    then go find: court opinions/filings (CourtListener, RECAP, state court
    sites), official records (FBI Vault/history pages, National Archives,
    agency reports), then established press and academic/historical work.
-2. **Record each source** with `url`, `title`, `publisher`, `sourceType`,
+2. **Use the tools.** Court records: `npm run cl -- search|cluster|opinion`
+   (cached, budget-enforced; `npm run cl -- budget`). After adding a source
+   to `sources.json`, snapshot it: `npm run snapshot -- <case> <src-id>`
+   (CourtListener opinions via the API; other URLs by one GET; blocked sites
+   → ask the human to download and use `--file=`). Copy excerpts from the
+   snapshot text, not from memory.
+3. **Record each source** with `url`, `title`, `publisher`, `sourceType`,
    `authorityLevel`, `accessedAt`, and where possible `publicationDate`,
    `author`, `recordIdentifier` (docket no.), `archivedUrl`.
    `authorityLevel` may be _lowered_ below the type's ceiling (e.g. a tabloid
    NEWS_ARTICLE → SECONDARY) but never raised above it
    (`src/research/authority.ts → AUTHORITY_CEILING`).
-3. **Extract atomic claims.** One assertion per claim. Choose `assertion.type`
+4. **Extract atomic claims.** One assertion per claim. Choose `assertion.type`
    carefully — this is the most important decision you make:
    - `FACT` — the source asserts it happened.
    - `ATTRIBUTED` — someone _said/alleged/testified_ it. Set `attributedTo` and
@@ -53,19 +59,21 @@ people, places, open questions, and contradictions. Everything downstream
    - `LEGAL_STATUS` — charged / indicted / convicted / acquitted / dismissed /
      overturned… for a specific `subjectId` and `matter`.
    - `QUOTE` — exact words; `quoteText` must be copied verbatim.
-4. **Attach evidence** to each claim: `reference.sourceId`, a locator
+5. **Attach evidence** to each claim: `reference.sourceId`, a locator
    (`page`, `section`, `paragraph`, `timestamp`, `docketEntry`) and a verbatim
    `excerpt`. List every evidence source in `claim.sourceIds`.
-5. **Mark importance.** `CORE` = the story collapses without it. CORE claims
+6. **Mark importance.** `CORE` = the story collapses without it. CORE claims
    will later need a PRIMARY source or two independent strong sources.
-6. **Record entities.** For people: roles, `isPrivateIndividual`,
+7. **Record entities.** For people: roles, `isPrivateIndividual`,
    `wasMinorAtTime`, `livingStatus`. Leave `legalStatuses` empty until the
    supporting LEGAL_STATUS claims are verified.
-7. **Record contradictions** (claim IDs + source IDs) and **open questions**.
+8. **Record contradictions** (claim IDs + source IDs) and **open questions**.
    Record sources you know exist but could not obtain in `sourcesToObtain`.
-8. **Write `research.md`** for a human reviewer, including a "traps" section
+9. **Write `research.md`** for a human reviewer, including a "traps" section
    (allegations, disputed facts, myths, bounded facts like "as of 1955").
-9. Run `npm run validate:case -- <case-id>` and fix every ERROR.
+10. Run `npm run validate:case -- <case-id>` and fix every ERROR, then
+    `npm run review-packet -- <case-id>` and fix every excerpt marked
+    NOT found in its snapshot.
    (Orchestration and resume: see the `crime-documentary` skill.)
 
 ## QUALITY RULES

@@ -16,6 +16,7 @@ const REQUIRED_SECTIONS = [
   "FAILURE CONDITIONS",
 ];
 const PROJECT_SKILLS = [
+  "case-discovery",
   "case-research",
   "source-verification",
   "case-timeline",

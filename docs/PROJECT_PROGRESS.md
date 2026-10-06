@@ -5,20 +5,36 @@ every sprint. Record changes in [`CHANGELOG.md`](../CHANGELOG.md) and
 measured health in [`health/HEALTH_LOG.md`](health/HEALTH_LOG.md)
 (`npm run health` appends a row).
 
-**Current:** Architecture Integration sprint — COMPLETE (2026-09-30)
-**Next:** Phase 1 — first real case through Research → Gate 1 → Script → Gate 2a (not started)
+**Current:** Phase 1 — Real Case Intelligence (in progress, 2026-10-06)
+**Waiting on:** your Gate 1 review of Teapot Dome
 
 ## Roadmap
 
-| Phase | Name                         | Status                      | Summary                                                                                                   |
-| ----- | ---------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------- |
-| 0     | Foundation                   | ✅ Complete                 | Contracts, validation, skills, Remotion primitives, synthetic fixture                                     |
-| 0.5   | Architecture Integration     | ✅ Complete                 | Narration-first timing, visual bible + states, resumable runs, human gates, QA, captions, YouTube package |
-| 1     | Research & Story Engine      | ⬜ Not started              | First real case researched, verified, timelined, planned, scripted, through Gates 1 and 2a                |
-| 2     | Visual / Remotion Engine     | 🟨 Architecture only        | Skills/contracts exist; still need real maps, scan viewer, bundled fonts, archival assets                 |
-| 3     | Narration / Audio / Captions | 🟨 Local path works (draft) | SAPI + measured per-unit alignment + SRT/ASS done; need Piper/human voice, whisper.cpp, music/SFX         |
-| 4     | End-to-End Case Production   | 🟨 Architecture only        | QA, gates, packaging exist; no real case has been produced                                                |
-| 5     | Automation & Scaling         | ⬜ Not started              | Discovery queue, batch runs, possibly a database                                                          |
+Phases renumbered on 2026-10-06 to the agreed plan (narration before visuals).
+
+| Phase | Name                          | Status         | Summary                                                                                                              |
+| ----- | ----------------------------- | -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| —     | Foundation & Architecture     | ✅ Complete    | Contracts, validation, gates, resumable runs, provenance, visual system, Remotion, QA, packaging (v0.2.0)            |
+| 1     | Real Case Intelligence        | 🟦 In progress | Discovery → CourtListener → snapshots → claims → verification → timeline → **Gate 1** → story → script → **Gate 2a** |
+| 2     | Publication-quality Narration | ⬜ Not started | Piper / voice-over import → measured narration → alignment → caption accuracy                                        |
+| 3     | Real Visual Production        | ⬜ Not started | Visual bible → timed states → archival assets → court-document viewer → maps/timelines → rights → **Gate 2b**        |
+| 4     | Full 5–10 Minute Production   | ⬜ Not started | Render → technical QA → editorial QA → captions → package → **Gate 3**                                               |
+| 5     | Automation & Scale            | ⏸ Deferred     | Automatic runner, case queue, scheduling — not before Phases 1–4 prove out                                           |
+
+## Phase 1 — Real Case Intelligence (in progress)
+
+- [x] Freeze the working architecture (commit `046b408`, by you)
+- [x] CourtListener client: cached, budget-enforced, verified live
+- [x] Source snapshotting with SHA-256 (verified on a real opinion: 26,291 chars)
+- [x] `case-discovery` skill + candidate records + human-only selection
+- [x] Gate 1 review packet (excerpts checked against snapshots)
+- [x] Three candidates proposed (`data/candidates/`)
+- [x] **You selected Teapot Dome** (human:Adryan, 2026-10-06)
+- [x] Research → verification → timeline (66 claims, 85/85 excerpts verified, 28 events)
+- [x] **Gate 1 (RESEARCH)** — approved by human:Adryan
+- [x] Story plan + script (51 units, ≈ 561 s estimated), read-aloud review in `output/script-review.md`
+- [ ] **Gate 2a (SCRIPT)** — requested (`gate-script-1`); awaiting your review
+- [ ] Phase 1 stops here — no visual planning, assets, or final narration
 
 ## Architecture Integration — success criteria
 
@@ -72,52 +88,10 @@ All 23 items complete — see CHANGELOG 0.1.0. Notable evidence: Remotion
 | Fixture QA (real render)                                                      | All automated checks PASS; overall INCOMPLETE pending 4 human checks |
 | Full gate run time                                                            | 42.1 s                                                               |
 
-## Phase 1 — Research & Story Engine (next)
-
-Goal: one real, well-documented case from candidate to an approved script.
-
-- [ ] Choose the benchmark case (closed, historical, PRIMARY records available, no minors, no living unconvicted private individuals)
-- [ ] `case-discovery` skill + `data/candidates/` queue (contract exists)
-- [ ] CourtListener client (free token, rate-limited, cached) behind a provider interface
-- [ ] Source snapshotting (archived URL / local PDF) for citations
-- [ ] case-research → source-verification → case-timeline on the real case
-- [ ] **Human Gate 1 (RESEARCH)** — approved by you
-- [ ] Story plan + script at 5–10 min, 0 errors
-- [ ] **Human Gate 2a (SCRIPT)** — approved by you
-- [ ] Re-tune style lint and the drafting duration estimate against measured narration
-
-## Phase 2 — Visual / Remotion Engine
-
-- [x] `visual-director`, `asset-research`, `remotion-video` skills (architecture)
-- [x] Visual bible + visual states + measured timing
-- [ ] Real map rendering (MapLibre + permissive tiles; not the OSM public tile server)
-- [ ] Scan viewer for real document images with region highlights (MOVE_TO / HIGHLIGHT on scans)
-- [ ] Bundled local fonts (`typography.localFontFiles`)
-- [ ] Per-primitive visual regression stills
-
-## Phase 3 — Narration / Audio / Captions
-
-- [x] Local narration provider (Windows SAPI), measured, per-unit alignment, selective retry
-- [x] Audio-timed manifest; SRT/ASS caption outputs
-- [ ] Publication-quality voice: Piper provider (voice licenses recorded) or human voice-over import
-- [ ] whisper.cpp forced alignment for word-level timing on human recordings
-- [ ] Music/SFX asset records (YouTube Audio Library, Freesound CC0/CC-BY)
-
-## Phase 4 — End-to-End Case Production
-
-- [x] `video-qc` skill + QA report; `youtube-package` skill; publication gate
-- [ ] Human manual-QA workflow (CLI to record MANUAL_REQUIRED results)
-- [ ] First real video rendered at FINAL stage through all four gates
-
-## Phase 5 — Automation & Scaling
-
-- [x] Orchestrator skill (thin, stage-gated)
-- [ ] Batch validation / reporting across cases
-- [ ] Evaluate a database only if cross-case queries require it
-
 ## Sprint log
 
-| Date       | Sprint                               | Outcome                                                                             |
-| ---------- | ------------------------------------ | ----------------------------------------------------------------------------------- |
-| 2026-09-29 | Sprint 0 — Foundation & Architecture | Phase 0 complete. CHANGELOG 0.1.0.                                                  |
-| 2026-09-30 | Architecture Integration             | Narration-first timing, run state, gates, QA, captions, packaging. CHANGELOG 0.2.0. |
+| Date       | Sprint                                 | Outcome                                                                             |
+| ---------- | -------------------------------------- | ----------------------------------------------------------------------------------- |
+| 2026-09-29 | Sprint 0 — Foundation & Architecture   | Phase 0 complete. CHANGELOG 0.1.0.                                                  |
+| 2026-09-30 | Architecture Integration               | Narration-first timing, run state, gates, QA, captions, packaging. CHANGELOG 0.2.0. |
+| 2026-10-06 | Phase 1 (part 1) — tooling + discovery | CourtListener client, snapshots, candidates, review packet; 3 candidates proposed   |

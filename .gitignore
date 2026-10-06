@@ -31,3 +31,7 @@ assets/**/*
 # Rendered/produced media inside case workspaces (JSON artifacts stay tracked)
 **/output/*.mp4
 **/output/*.wav
+
+# Local API response cache and source snapshots (hashes are committed in sources.json)
+data/cache/
+**/snapshots/

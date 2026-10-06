@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "kind": "case-project",
+  "id": "case-teapot-dome",
+  "title": "Teapot Dome: The Oil Leases, the Bribe, and the Contempt Cases",
+  "caseName": "Teapot Dome (Fall, Sinclair, Doheny cases)",
+  "caseType": "CORRUPTION",
+  "jurisdiction": {
+    "country": "United States",
+    "region": "Federal (District of Columbia; Wyoming; California)",
+    "courts": [
+      "Supreme Court of the United States",
+      "U.S. Court of Appeals for the D.C. Circuit"
+    ]
+  },
+  "status": "SCRIPT",
+  "targetDurationSec": 480,
+  "targetPlatform": "YOUTUBE",
+  "isSynthetic": false,
+  "createdAt": "2026-10-06T23:03:49.832Z",
+  "updatedAt": "2026-10-06T23:46:35.532Z",
+  "candidateId": "cand-teapot-dome"
+}

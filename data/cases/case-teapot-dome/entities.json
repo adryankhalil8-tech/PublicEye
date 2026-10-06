@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "kind": "entities",
+  "people": [
+    {
+      "id": "per-albert-fall",
+      "name": "Albert B. Fall",
+      "aliases": [],
+      "roles": ["OFFICIAL", "DEFENDANT"],
+      "isPrivateIndividual": false,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [
+        {
+          "matter": "Conspiracy to defraud the United States with Doheny (indicted May 27, 1925)",
+          "status": "ACQUITTED",
+          "claimIds": ["clm-fall-conspiracy-acquittal"]
+        },
+        {
+          "matter": "Bribery: accepting $100,000 from Edward L. Doheny (Criminal Code § 117)",
+          "status": "CONVICTED",
+          "asOf": {
+            "precision": "EXACT",
+            "date": "1931-04-06"
+          },
+          "claimIds": ["clm-fall-bribery-conviction"]
+        }
+      ],
+      "claimIds": ["clm-fall-denby-appointed", "clm-fall-left-office"],
+      "notes": "Secretary of the Interior, March 5, 1921 – March 4, 1923. Over seventy at his 1929 trial (Fall v. United States), so necessarily deceased."
+    },
+    {
+      "id": "per-edward-doheny",
+      "name": "Edward L. Doheny",
+      "aliases": [],
+      "roles": ["DEFENDANT"],
+      "isPrivateIndividual": false,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [
+        {
+          "matter": "Conspiracy to defraud the United States with Fall (indicted May 27, 1925)",
+          "status": "ACQUITTED",
+          "claimIds": ["clm-doheny-conspiracy-acquittal"]
+        },
+        {
+          "matter": "Bribery: giving $100,000 to Albert B. Fall",
+          "status": "ACQUITTED",
+          "asOf": {
+            "precision": "EXACT",
+            "date": "1930-03-22"
+          },
+          "claimIds": ["clm-doheny-bribery-acquittal"]
+        }
+      ],
+      "claimIds": ["clm-doheny-100k-delivered"],
+      "notes": "Controlled Pan American Petroleum & Transport Co. and Pan American Petroleum Co. Public business figure of the 1920s; deceased."
+    },
+    {
+      "id": "per-harry-sinclair",
+      "name": "Harry F. Sinclair",
+      "aliases": [],
+      "roles": ["DEFENDANT"],
+      "isPrivateIndividual": false,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [
+        {
+          "matter": "Conspiracy to defraud the United States — Teapot Dome lease (1928 retrial)",
+          "status": "ACQUITTED",
+          "asOf": {
+            "precision": "EXACT",
+            "date": "1928-04-21"
+          },
+          "claimIds": ["clm-sinclair-conspiracy-acquittal"]
+        },
+        {
+          "matter": "Contempt of the Senate — refusing to answer a Senate committee (R.S. § 102)",
+          "status": "CONVICTED",
+          "asOf": {
+            "precision": "EXACT",
+            "date": "1929-04-08"
+          },
+          "claimIds": ["clm-sinclair-senate-contempt"]
+        },
+        {
+          "matter": "Criminal contempt of court — surveillance of the 1927 jury",
+          "status": "CONVICTED",
+          "asOf": {
+            "precision": "EXACT",
+            "date": "1929-06-03"
+          },
+          "claimIds": ["clm-sinclair-contempt-court"]
+        }
+      ],
+      "claimIds": ["clm-mammoth-organized"],
+      "notes": "Organized and owned the Mammoth Oil Company (lessee of Teapot Dome). Deceased."
+    },
+    {
+      "id": "per-edwin-denby",
+      "name": "Edwin Denby",
+      "aliases": [],
+      "roles": ["OFFICIAL"],
+      "isPrivateIndividual": false,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [],
+      "claimIds": ["clm-fall-denby-appointed"],
+      "notes": "Secretary of the Navy from March 5, 1921. Not charged in these sources. The Supreme Court found he was 'passive' but did know what he signed — do not portray him as deceived or as a conspirator."
+    },
+    {
+      "id": "per-john-robison",
+      "name": "Admiral John K. Robison",
+      "aliases": [],
+      "roles": ["OFFICIAL"],
+      "isPrivateIndividual": false,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [],
+      "claimIds": ["clm-robison-secrecy"],
+      "notes": "Navy officer in charge of naval petroleum matters. The Court noted his motives for secrecy 'were not the same as Fall's.' Not charged."
+    },
+    {
+      "id": "per-henry-mason-day",
+      "name": "Henry Mason Day",
+      "aliases": [],
+      "roles": ["OTHER"],
+      "isPrivateIndividual": true,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [
+        {
+          "matter": "Criminal contempt of court — surveillance of the 1927 jury",
+          "status": "CONVICTED",
+          "asOf": {
+            "precision": "EXACT",
+            "date": "1929-06-03"
+          },
+          "claimIds": ["clm-day-contempt-court"]
+        }
+      ],
+      "claimIds": [],
+      "notes": "Sinclair's 'representative, friend and business associate' (his own sworn answer). Adult in 1927; deceased."
+    },
+    {
+      "id": "per-william-j-burns",
+      "name": "William J. Burns",
+      "aliases": [],
+      "roles": ["OTHER"],
+      "isPrivateIndividual": false,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [
+        {
+          "matter": "Criminal contempt of court — surveillance of the 1927 jury (trial court)",
+          "status": "CONVICTED",
+          "claimIds": ["clm-wjburns-contempt-trial"]
+        },
+        {
+          "matter": "Criminal contempt of court — surveillance of the 1927 jury",
+          "status": "OVERTURNED",
+          "asOf": {
+            "precision": "EXACT",
+            "date": "1929-06-03"
+          },
+          "claimIds": ["clm-wjburns-reversed"]
+        }
+      ],
+      "claimIds": [],
+      "notes": "Head of the William J. Burns International Detective Agency. His contempt conviction was REVERSED — he must never be described as convicted without the reversal."
+    },
+    {
+      "id": "per-w-sherman-burns",
+      "name": "W. Sherman Burns",
+      "aliases": [],
+      "roles": ["OTHER"],
+      "isPrivateIndividual": true,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [
+        {
+          "matter": "Criminal contempt of court — surveillance of the 1927 jury",
+          "status": "CONVICTED",
+          "asOf": {
+            "precision": "EXACT",
+            "date": "1929-06-03"
+          },
+          "claimIds": ["clm-wsburns-contempt-court"]
+        }
+      ],
+      "claimIds": [],
+      "notes": "Secretary and treasurer of the Burns detective agency in 1927. Deceased."
+    },
+    {
+      "id": "per-mt-everhart",
+      "name": "M. T. Everhart",
+      "aliases": [],
+      "roles": ["WITNESS", "FAMILY_MEMBER"],
+      "isPrivateIndividual": true,
+      "wasMinorAtTime": false,
+      "livingStatus": "DECEASED",
+      "legalStatuses": [],
+      "claimIds": ["clm-witnesses-refused"],
+      "notes": "Fall's son-in-law; ranch manager. Never charged in these sources. Invoked the privilege against self-incrimination — not evidence of guilt. Prefer 'Fall's son-in-law' over his name in narration."
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org-mammoth-oil",
+      "name": "Mammoth Oil Company",
+      "type": "BUSINESS",
+      "claimIds": ["clm-mammoth-organized"]
+    },
+    {
+      "id": "org-pan-american",
+      "name": "Pan American Petroleum & Transport Company",
+      "type": "BUSINESS",
+      "claimIds": ["clm-scotus-pan-am-corruption"]
+    },
+    {
+      "id": "org-continental-trading",
+      "name": "Continental Trading Company, Ltd.",
+      "type": "BUSINESS",
+      "claimIds": ["clm-liberty-bonds-traced"],
+      "notes": "Canadian company; the record did not establish its owners."
+    },
+    {
+      "id": "org-burns-agency",
+      "name": "William J. Burns International Detective Agency",
+      "type": "BUSINESS",
+      "claimIds": ["clm-sinclair-ordered-shadowing"]
+    },
+    {
+      "id": "org-senate-committee",
+      "name": "U.S. Senate Committee on Public Lands and Surveys",
+      "type": "GOVERNMENT",
+      "claimIds": ["clm-senate-resolution-282"]
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-teapot-dome",
+      "name": "Teapot Dome (Naval Petroleum Reserve No. 3), Natrona County, Wyoming",
+      "kind": "REGION",
+      "claimIds": ["clm-teapot-dome-reserve"]
+    },
+    {
+      "id": "loc-elk-hills",
+      "name": "Elk Hills (Naval Petroleum Reserve No. 1), California",
+      "kind": "REGION",
+      "claimIds": ["clm-doheny-jury-loan"],
+      "notes": "Named 'Elk Hills' in the AP report; the opinions say Naval Petroleum Reserve No. 1."
+    },
+    {
+      "id": "loc-three-rivers",
+      "name": "Fall's ranch, Three Rivers, New Mexico",
+      "kind": "RESIDENCE",
+      "claimIds": ["clm-sinclair-ranch-visit"],
+      "notes": "Historical ranch of a deceased public official; town-level only."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "kind": "sources",
+  "sources": [
+    {
+      "id": "src-mammoth-oil-1927",
+      "url": "https://www.courtlistener.com/opinion/101139/mammoth-oil-co-v-united-states/",
+      "title": "Mammoth Oil Co. v. United States, 275 U.S. 13 (1927)",
+      "publisher": "Supreme Court of the United States (via CourtListener)",
+      "sourceType": "COURT_OPINION",
+      "authorityLevel": "PRIMARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1927-10-10",
+      "recordIdentifier": "275 U.S. 13",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "snapshot": {
+        "localPath": "snapshots/src-mammoth-oil-1927.json",
+        "sha256": "5b5dbd832d15bb2a4c77f182ef80fcb91084532110112c4d07f75544c100931f",
+        "bytes": 285949,
+        "contentType": "application/json",
+        "retrievedAt": "2026-10-06T23:05:19.679Z",
+        "method": "API",
+        "retrievedFrom": "https://www.courtlistener.com/api/rest/v4/clusters/101139/"
+      }
+    },
+    {
+      "id": "src-pan-american-1927",
+      "url": "https://www.courtlistener.com/opinion/101030/pan-american-petroleum-transport-co-v-united-states/",
+      "title": "Pan American Petroleum & Transport Co. v. United States, 273 U.S. 456 (1927)",
+      "publisher": "Supreme Court of the United States (via CourtListener)",
+      "sourceType": "COURT_OPINION",
+      "authorityLevel": "PRIMARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1927-03-07",
+      "recordIdentifier": "273 U.S. 456",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "snapshot": {
+        "localPath": "snapshots/src-pan-american-1927.json",
+        "sha256": "31411d89151da3d9c6076b78ce3be290172bcc8eaebe8a571cdb982968e30971",
+        "bytes": 282373,
+        "contentType": "application/json",
+        "retrievedAt": "2026-10-06T23:05:20.895Z",
+        "method": "API",
+        "retrievedFrom": "https://www.courtlistener.com/api/rest/v4/clusters/101030/"
+      }
+    },
+    {
+      "id": "src-sinclair-senate-1929",
+      "url": "https://www.courtlistener.com/opinion/101414/sinclair-v-united-states/",
+      "title": "Sinclair v. United States, 279 U.S. 263 (1929)",
+      "publisher": "Supreme Court of the United States (via CourtListener)",
+      "sourceType": "COURT_OPINION",
+      "authorityLevel": "PRIMARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1929-04-08",
+      "recordIdentifier": "279 U.S. 263",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "snapshot": {
+        "localPath": "snapshots/src-sinclair-senate-1929.json",
+        "sha256": "486ee6445e19541f378e2e1037f078d789da0791baae8cbd98a10eebdeb0c359",
+        "bytes": 173720,
+        "contentType": "application/json",
+        "retrievedAt": "2026-10-06T23:06:19.586Z",
+        "method": "API",
+        "retrievedFrom": "https://www.courtlistener.com/api/rest/v4/clusters/101414/"
+      }
+    },
+    {
+      "id": "src-sinclair-jury-1929",
+      "url": "https://www.courtlistener.com/opinion/101453/sinclair-v-united-states/",
+      "title": "Sinclair v. United States, 279 U.S. 749 (1929)",
+      "publisher": "Supreme Court of the United States (via CourtListener)",
+      "sourceType": "COURT_OPINION",
+      "authorityLevel": "PRIMARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1929-06-03",
+      "recordIdentifier": "279 U.S. 749",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "snapshot": {
+        "localPath": "snapshots/src-sinclair-jury-1929.json",
+        "sha256": "e9cdea22f1fd895b42385d28168146fa884ed49f070b0975047d1cf69f13b73b",
+        "bytes": 188875,
+        "contentType": "application/json",
+        "retrievedAt": "2026-10-06T23:06:27.268Z",
+        "method": "API",
+        "retrievedFrom": "https://www.courtlistener.com/api/rest/v4/clusters/101453/"
+      }
+    },
+    {
+      "id": "src-fall-1931",
+      "url": "https://www.courtlistener.com/opinion/6948641/fall-v-united-states/",
+      "title": "Fall v. United States, 49 F.2d 506 (D.C. Cir. 1931)",
+      "publisher": "U.S. Court of Appeals for the D.C. Circuit (via CourtListener)",
+      "sourceType": "COURT_OPINION",
+      "authorityLevel": "PRIMARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1931-04-06",
+      "recordIdentifier": "49 F.2d 506",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "snapshot": {
+        "localPath": "snapshots/src-fall-1931.json",
+        "sha256": "78f16f0ddb244ee3f93c01bacd7348fe1e0701c2ec6b12f394d121867ac197f9",
+        "bytes": 143047,
+        "contentType": "application/json",
+        "retrievedAt": "2026-10-06T23:07:19.676Z",
+        "method": "API",
+        "retrievedFrom": "https://www.courtlistener.com/api/rest/v4/clusters/6948641/"
+      }
+    },
+    {
+      "id": "src-wash-times-1930-03-22",
+      "url": "https://www.loc.gov/resource/sn84026749/1930-03-22/ed-1/?sp=1",
+      "title": "\"Doheny Held Not Guilty\" — The Washington Times, March 22, 1930, p. 1",
+      "publisher": "The Washington Times (Washington, D.C.)",
+      "sourceType": "NEWS_ARTICLE",
+      "authorityLevel": "STRONG_SECONDARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1930-03-22",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "notes": "Front-page newspaper report via Library of Congress Chronicling America; snapshot is the LoC OCR text (OCR errors possible). Published before 1931: US copyright term expired.",
+      "snapshot": {
+        "localPath": "snapshots/src-wash-times-1930-03-22.txt",
+        "sha256": "ac7a62f8cc60660feabfaa9554bf6b53c3cfe112a5761a15aedecf820ed4102a",
+        "bytes": 18250,
+        "contentType": "text/plain",
+        "retrievedAt": "2026-10-06T23:13:31.505Z",
+        "method": "API",
+        "retrievedFrom": "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_adamsmorgan_ver01/data/sn84026749/00222254681/1930032201/0835.xml&format=alto_xml&full_text=1"
+      }
+    },
+    {
+      "id": "src-brownsville-1930-03-22",
+      "url": "https://www.loc.gov/resource/sn86063730/1930-03-22/ed-1/?sp=1",
+      "title": "Brownsville Herald, March 22, 1930, p. 1 (Doheny verdict)",
+      "publisher": "Brownsville Herald (Brownsville, Tex.)",
+      "sourceType": "NEWS_ARTICLE",
+      "authorityLevel": "STRONG_SECONDARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1930-03-22",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "notes": "Front-page newspaper report via Library of Congress Chronicling America; snapshot is the LoC OCR text (OCR errors possible). Published before 1931: US copyright term expired.",
+      "snapshot": {
+        "localPath": "snapshots/src-brownsville-1930-03-22.txt",
+        "sha256": "8f3c4cf62327ba13a55824daf9e5527734b47ee67e42b192cf12f23297aea479",
+        "bytes": 29565,
+        "contentType": "text/plain",
+        "retrievedAt": "2026-10-06T23:13:52.870Z",
+        "method": "API",
+        "retrievedFrom": "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/txdn/batch_txdn_evans_ver01/data/sn86063730/00332893701/1930032201/0426.xml&format=alto_xml&full_text=1"
+      }
+    },
+    {
+      "id": "src-evening-star-1928-04-21",
+      "url": "https://www.loc.gov/resource/sn83045462/1928-04-21/ed-1/?sp=1",
+      "title": "Evening Star, April 21, 1928, p. 1 (Sinclair verdict)",
+      "publisher": "Evening Star (Washington, D.C.)",
+      "sourceType": "NEWS_ARTICLE",
+      "authorityLevel": "STRONG_SECONDARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1928-04-21",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "notes": "Front-page newspaper report via Library of Congress Chronicling America; snapshot is the LoC OCR text (OCR errors possible). Published before 1931: US copyright term expired.",
+      "snapshot": {
+        "localPath": "snapshots/src-evening-star-1928-04-21.txt",
+        "sha256": "527c38f3263938f03b2e38217bc1da2b9282bbfad37bc5d8b711fa50004bca30",
+        "bytes": 35117,
+        "contentType": "text/plain",
+        "retrievedAt": "2026-10-06T23:14:02.432Z",
+        "method": "API",
+        "retrievedFrom": "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_johnson_ver01/data/sn83045462/00280659551/1928042101/0336.xml&format=alto_xml&full_text=1"
+      }
+    },
+    {
+      "id": "src-wash-daily-news-1928-04-21",
+      "url": "https://www.loc.gov/resource/sn82016181/1928-04-21/ed-1/?sp=1",
+      "title": "The Washington Daily News, April 21, 1928, p. 1 (Sinclair verdict)",
+      "publisher": "The Washington Daily News (Washington, D.C.)",
+      "sourceType": "NEWS_ARTICLE",
+      "authorityLevel": "STRONG_SECONDARY",
+      "accessedAt": "2026-10-06",
+      "publicationDate": "1928-04-21",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "REVIEW_REQUIRED",
+      "notes": "Front-page newspaper report via Library of Congress Chronicling America; snapshot is the LoC OCR text (OCR errors possible). Published before 1931: US copyright term expired.",
+      "snapshot": {
+        "localPath": "snapshots/src-wash-daily-news-1928-04-21.txt",
+        "sha256": "a301bc5ff88d33b989b6bcc8c3dbe78c98c079956ddeca8235dcb4f2f5c333bd",
+        "bytes": 7142,
+        "contentType": "text/plain",
+        "retrievedAt": "2026-10-06T23:14:04.196Z",
+        "method": "API",
+        "retrievedFrom": "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_dicorcia_ver01/data/sn82016181/00529045967/1928042101/1085.xml&format=alto_xml&full_text=1"
+      }
+    }
+  ]
+}

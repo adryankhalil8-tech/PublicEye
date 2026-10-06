@@ -8,9 +8,55 @@ because they affect every case workspace.
 Progress by phase: [docs/PROJECT_PROGRESS.md](docs/PROJECT_PROGRESS.md) ·
 Measured health over time: [docs/health/HEALTH_LOG.md](docs/health/HEALTH_LOG.md)
 
-## [Unreleased]
+## [Unreleased] — Phase 1: Real Case Intelligence (in progress)
 
-_Nothing yet. Phase 1 has not started._
+### Added
+
+- **CourtListener client** (`npm run cl -- search|cluster|opinion|budget`):
+  token from `.env`, every response cached in `data/cache/courtlistener/`
+  (git-ignored), persistent request ledger enforcing 5/min · 50/hr · 125/day
+  (waits out the minute limit, stops at hour/day), 429 handling. Verified
+  against the live API.
+- **Source snapshots** (`npm run snapshot`): CourtListener opinions captured
+  via the API (cluster + full opinion text), other URLs by one targeted GET,
+  blocked sites via `--file`; SHA-256, size, type, method, and time recorded
+  in `sources.json`; read-only Wayback lookup for `archivedUrl` (never
+  submits pages). Snapshot files are git-ignored; hashes are committed.
+  New validation: `SOURCE_NOT_SNAPSHOTTED` (real cases, CORE-claim sources).
+- **Case candidates** (`npm run candidate -- list|validate|select|reject`):
+  `CaseCandidate.decision`, `rationale`, `risks`; SELECTED/REJECTED only by
+  `human:<name>`. Three real candidates proposed in `data/candidates/`.
+- **Gate 1 review packet** (`npm run review-packet`): legal status per
+  person, CORE claims with excerpts, each excerpt checked verbatim against
+  its snapshot, contradictions, timeline gaps, sources, checklist.
+- **Skill** `case-discovery` 1.0.0; `case-research` 1.2.0 (cl + snapshot +
+  review packet); `crime-documentary` 1.1.0 (discovery and packet steps).
+- **First real case — Teapot Dome** (`data/cases/case-teapot-dome/`), selected
+  by human:Adryan: 9 snapshotted sources (5 court opinions via CourtListener,
+  4 front pages via Library of Congress), 66 claims, 85 excerpts all verified
+  verbatim against snapshots, 64 SUPPORTED / 2 INSUFFICIENT, legal-status
+  histories for 6 people, 28-event timeline. Gate 1 (RESEARCH) approved by
+  human:Adryan.
+- **Teapot Dome story plan + script** (`story-plan.json`, `script.json`):
+  angle "One Payment, Two Verdicts" (2 alternatives kept), CONTRAST hook, 8
+  sequences, 4 reveals; 51 narration units (46 claim-linked), estimated ≈ 561 s at
+  150 wpm (target 480 s, within tolerance). Validation: 0 errors, 0 style
+  warnings. Read-aloud review in `output/script-review.md`. Gate 2a (SCRIPT)
+  requested — awaiting human review.
+- `npm run snapshot`: Library of Congress newspaper pages captured as OCR text.
+- `scripts/check-excerpts.ts`: compact excerpt-vs-snapshot check.
+- Tests: 214 → 232.
+
+### Fixed
+
+- RESEARCH stage went stale when `case.json` housekeeping fields (`status`,
+  `updatedAt`) changed; its inputs are now the case identity only.
+
+### Security
+
+- A CourtListener token placed in `.env.example` (a committed template) was
+  moved to the git-ignored `.env` before any commit; the template was
+  restored. Secrets belong only in `.env`.
 
 ## [0.2.0] — 2026-09-30 — Architecture Integration
 
