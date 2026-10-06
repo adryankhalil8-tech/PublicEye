@@ -1,0 +1,11 @@
+node_modules
+out
+build
+package-lock.json
+skills-lock.json
+.claude/skills
+.agents/skills
+assets
+docs/health
+.health
+skills

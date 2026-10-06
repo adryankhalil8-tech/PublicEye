@@ -1,0 +1,61 @@
+{
+  "name": "public-eye-yt",
+  "version": "0.2.0",
+  "description": "Local-first, free-first production system for faceless crime/court documentary videos (Remotion).",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "remotion studio src/remotion/index.ts",
+    "build": "remotion bundle src/remotion/index.ts",
+    "compositions": "remotion compositions src/remotion/index.ts",
+    "render:fixture": "remotion render src/remotion/index.ts FixturePreview out/fixture-preview.mp4",
+    "render:fixture:master": "remotion render src/remotion/index.ts FixturePreview fixtures/cases/synthetic-tern-river-payroll/output/master.mp4 --props=\"{\\\"showCaptions\\\":false,\\\"withNarration\\\":true}\"",
+    "render:fixture:captioned": "remotion render src/remotion/index.ts FixturePreview fixtures/cases/synthetic-tern-river-payroll/output/master-captioned.mp4 --props=\"{\\\"showCaptions\\\":true,\\\"withNarration\\\":true}\"",
+    "still:fixture": "remotion still src/remotion/index.ts FixturePreview out/fixture-preview.png --frame=120",
+    "validate:case": "tsx scripts/validate-case.ts",
+    "new:case": "tsx scripts/new-case.ts",
+    "build:manifest": "tsx scripts/build-manifest.ts",
+    "narrate": "tsx scripts/narrate.ts",
+    "pipeline": "tsx scripts/pipeline.ts",
+    "gate": "tsx scripts/gate.ts",
+    "deliverables": "tsx scripts/deliverables.ts",
+    "qa": "tsx scripts/qa.ts",
+    "skills:sync": "tsx scripts/sync-skills.ts",
+    "health": "tsx scripts/health-report.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.node.json",
+    "lint": "eslint src scripts tests",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm test",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/captions": "4.0.530",
+    "@remotion/cli": "4.0.530",
+    "@remotion/media": "4.0.530",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.530",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.530",
+    "@types/node": "22.15.3",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "tsx": "4.20.3",
+    "typescript": "5.9.3",
+    "vitest": "5.0.2"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

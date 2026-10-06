@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "kind": "timeline",
+  "events": [
+    {
+      "id": "evt-payroll-deposited",
+      "when": {
+        "precision": "EXACT",
+        "date": "1954-11-11"
+      },
+      "description": "Payroll cash placed in the mill office safe.",
+      "locationIds": ["loc-mill-office"],
+      "claimIds": ["clm-payroll-deposited"],
+      "sourceIds": ["src-police-report"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-payroll-taken",
+      "when": {
+        "precision": "RANGE",
+        "start": "1954-11-11",
+        "end": "1954-11-12"
+      },
+      "description": "Payroll removed from the safe at some point overnight. Exact time unknown.",
+      "locationIds": ["loc-mill-office"],
+      "claimIds": ["clm-payroll-deposited", "clm-payroll-missing"],
+      "sourceIds": ["src-police-report"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-light-seen",
+      "when": {
+        "precision": "EXACT",
+        "date": "1954-11-12"
+      },
+      "description": "A light was reportedly seen in the office overnight; accounts differ on the time.",
+      "personIds": ["per-ivo-brandt"],
+      "locationIds": ["loc-mill-office"],
+      "claimIds": [
+        "clm-watchman-testimony",
+        "clm-light-time",
+        "clm-gazette-light-report"
+      ],
+      "sourceIds": ["src-court-opinion", "src-gazette-1954"],
+      "certainty": "DISPUTED"
+    },
+    {
+      "id": "evt-theft-discovered",
+      "when": {
+        "precision": "EXACT",
+        "date": "1954-11-12",
+        "time": "07:10"
+      },
+      "description": "Payroll found missing; police called.",
+      "locationIds": ["loc-mill-office"],
+      "claimIds": ["clm-payroll-missing", "clm-safe-not-forced"],
+      "sourceIds": ["src-police-report", "src-gazette-1954"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-tallis-suspected",
+      "when": {
+        "precision": "UNKNOWN",
+        "afterEventId": "evt-theft-discovered",
+        "beforeEventId": "evt-tallis-charged",
+        "note": "Sources do not say when police first focused on Tallis."
+      },
+      "description": "Police come to allege that bookkeeper Oren Tallis opened the safe.",
+      "personIds": ["per-oren-tallis"],
+      "claimIds": ["clm-police-alleged-tallis"],
+      "sourceIds": ["src-police-report"],
+      "certainty": "PROBABLE"
+    },
+    {
+      "id": "evt-tallis-charged",
+      "when": {
+        "precision": "EXACT",
+        "date": "1954-12"
+      },
+      "description": "Oren Tallis charged with larceny.",
+      "personIds": ["per-oren-tallis"],
+      "claimIds": ["clm-tallis-charged"],
+      "sourceIds": ["src-court-opinion"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-reward-offered",
+      "when": {
+        "precision": "APPROXIMATE",
+        "date": "1954",
+        "qualifier": "LATE"
+      },
+      "description": "The mill offers a reward for information.",
+      "claimIds": ["clm-reward-offered"],
+      "sourceIds": ["src-gazette-1955"],
+      "certainty": "PROBABLE"
+    },
+    {
+      "id": "evt-trial",
+      "when": {
+        "precision": "EXACT",
+        "date": "1955-03"
+      },
+      "description": "Trial of Oren Tallis.",
+      "personIds": ["per-oren-tallis", "per-ivo-brandt", "per-harlan-voss"],
+      "locationIds": ["loc-courthouse"],
+      "claimIds": ["clm-trial-date"],
+      "sourceIds": ["src-court-opinion"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-acquittal",
+      "when": {
+        "precision": "EXACT",
+        "date": "1955-03-24"
+      },
+      "description": "Jury acquits Oren Tallis.",
+      "personIds": ["per-oren-tallis", "per-harlan-voss"],
+      "locationIds": ["loc-courthouse"],
+      "claimIds": ["clm-tallis-acquitted", "clm-judge-quote"],
+      "sourceIds": ["src-court-opinion", "src-gazette-1955"],
+      "certainty": "CONFIRMED"
+    },
+    {
+      "id": "evt-still-missing",
+      "when": {
+        "precision": "EXACT",
+        "date": "1955-04"
+      },
+      "description": "Press reports the payroll has not been recovered.",
+      "claimIds": ["clm-not-recovered"],
+      "sourceIds": ["src-gazette-1955"],
+      "certainty": "CONFIRMED"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "gap-pretrial",
+      "afterEventId": "evt-tallis-charged",
+      "beforeEventId": "evt-trial",
+      "description": "No sources describe the pre-trial period (December 1954 to March 1955)."
+    },
+    {
+      "id": "gap-after-1955",
+      "afterEventId": "evt-still-missing",
+      "description": "Nothing located after April 1955. Whether anyone else was investigated or charged is unknown."
+    }
+  ]
+}

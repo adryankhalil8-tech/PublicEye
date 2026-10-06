@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "kind": "case-project",
+  "id": "case-synthetic-tern-river-payroll",
+  "title": "SYNTHETIC TEST FIXTURE — The Tern River Mill Payroll",
+  "caseName": "State v. Tallis (synthetic)",
+  "caseType": "ROBBERY",
+  "jurisdiction": {
+    "country": "Fictional",
+    "region": "Vellmoor County (fictional)",
+    "courts": ["Vellmoor County Court (fictional)"]
+  },
+  "status": "VISUAL_PLAN",
+  "targetDurationSec": 110,
+  "targetPlatform": "YOUTUBE",
+  "isSynthetic": true,
+  "createdAt": "2026-09-29T00:00:00Z",
+  "updatedAt": "2026-09-29T00:00:00Z"
+}

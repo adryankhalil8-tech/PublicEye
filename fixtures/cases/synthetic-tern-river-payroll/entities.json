@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "entities",
+  "people": [
+    {
+      "id": "per-oren-tallis",
+      "name": "Oren Tallis",
+      "aliases": [],
+      "roles": ["DEFENDANT"],
+      "isPrivateIndividual": true,
+      "wasMinorAtTime": false,
+      "livingStatus": "UNKNOWN",
+      "legalStatuses": [
+        {
+          "matter": "Larceny of the Tern River Mill payroll",
+          "status": "CHARGED",
+          "asOf": { "precision": "EXACT", "date": "1954-12" },
+          "claimIds": ["clm-tallis-charged"]
+        },
+        {
+          "matter": "Larceny of the Tern River Mill payroll",
+          "status": "ACQUITTED",
+          "asOf": { "precision": "EXACT", "date": "1955-03-24" },
+          "claimIds": ["clm-tallis-acquitted"]
+        }
+      ],
+      "claimIds": ["clm-police-alleged-tallis", "clm-tallis-denied"],
+      "notes": "Fictional person (synthetic fixture)."
+    },
+    {
+      "id": "per-ivo-brandt",
+      "name": "Ivo Brandt",
+      "aliases": [],
+      "roles": ["WITNESS"],
+      "isPrivateIndividual": true,
+      "wasMinorAtTime": false,
+      "livingStatus": "UNKNOWN",
+      "legalStatuses": [],
+      "claimIds": ["clm-watchman-testimony"],
+      "notes": "Fictional person (synthetic fixture)."
+    },
+    {
+      "id": "per-harlan-voss",
+      "name": "Judge Harlan Voss",
+      "aliases": [],
+      "roles": ["JUDGE"],
+      "isPrivateIndividual": false,
+      "wasMinorAtTime": false,
+      "livingStatus": "UNKNOWN",
+      "legalStatuses": [],
+      "claimIds": ["clm-judge-quote"],
+      "notes": "Fictional person (synthetic fixture)."
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org-vellmoor-police",
+      "name": "Vellmoor Police Department (fictional)",
+      "type": "LAW_ENFORCEMENT",
+      "claimIds": []
+    },
+    {
+      "id": "org-vellmoor-court",
+      "name": "Vellmoor County Court (fictional)",
+      "type": "COURT",
+      "claimIds": []
+    },
+    {
+      "id": "org-tern-river-mill",
+      "name": "Tern River Mill (fictional)",
+      "type": "BUSINESS",
+      "claimIds": ["clm-payroll-missing"]
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-mill-office",
+      "name": "Tern River Mill office",
+      "kind": "CRIME_SCENE",
+      "claimIds": ["clm-payroll-missing"]
+    },
+    {
+      "id": "loc-courthouse",
+      "name": "Vellmoor County Courthouse",
+      "kind": "COURTHOUSE",
+      "claimIds": ["clm-trial-date"]
+    }
+  ]
+}

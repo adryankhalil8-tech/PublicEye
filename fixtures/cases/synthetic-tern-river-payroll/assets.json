@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "assets",
+  "assets": [
+    {
+      "id": "ast-paper-texture",
+      "mediaType": "TEXTURE",
+      "origin": "CREATED_IN_HOUSE",
+      "localPath": "fixtures/paper-texture.svg",
+      "creator": "Project (original SVG)",
+      "rightsStatus": "OWNED",
+      "creditRequired": false,
+      "approval": {
+        "status": "APPROVED",
+        "approvedBy": "human:fixture-author",
+        "approvedAt": "2026-09-29"
+      },
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "createdAt": "2026-09-29",
+      "updatedAt": "2026-09-29"
+    },
+    {
+      "id": "ast-office-illustration",
+      "mediaType": "IMAGE",
+      "origin": "CREATED_IN_HOUSE",
+      "localPath": "fixtures/office-illustration.svg",
+      "creator": "Project (original SVG)",
+      "rightsStatus": "OWNED",
+      "creditRequired": false,
+      "approval": {
+        "status": "APPROVED",
+        "approvedBy": "human:fixture-author",
+        "approvedAt": "2026-09-29"
+      },
+      "notes": "Illustration, not a depiction of any real room. Must always carry the Illustration label.",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "createdAt": "2026-09-29",
+      "updatedAt": "2026-09-29"
+    },
+    {
+      "id": "ast-mill-photo",
+      "mediaType": "IMAGE",
+      "origin": "ARCHIVAL",
+      "sourceUrl": "https://archive.example.invalid/vellmoor-historical/mill-1950",
+      "localPath": "images/synthetic-mill-photo.jpg",
+      "sourceOrganization": "Vellmoor Historical Society (fictional)",
+      "rightsStatus": "UNKNOWN",
+      "creditRequired": true,
+      "creditText": "Vellmoor Historical Society (synthetic)",
+      "retrievedAt": "2026-09-29",
+      "approval": {
+        "status": "PENDING"
+      },
+      "notes": "Demonstrates that UNKNOWN rights never flow into a render. No file exists.",
+      "status": "PENDING",
+      "attemptCount": 0
+    }
+  ]
+}

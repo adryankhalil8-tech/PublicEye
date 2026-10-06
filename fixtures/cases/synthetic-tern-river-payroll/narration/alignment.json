@@ -1,0 +1,1735 @@
+{
+  "schemaVersion": 1,
+  "kind": "narration-alignment",
+  "narrationId": "narr-synthetic-tern-river-payroll",
+  "alignmentSource": "PER_UNIT_SYNTHESIS",
+  "tool": "per-unit SAPI takes joined with exact silences; word times interpolated",
+  "createdAt": "2026-09-30T23:50:58.187Z",
+  "audioDurationSec": 101.372,
+  "segments": [
+    {
+      "id": "seg-001",
+      "narrationUnitId": "nu-001",
+      "startSec": 0,
+      "endSec": 8.308,
+      "durationSec": 8.308,
+      "text": "On the morning of November 12, 1954, the weekly payroll of the Tern River Mill was gone from the office safe."
+    },
+    {
+      "id": "seg-002",
+      "narrationUnitId": "nu-002",
+      "startSec": 8.308,
+      "endSec": 15.296,
+      "durationSec": 6.988,
+      "text": "The police report noted one detail that would shape everything after: no signs that the safe had been forced."
+    },
+    {
+      "id": "seg-003",
+      "narrationUnitId": "nu-003",
+      "startSec": 16.096,
+      "endSec": 22.674,
+      "durationSec": 6.578,
+      "text": "The cash, eighteen thousand four hundred dollars, had been locked inside the afternoon before."
+    },
+    {
+      "id": "seg-004",
+      "narrationUnitId": "nu-004",
+      "startSec": 22.674,
+      "endSec": 29.028,
+      "durationSec": 6.354,
+      "text": "At trial, the mill's office manager testified that at least three employees knew the combination."
+    },
+    {
+      "id": "seg-005",
+      "narrationUnitId": "nu-005",
+      "startSec": 29.028,
+      "endSec": 37.061,
+      "durationSec": 8.033,
+      "text": "Police focused on one of them. They alleged that the bookkeeper, Oren Tallis, had opened the safe himself."
+    },
+    {
+      "id": "seg-006",
+      "narrationUnitId": "nu-006",
+      "startSec": 37.061,
+      "endSec": 39.531,
+      "durationSec": 2.47,
+      "text": "Tallis denied taking the money."
+    },
+    {
+      "id": "seg-007",
+      "narrationUnitId": "nu-007",
+      "startSec": 39.531,
+      "endSec": 44.219,
+      "durationSec": 4.688,
+      "text": "In December 1954, he was charged with larceny."
+    },
+    {
+      "id": "seg-008",
+      "narrationUnitId": "nu-008",
+      "startSec": 44.819,
+      "endSec": 56.597,
+      "durationSec": 11.778,
+      "text": "The night watchman testified that he saw a light in the office window at about two in the morning. The local paper, the day after the theft, had reported that light shortly after midnight."
+    },
+    {
+      "id": "seg-009",
+      "narrationUnitId": "nu-009",
+      "startSec": 56.597,
+      "endSec": 62.31,
+      "durationSec": 5.713,
+      "text": "The case would turn on what the prosecution could prove, not on what it could suggest."
+    },
+    {
+      "id": "seg-010",
+      "narrationUnitId": "nu-010",
+      "startSec": 62.91,
+      "endSec": 73.968,
+      "durationSec": 11.058,
+      "text": "In March 1955, the jury acquitted Tallis. The judge's written ruling put it plainly: \"Suspicion, however strong, is not proof.\""
+    },
+    {
+      "id": "seg-011",
+      "narrationUnitId": "nu-011",
+      "startSec": 74.968,
+      "endSec": 84.231,
+      "durationSec": 9.263,
+      "text": "Some online retellings say the case ended in a jail sentence. The court record says otherwise: the only person charged was acquitted."
+    },
+    {
+      "id": "seg-012",
+      "narrationUnitId": "nu-012",
+      "startSec": 84.231,
+      "endSec": 89.14,
+      "durationSec": 4.909,
+      "text": "As of April 1955, the payroll had not been recovered."
+    },
+    {
+      "id": "seg-013",
+      "narrationUnitId": "nu-013",
+      "startSec": 89.14,
+      "endSec": 95.093,
+      "durationSec": 5.953,
+      "text": "We found no record of anyone else being charged, though the surviving sources are thin."
+    },
+    {
+      "id": "seg-014",
+      "narrationUnitId": "nu-014",
+      "startSec": 95.093,
+      "endSec": 99.872,
+      "durationSec": 4.779,
+      "text": "Which leaves the question the court could not answer: who opened the safe?"
+    }
+  ],
+  "words": [
+    {
+      "text": "On",
+      "startMs": 0,
+      "endMs": 396,
+      "timestampMs": 0,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 396,
+      "endMs": 792,
+      "timestampMs": 396,
+      "confidence": null
+    },
+    {
+      "text": " morning",
+      "startMs": 791,
+      "endMs": 1187,
+      "timestampMs": 791,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 1187,
+      "endMs": 1583,
+      "timestampMs": 1187,
+      "confidence": null
+    },
+    {
+      "text": " November",
+      "startMs": 1582,
+      "endMs": 1978,
+      "timestampMs": 1582,
+      "confidence": null
+    },
+    {
+      "text": " 12,",
+      "startMs": 1978,
+      "endMs": 2374,
+      "timestampMs": 1978,
+      "confidence": null
+    },
+    {
+      "text": " 1954,",
+      "startMs": 2374,
+      "endMs": 2770,
+      "timestampMs": 2374,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 2769,
+      "endMs": 3165,
+      "timestampMs": 2769,
+      "confidence": null
+    },
+    {
+      "text": " weekly",
+      "startMs": 3165,
+      "endMs": 3561,
+      "timestampMs": 3165,
+      "confidence": null
+    },
+    {
+      "text": " payroll",
+      "startMs": 3561,
+      "endMs": 3957,
+      "timestampMs": 3561,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 3956,
+      "endMs": 4352,
+      "timestampMs": 3956,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 4352,
+      "endMs": 4748,
+      "timestampMs": 4352,
+      "confidence": null
+    },
+    {
+      "text": " Tern",
+      "startMs": 4747,
+      "endMs": 5143,
+      "timestampMs": 4747,
+      "confidence": null
+    },
+    {
+      "text": " River",
+      "startMs": 5143,
+      "endMs": 5539,
+      "timestampMs": 5143,
+      "confidence": null
+    },
+    {
+      "text": " Mill",
+      "startMs": 5539,
+      "endMs": 5935,
+      "timestampMs": 5539,
+      "confidence": null
+    },
+    {
+      "text": " was",
+      "startMs": 5934,
+      "endMs": 6330,
+      "timestampMs": 5934,
+      "confidence": null
+    },
+    {
+      "text": " gone",
+      "startMs": 6330,
+      "endMs": 6726,
+      "timestampMs": 6330,
+      "confidence": null
+    },
+    {
+      "text": " from",
+      "startMs": 6726,
+      "endMs": 7122,
+      "timestampMs": 6726,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 7121,
+      "endMs": 7517,
+      "timestampMs": 7121,
+      "confidence": null
+    },
+    {
+      "text": " office",
+      "startMs": 7517,
+      "endMs": 7913,
+      "timestampMs": 7517,
+      "confidence": null
+    },
+    {
+      "text": " safe.",
+      "startMs": 7912,
+      "endMs": 8308,
+      "timestampMs": 7912,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 8308,
+      "endMs": 8634,
+      "timestampMs": 8308,
+      "confidence": null
+    },
+    {
+      "text": " police",
+      "startMs": 8634,
+      "endMs": 8960,
+      "timestampMs": 8634,
+      "confidence": null
+    },
+    {
+      "text": " report",
+      "startMs": 8959,
+      "endMs": 9285,
+      "timestampMs": 8959,
+      "confidence": null
+    },
+    {
+      "text": " noted",
+      "startMs": 9285,
+      "endMs": 9611,
+      "timestampMs": 9285,
+      "confidence": null
+    },
+    {
+      "text": " one",
+      "startMs": 9611,
+      "endMs": 9937,
+      "timestampMs": 9611,
+      "confidence": null
+    },
+    {
+      "text": " detail",
+      "startMs": 9936,
+      "endMs": 10262,
+      "timestampMs": 9936,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 10262,
+      "endMs": 10588,
+      "timestampMs": 10262,
+      "confidence": null
+    },
+    {
+      "text": " would",
+      "startMs": 10588,
+      "endMs": 10914,
+      "timestampMs": 10588,
+      "confidence": null
+    },
+    {
+      "text": " shape",
+      "startMs": 10913,
+      "endMs": 11239,
+      "timestampMs": 10913,
+      "confidence": null
+    },
+    {
+      "text": " everything",
+      "startMs": 11239,
+      "endMs": 11565,
+      "timestampMs": 11239,
+      "confidence": null
+    },
+    {
+      "text": " after:",
+      "startMs": 11565,
+      "endMs": 11891,
+      "timestampMs": 11565,
+      "confidence": null
+    },
+    {
+      "text": " no",
+      "startMs": 11891,
+      "endMs": 12217,
+      "timestampMs": 11891,
+      "confidence": null
+    },
+    {
+      "text": " signs",
+      "startMs": 12216,
+      "endMs": 12542,
+      "timestampMs": 12216,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 12542,
+      "endMs": 12868,
+      "timestampMs": 12542,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 12868,
+      "endMs": 13194,
+      "timestampMs": 12868,
+      "confidence": null
+    },
+    {
+      "text": " safe",
+      "startMs": 13193,
+      "endMs": 13519,
+      "timestampMs": 13193,
+      "confidence": null
+    },
+    {
+      "text": " had",
+      "startMs": 13519,
+      "endMs": 13845,
+      "timestampMs": 13519,
+      "confidence": null
+    },
+    {
+      "text": " been",
+      "startMs": 13845,
+      "endMs": 14171,
+      "timestampMs": 13845,
+      "confidence": null
+    },
+    {
+      "text": " forced.",
+      "startMs": 14170,
+      "endMs": 14496,
+      "timestampMs": 14170,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 16096,
+      "endMs": 16566,
+      "timestampMs": 16096,
+      "confidence": null
+    },
+    {
+      "text": " cash,",
+      "startMs": 16566,
+      "endMs": 17036,
+      "timestampMs": 16566,
+      "confidence": null
+    },
+    {
+      "text": " eighteen",
+      "startMs": 17036,
+      "endMs": 17506,
+      "timestampMs": 17036,
+      "confidence": null
+    },
+    {
+      "text": " thousand",
+      "startMs": 17506,
+      "endMs": 17976,
+      "timestampMs": 17506,
+      "confidence": null
+    },
+    {
+      "text": " four",
+      "startMs": 17975,
+      "endMs": 18445,
+      "timestampMs": 17975,
+      "confidence": null
+    },
+    {
+      "text": " hundred",
+      "startMs": 18445,
+      "endMs": 18915,
+      "timestampMs": 18445,
+      "confidence": null
+    },
+    {
+      "text": " dollars,",
+      "startMs": 18915,
+      "endMs": 19385,
+      "timestampMs": 18915,
+      "confidence": null
+    },
+    {
+      "text": " had",
+      "startMs": 19385,
+      "endMs": 19855,
+      "timestampMs": 19385,
+      "confidence": null
+    },
+    {
+      "text": " been",
+      "startMs": 19855,
+      "endMs": 20325,
+      "timestampMs": 19855,
+      "confidence": null
+    },
+    {
+      "text": " locked",
+      "startMs": 20325,
+      "endMs": 20795,
+      "timestampMs": 20325,
+      "confidence": null
+    },
+    {
+      "text": " inside",
+      "startMs": 20795,
+      "endMs": 21265,
+      "timestampMs": 20795,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 21264,
+      "endMs": 21734,
+      "timestampMs": 21264,
+      "confidence": null
+    },
+    {
+      "text": " afternoon",
+      "startMs": 21734,
+      "endMs": 22204,
+      "timestampMs": 21734,
+      "confidence": null
+    },
+    {
+      "text": " before.",
+      "startMs": 22204,
+      "endMs": 22674,
+      "timestampMs": 22204,
+      "confidence": null
+    },
+    {
+      "text": " At",
+      "startMs": 22674,
+      "endMs": 23098,
+      "timestampMs": 22674,
+      "confidence": null
+    },
+    {
+      "text": " trial,",
+      "startMs": 23098,
+      "endMs": 23522,
+      "timestampMs": 23098,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 23521,
+      "endMs": 23945,
+      "timestampMs": 23521,
+      "confidence": null
+    },
+    {
+      "text": " mill's",
+      "startMs": 23945,
+      "endMs": 24369,
+      "timestampMs": 23945,
+      "confidence": null
+    },
+    {
+      "text": " office",
+      "startMs": 24368,
+      "endMs": 24792,
+      "timestampMs": 24368,
+      "confidence": null
+    },
+    {
+      "text": " manager",
+      "startMs": 24792,
+      "endMs": 25216,
+      "timestampMs": 24792,
+      "confidence": null
+    },
+    {
+      "text": " testified",
+      "startMs": 25216,
+      "endMs": 25640,
+      "timestampMs": 25216,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 25639,
+      "endMs": 26063,
+      "timestampMs": 25639,
+      "confidence": null
+    },
+    {
+      "text": " at",
+      "startMs": 26063,
+      "endMs": 26487,
+      "timestampMs": 26063,
+      "confidence": null
+    },
+    {
+      "text": " least",
+      "startMs": 26486,
+      "endMs": 26910,
+      "timestampMs": 26486,
+      "confidence": null
+    },
+    {
+      "text": " three",
+      "startMs": 26910,
+      "endMs": 27334,
+      "timestampMs": 26910,
+      "confidence": null
+    },
+    {
+      "text": " employees",
+      "startMs": 27334,
+      "endMs": 27758,
+      "timestampMs": 27334,
+      "confidence": null
+    },
+    {
+      "text": " knew",
+      "startMs": 27757,
+      "endMs": 28181,
+      "timestampMs": 27757,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 28181,
+      "endMs": 28605,
+      "timestampMs": 28181,
+      "confidence": null
+    },
+    {
+      "text": " combination.",
+      "startMs": 28604,
+      "endMs": 29028,
+      "timestampMs": 28604,
+      "confidence": null
+    },
+    {
+      "text": " Police",
+      "startMs": 29028,
+      "endMs": 29474,
+      "timestampMs": 29028,
+      "confidence": null
+    },
+    {
+      "text": " focused",
+      "startMs": 29474,
+      "endMs": 29920,
+      "timestampMs": 29474,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 29921,
+      "endMs": 30367,
+      "timestampMs": 29921,
+      "confidence": null
+    },
+    {
+      "text": " one",
+      "startMs": 30367,
+      "endMs": 30813,
+      "timestampMs": 30367,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 30813,
+      "endMs": 31259,
+      "timestampMs": 30813,
+      "confidence": null
+    },
+    {
+      "text": " them.",
+      "startMs": 31259,
+      "endMs": 31705,
+      "timestampMs": 31259,
+      "confidence": null
+    },
+    {
+      "text": " They",
+      "startMs": 31706,
+      "endMs": 32152,
+      "timestampMs": 31706,
+      "confidence": null
+    },
+    {
+      "text": " alleged",
+      "startMs": 32152,
+      "endMs": 32598,
+      "timestampMs": 32152,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 32598,
+      "endMs": 33044,
+      "timestampMs": 32598,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 33045,
+      "endMs": 33491,
+      "timestampMs": 33045,
+      "confidence": null
+    },
+    {
+      "text": " bookkeeper,",
+      "startMs": 33491,
+      "endMs": 33937,
+      "timestampMs": 33491,
+      "confidence": null
+    },
+    {
+      "text": " Oren",
+      "startMs": 33937,
+      "endMs": 34383,
+      "timestampMs": 33937,
+      "confidence": null
+    },
+    {
+      "text": " Tallis,",
+      "startMs": 34383,
+      "endMs": 34829,
+      "timestampMs": 34383,
+      "confidence": null
+    },
+    {
+      "text": " had",
+      "startMs": 34830,
+      "endMs": 35276,
+      "timestampMs": 34830,
+      "confidence": null
+    },
+    {
+      "text": " opened",
+      "startMs": 35276,
+      "endMs": 35722,
+      "timestampMs": 35276,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 35722,
+      "endMs": 36168,
+      "timestampMs": 35722,
+      "confidence": null
+    },
+    {
+      "text": " safe",
+      "startMs": 36168,
+      "endMs": 36614,
+      "timestampMs": 36168,
+      "confidence": null
+    },
+    {
+      "text": " himself.",
+      "startMs": 36615,
+      "endMs": 37061,
+      "timestampMs": 36615,
+      "confidence": null
+    },
+    {
+      "text": " Tallis",
+      "startMs": 37061,
+      "endMs": 37555,
+      "timestampMs": 37061,
+      "confidence": null
+    },
+    {
+      "text": " denied",
+      "startMs": 37555,
+      "endMs": 38049,
+      "timestampMs": 37555,
+      "confidence": null
+    },
+    {
+      "text": " taking",
+      "startMs": 38049,
+      "endMs": 38543,
+      "timestampMs": 38049,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 38543,
+      "endMs": 39037,
+      "timestampMs": 38543,
+      "confidence": null
+    },
+    {
+      "text": " money.",
+      "startMs": 39037,
+      "endMs": 39531,
+      "timestampMs": 39037,
+      "confidence": null
+    },
+    {
+      "text": " In",
+      "startMs": 39531,
+      "endMs": 40042,
+      "timestampMs": 39531,
+      "confidence": null
+    },
+    {
+      "text": " December",
+      "startMs": 40042,
+      "endMs": 40553,
+      "timestampMs": 40042,
+      "confidence": null
+    },
+    {
+      "text": " 1954,",
+      "startMs": 40553,
+      "endMs": 41064,
+      "timestampMs": 40553,
+      "confidence": null
+    },
+    {
+      "text": " he",
+      "startMs": 41064,
+      "endMs": 41575,
+      "timestampMs": 41064,
+      "confidence": null
+    },
+    {
+      "text": " was",
+      "startMs": 41575,
+      "endMs": 42086,
+      "timestampMs": 41575,
+      "confidence": null
+    },
+    {
+      "text": " charged",
+      "startMs": 42086,
+      "endMs": 42597,
+      "timestampMs": 42086,
+      "confidence": null
+    },
+    {
+      "text": " with",
+      "startMs": 42597,
+      "endMs": 43108,
+      "timestampMs": 42597,
+      "confidence": null
+    },
+    {
+      "text": " larceny.",
+      "startMs": 43108,
+      "endMs": 43619,
+      "timestampMs": 43108,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 44819,
+      "endMs": 45165,
+      "timestampMs": 44819,
+      "confidence": null
+    },
+    {
+      "text": " night",
+      "startMs": 45165,
+      "endMs": 45511,
+      "timestampMs": 45165,
+      "confidence": null
+    },
+    {
+      "text": " watchman",
+      "startMs": 45512,
+      "endMs": 45858,
+      "timestampMs": 45512,
+      "confidence": null
+    },
+    {
+      "text": " testified",
+      "startMs": 45858,
+      "endMs": 46204,
+      "timestampMs": 45858,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 46205,
+      "endMs": 46551,
+      "timestampMs": 46205,
+      "confidence": null
+    },
+    {
+      "text": " he",
+      "startMs": 46551,
+      "endMs": 46897,
+      "timestampMs": 46551,
+      "confidence": null
+    },
+    {
+      "text": " saw",
+      "startMs": 46897,
+      "endMs": 47243,
+      "timestampMs": 46897,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 47244,
+      "endMs": 47590,
+      "timestampMs": 47244,
+      "confidence": null
+    },
+    {
+      "text": " light",
+      "startMs": 47590,
+      "endMs": 47936,
+      "timestampMs": 47590,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 47937,
+      "endMs": 48283,
+      "timestampMs": 47937,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 48283,
+      "endMs": 48629,
+      "timestampMs": 48283,
+      "confidence": null
+    },
+    {
+      "text": " office",
+      "startMs": 48630,
+      "endMs": 48976,
+      "timestampMs": 48630,
+      "confidence": null
+    },
+    {
+      "text": " window",
+      "startMs": 48976,
+      "endMs": 49322,
+      "timestampMs": 48976,
+      "confidence": null
+    },
+    {
+      "text": " at",
+      "startMs": 49322,
+      "endMs": 49668,
+      "timestampMs": 49322,
+      "confidence": null
+    },
+    {
+      "text": " about",
+      "startMs": 49669,
+      "endMs": 50015,
+      "timestampMs": 49669,
+      "confidence": null
+    },
+    {
+      "text": " two",
+      "startMs": 50015,
+      "endMs": 50361,
+      "timestampMs": 50015,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 50362,
+      "endMs": 50708,
+      "timestampMs": 50362,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 50708,
+      "endMs": 51054,
+      "timestampMs": 50708,
+      "confidence": null
+    },
+    {
+      "text": " morning.",
+      "startMs": 51054,
+      "endMs": 51400,
+      "timestampMs": 51054,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 51401,
+      "endMs": 51747,
+      "timestampMs": 51401,
+      "confidence": null
+    },
+    {
+      "text": " local",
+      "startMs": 51747,
+      "endMs": 52093,
+      "timestampMs": 51747,
+      "confidence": null
+    },
+    {
+      "text": " paper,",
+      "startMs": 52094,
+      "endMs": 52440,
+      "timestampMs": 52094,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 52440,
+      "endMs": 52786,
+      "timestampMs": 52440,
+      "confidence": null
+    },
+    {
+      "text": " day",
+      "startMs": 52786,
+      "endMs": 53132,
+      "timestampMs": 52786,
+      "confidence": null
+    },
+    {
+      "text": " after",
+      "startMs": 53133,
+      "endMs": 53479,
+      "timestampMs": 53133,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 53479,
+      "endMs": 53825,
+      "timestampMs": 53479,
+      "confidence": null
+    },
+    {
+      "text": " theft,",
+      "startMs": 53826,
+      "endMs": 54172,
+      "timestampMs": 53826,
+      "confidence": null
+    },
+    {
+      "text": " had",
+      "startMs": 54172,
+      "endMs": 54518,
+      "timestampMs": 54172,
+      "confidence": null
+    },
+    {
+      "text": " reported",
+      "startMs": 54519,
+      "endMs": 54865,
+      "timestampMs": 54519,
+      "confidence": null
+    },
+    {
+      "text": " that",
+      "startMs": 54865,
+      "endMs": 55211,
+      "timestampMs": 54865,
+      "confidence": null
+    },
+    {
+      "text": " light",
+      "startMs": 55211,
+      "endMs": 55557,
+      "timestampMs": 55211,
+      "confidence": null
+    },
+    {
+      "text": " shortly",
+      "startMs": 55558,
+      "endMs": 55904,
+      "timestampMs": 55558,
+      "confidence": null
+    },
+    {
+      "text": " after",
+      "startMs": 55904,
+      "endMs": 56250,
+      "timestampMs": 55904,
+      "confidence": null
+    },
+    {
+      "text": " midnight.",
+      "startMs": 56251,
+      "endMs": 56597,
+      "timestampMs": 56251,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 56597,
+      "endMs": 56917,
+      "timestampMs": 56597,
+      "confidence": null
+    },
+    {
+      "text": " case",
+      "startMs": 56917,
+      "endMs": 57237,
+      "timestampMs": 56917,
+      "confidence": null
+    },
+    {
+      "text": " would",
+      "startMs": 57236,
+      "endMs": 57556,
+      "timestampMs": 57236,
+      "confidence": null
+    },
+    {
+      "text": " turn",
+      "startMs": 57556,
+      "endMs": 57876,
+      "timestampMs": 57556,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 57875,
+      "endMs": 58195,
+      "timestampMs": 57875,
+      "confidence": null
+    },
+    {
+      "text": " what",
+      "startMs": 58195,
+      "endMs": 58515,
+      "timestampMs": 58195,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 58514,
+      "endMs": 58834,
+      "timestampMs": 58514,
+      "confidence": null
+    },
+    {
+      "text": " prosecution",
+      "startMs": 58834,
+      "endMs": 59154,
+      "timestampMs": 58834,
+      "confidence": null
+    },
+    {
+      "text": " could",
+      "startMs": 59154,
+      "endMs": 59474,
+      "timestampMs": 59154,
+      "confidence": null
+    },
+    {
+      "text": " prove,",
+      "startMs": 59473,
+      "endMs": 59793,
+      "timestampMs": 59473,
+      "confidence": null
+    },
+    {
+      "text": " not",
+      "startMs": 59793,
+      "endMs": 60113,
+      "timestampMs": 59793,
+      "confidence": null
+    },
+    {
+      "text": " on",
+      "startMs": 60112,
+      "endMs": 60432,
+      "timestampMs": 60112,
+      "confidence": null
+    },
+    {
+      "text": " what",
+      "startMs": 60432,
+      "endMs": 60752,
+      "timestampMs": 60432,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 60751,
+      "endMs": 61071,
+      "timestampMs": 60751,
+      "confidence": null
+    },
+    {
+      "text": " could",
+      "startMs": 61071,
+      "endMs": 61391,
+      "timestampMs": 61071,
+      "confidence": null
+    },
+    {
+      "text": " suggest.",
+      "startMs": 61390,
+      "endMs": 61710,
+      "timestampMs": 61390,
+      "confidence": null
+    },
+    {
+      "text": " In",
+      "startMs": 62910,
+      "endMs": 63413,
+      "timestampMs": 62910,
+      "confidence": null
+    },
+    {
+      "text": " March",
+      "startMs": 63413,
+      "endMs": 63916,
+      "timestampMs": 63413,
+      "confidence": null
+    },
+    {
+      "text": " 1955,",
+      "startMs": 63916,
+      "endMs": 64419,
+      "timestampMs": 63916,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 64419,
+      "endMs": 64922,
+      "timestampMs": 64419,
+      "confidence": null
+    },
+    {
+      "text": " jury",
+      "startMs": 64922,
+      "endMs": 65425,
+      "timestampMs": 64922,
+      "confidence": null
+    },
+    {
+      "text": " acquitted",
+      "startMs": 65425,
+      "endMs": 65928,
+      "timestampMs": 65425,
+      "confidence": null
+    },
+    {
+      "text": " Tallis.",
+      "startMs": 65927,
+      "endMs": 66430,
+      "timestampMs": 65927,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 66430,
+      "endMs": 66933,
+      "timestampMs": 66430,
+      "confidence": null
+    },
+    {
+      "text": " judge's",
+      "startMs": 66933,
+      "endMs": 67436,
+      "timestampMs": 66933,
+      "confidence": null
+    },
+    {
+      "text": " written",
+      "startMs": 67436,
+      "endMs": 67939,
+      "timestampMs": 67436,
+      "confidence": null
+    },
+    {
+      "text": " ruling",
+      "startMs": 67939,
+      "endMs": 68442,
+      "timestampMs": 67939,
+      "confidence": null
+    },
+    {
+      "text": " put",
+      "startMs": 68442,
+      "endMs": 68945,
+      "timestampMs": 68442,
+      "confidence": null
+    },
+    {
+      "text": " it",
+      "startMs": 68945,
+      "endMs": 69448,
+      "timestampMs": 68945,
+      "confidence": null
+    },
+    {
+      "text": " plainly:",
+      "startMs": 69448,
+      "endMs": 69951,
+      "timestampMs": 69448,
+      "confidence": null
+    },
+    {
+      "text": " \"Suspicion,",
+      "startMs": 69951,
+      "endMs": 70454,
+      "timestampMs": 69951,
+      "confidence": null
+    },
+    {
+      "text": " however",
+      "startMs": 70454,
+      "endMs": 70957,
+      "timestampMs": 70454,
+      "confidence": null
+    },
+    {
+      "text": " strong,",
+      "startMs": 70956,
+      "endMs": 71459,
+      "timestampMs": 70956,
+      "confidence": null
+    },
+    {
+      "text": " is",
+      "startMs": 71459,
+      "endMs": 71962,
+      "timestampMs": 71459,
+      "confidence": null
+    },
+    {
+      "text": " not",
+      "startMs": 71962,
+      "endMs": 72465,
+      "timestampMs": 71962,
+      "confidence": null
+    },
+    {
+      "text": " proof.\"",
+      "startMs": 72465,
+      "endMs": 72968,
+      "timestampMs": 72465,
+      "confidence": null
+    },
+    {
+      "text": " Some",
+      "startMs": 74968,
+      "endMs": 75389,
+      "timestampMs": 74968,
+      "confidence": null
+    },
+    {
+      "text": " online",
+      "startMs": 75389,
+      "endMs": 75810,
+      "timestampMs": 75389,
+      "confidence": null
+    },
+    {
+      "text": " retellings",
+      "startMs": 75810,
+      "endMs": 76231,
+      "timestampMs": 75810,
+      "confidence": null
+    },
+    {
+      "text": " say",
+      "startMs": 76231,
+      "endMs": 76652,
+      "timestampMs": 76231,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 76652,
+      "endMs": 77073,
+      "timestampMs": 76652,
+      "confidence": null
+    },
+    {
+      "text": " case",
+      "startMs": 77073,
+      "endMs": 77494,
+      "timestampMs": 77073,
+      "confidence": null
+    },
+    {
+      "text": " ended",
+      "startMs": 77494,
+      "endMs": 77915,
+      "timestampMs": 77494,
+      "confidence": null
+    },
+    {
+      "text": " in",
+      "startMs": 77915,
+      "endMs": 78336,
+      "timestampMs": 77915,
+      "confidence": null
+    },
+    {
+      "text": " a",
+      "startMs": 78336,
+      "endMs": 78757,
+      "timestampMs": 78336,
+      "confidence": null
+    },
+    {
+      "text": " jail",
+      "startMs": 78757,
+      "endMs": 79178,
+      "timestampMs": 78757,
+      "confidence": null
+    },
+    {
+      "text": " sentence.",
+      "startMs": 79178,
+      "endMs": 79599,
+      "timestampMs": 79178,
+      "confidence": null
+    },
+    {
+      "text": " The",
+      "startMs": 79600,
+      "endMs": 80021,
+      "timestampMs": 79600,
+      "confidence": null
+    },
+    {
+      "text": " court",
+      "startMs": 80021,
+      "endMs": 80442,
+      "timestampMs": 80021,
+      "confidence": null
+    },
+    {
+      "text": " record",
+      "startMs": 80442,
+      "endMs": 80863,
+      "timestampMs": 80442,
+      "confidence": null
+    },
+    {
+      "text": " says",
+      "startMs": 80863,
+      "endMs": 81284,
+      "timestampMs": 80863,
+      "confidence": null
+    },
+    {
+      "text": " otherwise:",
+      "startMs": 81284,
+      "endMs": 81705,
+      "timestampMs": 81284,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 81705,
+      "endMs": 82126,
+      "timestampMs": 81705,
+      "confidence": null
+    },
+    {
+      "text": " only",
+      "startMs": 82126,
+      "endMs": 82547,
+      "timestampMs": 82126,
+      "confidence": null
+    },
+    {
+      "text": " person",
+      "startMs": 82547,
+      "endMs": 82968,
+      "timestampMs": 82547,
+      "confidence": null
+    },
+    {
+      "text": " charged",
+      "startMs": 82968,
+      "endMs": 83389,
+      "timestampMs": 82968,
+      "confidence": null
+    },
+    {
+      "text": " was",
+      "startMs": 83389,
+      "endMs": 83810,
+      "timestampMs": 83389,
+      "confidence": null
+    },
+    {
+      "text": " acquitted.",
+      "startMs": 83810,
+      "endMs": 84231,
+      "timestampMs": 83810,
+      "confidence": null
+    },
+    {
+      "text": " As",
+      "startMs": 84231,
+      "endMs": 84722,
+      "timestampMs": 84231,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 84722,
+      "endMs": 85213,
+      "timestampMs": 84722,
+      "confidence": null
+    },
+    {
+      "text": " April",
+      "startMs": 85213,
+      "endMs": 85704,
+      "timestampMs": 85213,
+      "confidence": null
+    },
+    {
+      "text": " 1955,",
+      "startMs": 85704,
+      "endMs": 86195,
+      "timestampMs": 85704,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 86195,
+      "endMs": 86686,
+      "timestampMs": 86195,
+      "confidence": null
+    },
+    {
+      "text": " payroll",
+      "startMs": 86686,
+      "endMs": 87177,
+      "timestampMs": 86686,
+      "confidence": null
+    },
+    {
+      "text": " had",
+      "startMs": 87176,
+      "endMs": 87667,
+      "timestampMs": 87176,
+      "confidence": null
+    },
+    {
+      "text": " not",
+      "startMs": 87667,
+      "endMs": 88158,
+      "timestampMs": 87667,
+      "confidence": null
+    },
+    {
+      "text": " been",
+      "startMs": 88158,
+      "endMs": 88649,
+      "timestampMs": 88158,
+      "confidence": null
+    },
+    {
+      "text": " recovered.",
+      "startMs": 88649,
+      "endMs": 89140,
+      "timestampMs": 88649,
+      "confidence": null
+    },
+    {
+      "text": " We",
+      "startMs": 89140,
+      "endMs": 89537,
+      "timestampMs": 89140,
+      "confidence": null
+    },
+    {
+      "text": " found",
+      "startMs": 89537,
+      "endMs": 89934,
+      "timestampMs": 89537,
+      "confidence": null
+    },
+    {
+      "text": " no",
+      "startMs": 89934,
+      "endMs": 90331,
+      "timestampMs": 89934,
+      "confidence": null
+    },
+    {
+      "text": " record",
+      "startMs": 90331,
+      "endMs": 90728,
+      "timestampMs": 90331,
+      "confidence": null
+    },
+    {
+      "text": " of",
+      "startMs": 90727,
+      "endMs": 91124,
+      "timestampMs": 90727,
+      "confidence": null
+    },
+    {
+      "text": " anyone",
+      "startMs": 91124,
+      "endMs": 91521,
+      "timestampMs": 91124,
+      "confidence": null
+    },
+    {
+      "text": " else",
+      "startMs": 91521,
+      "endMs": 91918,
+      "timestampMs": 91521,
+      "confidence": null
+    },
+    {
+      "text": " being",
+      "startMs": 91918,
+      "endMs": 92315,
+      "timestampMs": 91918,
+      "confidence": null
+    },
+    {
+      "text": " charged,",
+      "startMs": 92315,
+      "endMs": 92712,
+      "timestampMs": 92315,
+      "confidence": null
+    },
+    {
+      "text": " though",
+      "startMs": 92712,
+      "endMs": 93109,
+      "timestampMs": 92712,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 93109,
+      "endMs": 93506,
+      "timestampMs": 93109,
+      "confidence": null
+    },
+    {
+      "text": " surviving",
+      "startMs": 93506,
+      "endMs": 93903,
+      "timestampMs": 93506,
+      "confidence": null
+    },
+    {
+      "text": " sources",
+      "startMs": 93902,
+      "endMs": 94299,
+      "timestampMs": 93902,
+      "confidence": null
+    },
+    {
+      "text": " are",
+      "startMs": 94299,
+      "endMs": 94696,
+      "timestampMs": 94299,
+      "confidence": null
+    },
+    {
+      "text": " thin.",
+      "startMs": 94696,
+      "endMs": 95093,
+      "timestampMs": 94696,
+      "confidence": null
+    },
+    {
+      "text": " Which",
+      "startMs": 95093,
+      "endMs": 95345,
+      "timestampMs": 95093,
+      "confidence": null
+    },
+    {
+      "text": " leaves",
+      "startMs": 95345,
+      "endMs": 95597,
+      "timestampMs": 95345,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 95597,
+      "endMs": 95849,
+      "timestampMs": 95597,
+      "confidence": null
+    },
+    {
+      "text": " question",
+      "startMs": 95850,
+      "endMs": 96102,
+      "timestampMs": 95850,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 96102,
+      "endMs": 96354,
+      "timestampMs": 96102,
+      "confidence": null
+    },
+    {
+      "text": " court",
+      "startMs": 96354,
+      "endMs": 96606,
+      "timestampMs": 96354,
+      "confidence": null
+    },
+    {
+      "text": " could",
+      "startMs": 96606,
+      "endMs": 96858,
+      "timestampMs": 96606,
+      "confidence": null
+    },
+    {
+      "text": " not",
+      "startMs": 96859,
+      "endMs": 97111,
+      "timestampMs": 96859,
+      "confidence": null
+    },
+    {
+      "text": " answer:",
+      "startMs": 97111,
+      "endMs": 97363,
+      "timestampMs": 97111,
+      "confidence": null
+    },
+    {
+      "text": " who",
+      "startMs": 97363,
+      "endMs": 97615,
+      "timestampMs": 97363,
+      "confidence": null
+    },
+    {
+      "text": " opened",
+      "startMs": 97615,
+      "endMs": 97867,
+      "timestampMs": 97615,
+      "confidence": null
+    },
+    {
+      "text": " the",
+      "startMs": 97868,
+      "endMs": 98120,
+      "timestampMs": 97868,
+      "confidence": null
+    },
+    {
+      "text": " safe?",
+      "startMs": 98120,
+      "endMs": 98372,
+      "timestampMs": 98120,
+      "confidence": null
+    }
+  ]
+}

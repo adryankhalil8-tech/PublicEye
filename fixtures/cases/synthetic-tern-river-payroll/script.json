@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "script",
+  "title": "SYNTHETIC — The Tern River Mill Payroll",
+  "status": "DRAFT",
+  "wordsPerMinute": 150,
+  "units": [
+    {
+      "id": "nu-001",
+      "sequenceId": "seq-hook",
+      "text": "On the morning of November 12, 1954, the weekly payroll of the Tern River Mill was gone from the office safe.",
+      "framing": "STATED",
+      "claimIds": ["clm-payroll-missing"]
+    },
+    {
+      "id": "nu-002",
+      "sequenceId": "seq-hook",
+      "text": "The police report noted one detail that would shape everything after: no signs that the safe had been forced.",
+      "framing": "STATED",
+      "claimIds": ["clm-safe-not-forced"],
+      "pauseAfterSec": 0.8
+    },
+    {
+      "id": "nu-003",
+      "sequenceId": "seq-inciting",
+      "text": "The cash, eighteen thousand four hundred dollars, had been locked inside the afternoon before.",
+      "framing": "STATED",
+      "claimIds": ["clm-payroll-deposited", "clm-payroll-missing"]
+    },
+    {
+      "id": "nu-004",
+      "sequenceId": "seq-inciting",
+      "text": "At trial, the mill's office manager testified that at least three employees knew the combination.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-combination-known"]
+    },
+    {
+      "id": "nu-005",
+      "sequenceId": "seq-investigation",
+      "text": "Police focused on one of them. They alleged that the bookkeeper, Oren Tallis, had opened the safe himself.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-police-alleged-tallis"]
+    },
+    {
+      "id": "nu-006",
+      "sequenceId": "seq-investigation",
+      "text": "Tallis denied taking the money.",
+      "framing": "ATTRIBUTED",
+      "claimIds": ["clm-tallis-denied"]
+    },
+    {
+      "id": "nu-007",
+      "sequenceId": "seq-investigation",
+      "text": "In December 1954, he was charged with larceny.",
+      "framing": "STATED",
+      "claimIds": ["clm-tallis-charged"],
+      "pauseAfterSec": 0.6
+    },
+    {
+      "id": "nu-008",
+      "sequenceId": "seq-court",
+      "text": "The night watchman testified that he saw a light in the office window at about two in the morning. The local paper, the day after the theft, had reported that light shortly after midnight.",
+      "framing": "DISPUTED",
+      "claimIds": [
+        "clm-watchman-testimony",
+        "clm-gazette-light-report",
+        "clm-light-time"
+      ]
+    },
+    {
+      "id": "nu-009",
+      "sequenceId": "seq-court",
+      "text": "The case would turn on what the prosecution could prove, not on what it could suggest.",
+      "framing": "NON_FACTUAL",
+      "pauseAfterSec": 0.6
+    },
+    {
+      "id": "nu-010",
+      "sequenceId": "seq-verdict",
+      "text": "In March 1955, the jury acquitted Tallis. The judge's written ruling put it plainly: \"Suspicion, however strong, is not proof.\"",
+      "framing": "STATED",
+      "claimIds": ["clm-tallis-acquitted", "clm-judge-quote"],
+      "pauseAfterSec": 1
+    },
+    {
+      "id": "nu-011",
+      "sequenceId": "seq-verdict",
+      "text": "Some online retellings say the case ended in a jail sentence. The court record says otherwise: the only person charged was acquitted.",
+      "framing": "CORRECTION",
+      "claimIds": [
+        "clm-myth-jailed",
+        "clm-tallis-acquitted",
+        "clm-tallis-charged"
+      ]
+    },
+    {
+      "id": "nu-012",
+      "sequenceId": "seq-unresolved",
+      "text": "As of April 1955, the payroll had not been recovered.",
+      "framing": "STATED",
+      "claimIds": ["clm-not-recovered"]
+    },
+    {
+      "id": "nu-013",
+      "sequenceId": "seq-unresolved",
+      "text": "We found no record of anyone else being charged, though the surviving sources are thin.",
+      "framing": "UNCERTAIN",
+      "claimIds": ["clm-no-other-charges"]
+    },
+    {
+      "id": "nu-014",
+      "sequenceId": "seq-unresolved",
+      "text": "Which leaves the question the court could not answer: who opened the safe?",
+      "framing": "NON_FACTUAL",
+      "pauseAfterSec": 1.5
+    }
+  ]
+}

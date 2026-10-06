@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "kind": "visual-plan",
+  "styleNotes": "Restrained, paper-and-ink documentary look. Evidence carries the frame; motion is slow and purposeful.",
+  "assetRequirements": [
+    {
+      "id": "req-report-texture",
+      "description": "Neutral paper texture behind the typeset report excerpt.",
+      "mediaType": "TEXTURE",
+      "mustBeAuthentic": false,
+      "status": "FULFILLED",
+      "fulfilledByAssetId": "ast-paper-texture"
+    },
+    {
+      "id": "req-office-illustration",
+      "description": "Simple labeled illustration of an office with a safe. Must not imply a real layout.",
+      "mediaType": "IMAGE",
+      "mustBeAuthentic": false,
+      "relatedClaimIds": ["clm-payroll-deposited"],
+      "status": "FULFILLED",
+      "fulfilledByAssetId": "ast-office-illustration"
+    },
+    {
+      "id": "req-mill-exterior",
+      "description": "Period photograph of the mill exterior.",
+      "mediaType": "IMAGE",
+      "mustBeAuthentic": true,
+      "status": "OPEN",
+      "notes": "Candidate ast-mill-photo has UNKNOWN rights; not fulfilled until cleared."
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "sequenceId": "seq-hook",
+      "purpose": "Open on the record, not on drama.",
+      "narrationIds": ["nu-001", "nu-002"],
+      "shotType": "DOCUMENT_HIGHLIGHT",
+      "visualIntent": "Show the police report and isolate the line recording no signs of force.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "assetRequirementIds": ["req-report-texture"],
+      "cameraDirection": {
+        "movement": "SLOW_PUSH_IN"
+      },
+      "compositionDirection": "Document fills left two-thirds; highlight lands on the no-force line.",
+      "transitionDirection": {
+        "type": "CUT"
+      },
+      "onScreenText": [
+        {
+          "text": "November 12, 1954",
+          "role": "DATE",
+          "claimIds": ["clm-payroll-missing"]
+        }
+      ],
+      "citationSourceIds": ["src-police-report"],
+      "beats": [
+        {
+          "id": "beat-01-establish",
+          "state": "ESTABLISH",
+          "target": "src-police-report",
+          "atNarrationId": "nu-001",
+          "offsetSec": 0,
+          "description": "Full report page.",
+          "claimIds": []
+        },
+        {
+          "id": "beat-01-highlight",
+          "state": "HIGHLIGHT",
+          "target": "excerpt:evd-not-forced-report",
+          "atNarrationId": "nu-002",
+          "offsetSec": 0.5,
+          "description": "Highlight the no-force line.",
+          "claimIds": ["clm-safe-not-forced"]
+        },
+        {
+          "id": "beat-01-dim",
+          "state": "DIM_OTHERS",
+          "target": "excerpt:evd-not-forced-report",
+          "atNarrationId": "nu-002",
+          "offsetSec": 2,
+          "description": "Dim everything but the no-force line.",
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "id": "shot-02",
+      "sequenceId": "seq-inciting",
+      "purpose": "Anchor the timeline with the deposit date.",
+      "narrationIds": ["nu-003"],
+      "shotType": "DATE_CARD",
+      "visualIntent": "Establish when the money went into the safe.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "DISSOLVE"
+      },
+      "onScreenText": [
+        {
+          "text": "November 11, 1954",
+          "role": "DATE",
+          "claimIds": ["clm-payroll-deposited"]
+        },
+        {
+          "text": "$18,400 placed in the office safe",
+          "role": "LABEL",
+          "claimIds": ["clm-payroll-missing"]
+        }
+      ],
+      "citationSourceIds": ["src-police-report"]
+    },
+    {
+      "id": "shot-03",
+      "sequenceId": "seq-inciting",
+      "purpose": "Give the viewer a mental picture without implying it is the real room.",
+      "narrationIds": ["nu-004"],
+      "shotType": "RECONSTRUCTION",
+      "visualIntent": "Abstract illustration of an office and safe, clearly labeled as an illustration.",
+      "representation": {
+        "type": "ILLUSTRATIVE",
+        "label": "ILLUSTRATION"
+      },
+      "assetRequirementIds": ["req-office-illustration"],
+      "cameraDirection": {
+        "movement": "STATIC"
+      },
+      "transitionDirection": {
+        "type": "CUT"
+      },
+      "citationSourceIds": ["src-court-opinion"]
+    },
+    {
+      "id": "shot-04",
+      "sequenceId": "seq-investigation",
+      "purpose": "Keep the allegation and the denial visibly attributed and side by side.",
+      "narrationIds": ["nu-005", "nu-006"],
+      "shotType": "EVIDENCE_DIAGRAM",
+      "visualIntent": "Two attributed statements side by side: what police alleged, what Tallis said.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "CUT"
+      },
+      "onScreenText": [
+        {
+          "text": "Oren Tallis",
+          "role": "NAME",
+          "claimIds": ["clm-police-alleged-tallis"]
+        },
+        {
+          "text": "Police alleged he opened the safe",
+          "role": "LABEL",
+          "claimIds": ["clm-police-alleged-tallis"]
+        },
+        {
+          "text": "Tallis denied taking the money",
+          "role": "LABEL",
+          "claimIds": ["clm-tallis-denied"]
+        }
+      ],
+      "citationSourceIds": ["src-police-report", "src-court-opinion"],
+      "beats": [
+        {
+          "id": "beat-04-allegation",
+          "state": "REVEAL",
+          "target": "card:1",
+          "atNarrationId": "nu-005",
+          "offsetSec": 0,
+          "description": "Police allegation card, attributed.",
+          "claimIds": ["clm-police-alleged-tallis"]
+        },
+        {
+          "id": "beat-04-denial",
+          "state": "COMPARE",
+          "target": "card:2",
+          "atNarrationId": "nu-006",
+          "offsetSec": 0,
+          "description": "Denial card beside it.",
+          "claimIds": ["clm-tallis-denied"]
+        }
+      ]
+    },
+    {
+      "id": "shot-05",
+      "sequenceId": "seq-investigation",
+      "purpose": "Place the charge in time, including the documented gap.",
+      "narrationIds": ["nu-007"],
+      "shotType": "TIMELINE",
+      "visualIntent": "Timeline from the theft to the trial with the charge marked and the undocumented pre-trial period visible.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "DISSOLVE"
+      },
+      "citationSourceIds": ["src-court-opinion"]
+    },
+    {
+      "id": "shot-06",
+      "sequenceId": "seq-court",
+      "purpose": "Show two conflicting times with their sources; do not resolve them.",
+      "narrationIds": ["nu-008"],
+      "shotType": "EVIDENCE_DIAGRAM",
+      "visualIntent": "Two cards: about 2 a.m. (trial testimony) and shortly after midnight (newspaper).",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "CUT"
+      },
+      "onScreenText": [
+        {
+          "text": "About 2 a.m.",
+          "role": "LABEL",
+          "claimIds": ["clm-watchman-testimony"]
+        },
+        {
+          "text": "Shortly after midnight",
+          "role": "LABEL",
+          "claimIds": ["clm-gazette-light-report"]
+        }
+      ],
+      "citationSourceIds": ["src-court-opinion", "src-gazette-1954"],
+      "beats": [
+        {
+          "id": "beat-06-testimony",
+          "state": "REVEAL",
+          "target": "card:1",
+          "atNarrationId": "nu-008",
+          "offsetSec": 0,
+          "description": "Testimony time.",
+          "claimIds": ["clm-watchman-testimony"]
+        },
+        {
+          "id": "beat-06-compare",
+          "state": "COMPARE",
+          "target": "card:2",
+          "atNarrationId": "nu-008",
+          "offsetSec": 5,
+          "description": "Newspaper time beside it; neither resolved.",
+          "claimIds": ["clm-gazette-light-report"]
+        }
+      ]
+    },
+    {
+      "id": "shot-07",
+      "sequenceId": "seq-court",
+      "purpose": "Breathing room before the verdict.",
+      "narrationIds": ["nu-009"],
+      "shotType": "TYPOGRAPHY",
+      "visualIntent": "Chapter card that lets the question of proof settle.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "FADE_THROUGH_BLACK"
+      },
+      "onScreenText": [
+        {
+          "text": "The Verdict",
+          "role": "TITLE"
+        }
+      ]
+    },
+    {
+      "id": "shot-08",
+      "sequenceId": "seq-verdict",
+      "purpose": "Let the court's own words land.",
+      "narrationIds": ["nu-010"],
+      "shotType": "QUOTE",
+      "visualIntent": "The judge's line, set large with attribution and date.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "CUT"
+      },
+      "onScreenText": [
+        {
+          "text": "Suspicion, however strong, is not proof.",
+          "role": "QUOTE",
+          "claimIds": ["clm-judge-quote"]
+        },
+        {
+          "text": "March 24, 1955",
+          "role": "DATE",
+          "claimIds": ["clm-tallis-acquitted"]
+        }
+      ],
+      "citationSourceIds": ["src-court-opinion"],
+      "beats": [
+        {
+          "id": "beat-08-hold",
+          "state": "HOLD",
+          "target": "quote",
+          "atNarrationId": "nu-010",
+          "offsetSec": 0,
+          "description": "Hold on the judge’s line while it is read; no movement competes with the words.",
+          "claimIds": ["clm-judge-quote"]
+        }
+      ]
+    },
+    {
+      "id": "shot-09",
+      "sequenceId": "seq-verdict",
+      "purpose": "Correct the myth against the record.",
+      "narrationIds": ["nu-011"],
+      "shotType": "DOCUMENT_HIGHLIGHT",
+      "visualIntent": "The court record's verdict line highlighted; the online claim is shown as struck through.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "CUT"
+      },
+      "citationSourceIds": ["src-court-opinion"],
+      "beats": [
+        {
+          "id": "beat-09-verdict",
+          "atNarrationId": "nu-011",
+          "offsetSec": 4,
+          "description": "Highlight the verdict line in the record.",
+          "claimIds": ["clm-tallis-acquitted"],
+          "state": "HIGHLIGHT",
+          "target": "excerpt:evd-acquitted-record"
+        }
+      ]
+    },
+    {
+      "id": "shot-10",
+      "sequenceId": "seq-unresolved",
+      "purpose": "Return to the place where it happened.",
+      "narrationIds": ["nu-012", "nu-013"],
+      "shotType": "MAP",
+      "visualIntent": "Abstract, not-to-scale map relating the mill and the courthouse.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "DISSOLVE"
+      },
+      "onScreenText": [
+        {
+          "text": "Tern River Mill",
+          "role": "LOCATION",
+          "claimIds": ["clm-payroll-missing"]
+        },
+        {
+          "text": "County Courthouse",
+          "role": "LOCATION",
+          "claimIds": ["clm-trial-date"]
+        }
+      ],
+      "citationSourceIds": ["src-gazette-1955"]
+    },
+    {
+      "id": "shot-11",
+      "sequenceId": "seq-unresolved",
+      "purpose": "End on the open question.",
+      "narrationIds": ["nu-014"],
+      "shotType": "TYPOGRAPHY",
+      "visualIntent": "The unanswered question, held on screen, then fade.",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "transitionDirection": {
+        "type": "FADE_THROUGH_BLACK"
+      },
+      "onScreenText": [
+        {
+          "text": "Who opened the safe?",
+          "role": "TITLE"
+        }
+      ]
+    }
+  ],
+  "visualBibleRevision": 1
+}

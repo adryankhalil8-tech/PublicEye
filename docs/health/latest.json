@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-01T00:15:19.400Z",
+  "version": "0.2.0",
+  "remotion": "4.0.530",
+  "gates": [
+    {
+      "name": "format",
+      "cmd": "npm run format:check",
+      "pass": true,
+      "seconds": 4.1
+    },
+    {
+      "name": "lint",
+      "cmd": "npm run lint",
+      "pass": true,
+      "seconds": 4.3
+    },
+    {
+      "name": "typecheck",
+      "cmd": "npm run typecheck",
+      "pass": true,
+      "seconds": 10.9
+    },
+    {
+      "name": "tests",
+      "cmd": "npx vitest run --reporter=default --reporter=json --outputFile=\"C:\\\\Users\\\\Student\\\\Desktop\\\\Personal Codes\\\\PublicEyeYT\\\\.health\\\\vitest.json\"",
+      "pass": true,
+      "seconds": 7.2
+    },
+    {
+      "name": "fixture",
+      "cmd": "npx tsx scripts/validate-case.ts \"C:\\\\Users\\\\Student\\\\Desktop\\\\Personal Codes\\\\PublicEyeYT\\\\fixtures\\\\cases\\\\synthetic-tern-river-payroll\"",
+      "pass": true,
+      "seconds": 2.6
+    },
+    {
+      "name": "compositions",
+      "cmd": "npm run compositions",
+      "pass": true,
+      "seconds": 6.8
+    },
+    {
+      "name": "bundle",
+      "cmd": "npm run build",
+      "pass": true,
+      "seconds": 6
+    }
+  ],
+  "allPassed": true,
+  "tests": {
+    "total": 214,
+    "passed": 214,
+    "failed": 0
+  },
+  "fixture": {
+    "errors": 0,
+    "warnings": 2,
+    "durationSec": 101.4,
+    "shots": 11
+  },
+  "codebase": {
+    "srcFiles": 73,
+    "srcLines": 8695,
+    "testFiles": 12,
+    "testLines": 2244
+  },
+  "totalGateSeconds": 41.9
+}

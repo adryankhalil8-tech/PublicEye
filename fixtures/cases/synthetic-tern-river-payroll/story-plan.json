@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "kind": "story-plan",
+  "angle": {
+    "id": "ang-the-only-suspect",
+    "title": "The Only Suspect",
+    "logline": "A payroll vanishes from an unforced safe. Police build their case around the bookkeeper. A jury rejects it, and the money is still missing.",
+    "centralQuestion": "If the only person charged was acquitted, what does the record actually tell us about who opened the safe?",
+    "whyItWorks": "The tension is real and documented: an unforced safe, a single suspect, an acquittal, and an open question. No invention needed.",
+    "requiredClaimIds": [
+      "clm-payroll-missing",
+      "clm-safe-not-forced",
+      "clm-tallis-charged",
+      "clm-tallis-acquitted"
+    ],
+    "risks": [
+      "Framing around 'the only suspect' can imply guilt. Every mention of Tallis's role must stay attributed, and the acquittal must be given full weight."
+    ]
+  },
+  "alternativeAngles": [],
+  "hook": {
+    "strategy": "DOCUMENT_DETAIL",
+    "description": "Open on the police report's line noting no signs of force on the safe.",
+    "claimIds": ["clm-payroll-missing", "clm-safe-not-forced"]
+  },
+  "centralQuestion": "If the only person charged was acquitted, what does the record actually tell us about who opened the safe?",
+  "narrativeArc": [
+    "HOOK",
+    "INCITING_EVENT",
+    "INVESTIGATION",
+    "COURT_CASE",
+    "VERDICT_OUTCOME",
+    "UNRESOLVED_QUESTIONS"
+  ],
+  "sequences": [
+    {
+      "id": "seq-hook",
+      "section": "HOOK",
+      "title": "An Unforced Safe",
+      "purpose": "Establish the loss and the one detail that shapes everything: no force.",
+      "targetDurationSec": 15,
+      "beats": [
+        {
+          "id": "sb-hook-missing",
+          "description": "The payroll is gone.",
+          "claimIds": ["clm-payroll-missing"],
+          "eventIds": ["evt-theft-discovered"]
+        },
+        {
+          "id": "sb-hook-no-force",
+          "description": "The report notes no force.",
+          "claimIds": ["clm-safe-not-forced"]
+        }
+      ]
+    },
+    {
+      "id": "seq-inciting",
+      "section": "INCITING_EVENT",
+      "title": "The Night Before",
+      "purpose": "Show when the money went in and who could open the safe.",
+      "targetDurationSec": 17,
+      "beats": [
+        {
+          "id": "sb-deposit",
+          "description": "Cash goes into the safe the afternoon before.",
+          "claimIds": ["clm-payroll-deposited"],
+          "eventIds": ["evt-payroll-deposited"]
+        },
+        {
+          "id": "sb-combination",
+          "description": "Several people knew the combination (testimony).",
+          "claimIds": ["clm-combination-known"]
+        }
+      ]
+    },
+    {
+      "id": "seq-investigation",
+      "section": "INVESTIGATION",
+      "title": "One Name",
+      "purpose": "Police allege Tallis opened the safe; he denies it; he is charged.",
+      "targetDurationSec": 20,
+      "beats": [
+        {
+          "id": "sb-allegation",
+          "description": "Police allegation, attributed.",
+          "claimIds": ["clm-police-alleged-tallis"],
+          "eventIds": ["evt-tallis-suspected"]
+        },
+        {
+          "id": "sb-denial",
+          "description": "Tallis's denial.",
+          "claimIds": ["clm-tallis-denied"]
+        },
+        {
+          "id": "sb-charge",
+          "description": "The charge.",
+          "claimIds": ["clm-tallis-charged"],
+          "eventIds": ["evt-tallis-charged"]
+        }
+      ]
+    },
+    {
+      "id": "seq-court",
+      "section": "COURT_CASE",
+      "title": "Two Times for One Light",
+      "purpose": "Present the conflicting accounts of the office light without resolving them.",
+      "targetDurationSec": 22,
+      "beats": [
+        {
+          "id": "sb-light-conflict",
+          "description": "Testimony vs. newspaper on the time of the light.",
+          "claimIds": [
+            "clm-watchman-testimony",
+            "clm-light-time",
+            "clm-gazette-light-report"
+          ],
+          "eventIds": ["evt-light-seen", "evt-trial"]
+        }
+      ]
+    },
+    {
+      "id": "seq-verdict",
+      "section": "VERDICT_OUTCOME",
+      "title": "Not Proof",
+      "purpose": "Deliver the acquittal and correct the online myth.",
+      "targetDurationSec": 21,
+      "beats": [
+        {
+          "id": "sb-acquittal",
+          "description": "The acquittal and the judge's line.",
+          "claimIds": ["clm-tallis-acquitted", "clm-judge-quote"],
+          "eventIds": ["evt-acquittal"]
+        },
+        {
+          "id": "sb-myth",
+          "description": "Correct the 'jail sentence' myth.",
+          "claimIds": ["clm-myth-jailed", "clm-tallis-acquitted"]
+        }
+      ]
+    },
+    {
+      "id": "seq-unresolved",
+      "section": "UNRESOLVED_QUESTIONS",
+      "title": "Still Missing",
+      "purpose": "State what is known, what is not, and end on the open question.",
+      "targetDurationSec": 15,
+      "beats": [
+        {
+          "id": "sb-not-recovered",
+          "description": "Money not recovered as of April 1955.",
+          "claimIds": ["clm-not-recovered"],
+          "eventIds": ["evt-still-missing"]
+        },
+        {
+          "id": "sb-no-record",
+          "description": "No record of other charges (uncertain).",
+          "claimIds": ["clm-no-other-charges"]
+        }
+      ]
+    }
+  ],
+  "reveals": [
+    {
+      "id": "rev-acquittal",
+      "description": "The investigation sequence builds the police case; the verdict sequence reveals the jury rejected it.",
+      "claimIds": ["clm-tallis-acquitted"],
+      "setupSequenceId": "seq-investigation",
+      "payoffSequenceId": "seq-verdict"
+    }
+  ],
+  "pacing": {
+    "targetTotalSec": 110,
+    "notes": "Fixture is short by design; real cases target 300 to 600 seconds."
+  },
+  "emotionalProgression": [
+    {
+      "sequenceId": "seq-hook",
+      "tone": "CURIOSITY",
+      "intensity": 2
+    },
+    {
+      "sequenceId": "seq-inciting",
+      "tone": "UNEASE",
+      "intensity": 2
+    },
+    {
+      "sequenceId": "seq-investigation",
+      "tone": "TENSION",
+      "intensity": 3
+    },
+    {
+      "sequenceId": "seq-court",
+      "tone": "TENSION",
+      "intensity": 4
+    },
+    {
+      "sequenceId": "seq-verdict",
+      "tone": "SURPRISE",
+      "intensity": 4
+    },
+    {
+      "sequenceId": "seq-unresolved",
+      "tone": "REFLECTIVE",
+      "intensity": 2
+    }
+  ],
+  "endingStrategy": {
+    "type": "OPEN_QUESTION",
+    "description": "End on the question the court could not answer, having stated exactly what is and is not known.",
+    "claimIds": ["clm-tallis-acquitted", "clm-not-recovered"]
+  }
+}

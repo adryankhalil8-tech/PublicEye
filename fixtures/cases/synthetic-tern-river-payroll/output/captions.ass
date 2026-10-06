@@ -1,0 +1,55 @@
+[Script Info]
+Title: SYNTHETIC TEST FIXTURE — The Tern River Mill Payroll
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,40,&H00DAE6EC,&H00DAE6EC,&H00000000,&H4709090A,0,0,0,0,100,100,0,0,3,10,0,2,120,120,72,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.17,Default,,0,0,0,,On the morning of November 12, 1954, the
+Dialogue: 0,0:00:03.17,0:00:06.33,Default,,0,0,0,,weekly payroll of the Tern River Mill was
+Dialogue: 0,0:00:06.33,0:00:08.31,Default,,0,0,0,,gone from the office safe.
+Dialogue: 0,0:00:08.31,0:00:10.59,Default,,0,0,0,,The police report noted one detail that
+Dialogue: 0,0:00:10.59,0:00:12.54,Default,,0,0,0,,would shape everything after: no signs
+Dialogue: 0,0:00:12.54,0:00:14.50,Default,,0,0,0,,that the safe had been forced.
+Dialogue: 0,0:00:16.10,0:00:18.92,Default,,0,0,0,,The cash, eighteen thousand four hundred
+Dialogue: 0,0:00:18.92,0:00:21.73,Default,,0,0,0,,dollars, had been locked inside the
+Dialogue: 0,0:00:21.73,0:00:22.67,Default,,0,0,0,,afternoon before.
+Dialogue: 0,0:00:22.67,0:00:25.22,Default,,0,0,0,,At trial, the mill's office manager
+Dialogue: 0,0:00:25.22,0:00:27.76,Default,,0,0,0,,testified that at least three employees
+Dialogue: 0,0:00:27.76,0:00:29.03,Default,,0,0,0,,knew the combination.
+Dialogue: 0,0:00:29.03,0:00:32.15,Default,,0,0,0,,Police focused on one of them. They
+Dialogue: 0,0:00:32.15,0:00:34.83,Default,,0,0,0,,alleged that the bookkeeper, Oren Tallis,
+Dialogue: 0,0:00:34.83,0:00:37.06,Default,,0,0,0,,had opened the safe himself.
+Dialogue: 0,0:00:37.06,0:00:39.53,Default,,0,0,0,,Tallis denied taking the money.
+Dialogue: 0,0:00:39.53,0:00:42.60,Default,,0,0,0,,In December 1954, he was charged
+Dialogue: 0,0:00:42.60,0:00:43.62,Default,,0,0,0,,with larceny.
+Dialogue: 0,0:00:44.82,0:00:47.59,Default,,0,0,0,,The night watchman testified that he saw a
+Dialogue: 0,0:00:47.59,0:00:50.71,Default,,0,0,0,,light in the office window at about two in
+Dialogue: 0,0:00:50.71,0:00:53.13,Default,,0,0,0,,the morning. The local paper, the day
+Dialogue: 0,0:00:53.13,0:00:55.56,Default,,0,0,0,,after the theft, had reported that light
+Dialogue: 0,0:00:55.56,0:00:56.60,Default,,0,0,0,,shortly after midnight.
+Dialogue: 0,0:00:56.60,0:00:58.83,Default,,0,0,0,,The case would turn on what the
+Dialogue: 0,0:00:58.83,0:01:01.07,Default,,0,0,0,,prosecution could prove, not on what it
+Dialogue: 0,0:01:01.07,0:01:01.71,Default,,0,0,0,,could suggest.
+Dialogue: 0,0:01:02.91,0:01:05.93,Default,,0,0,0,,In March 1955, the jury acquitted
+Dialogue: 0,0:01:05.93,0:01:08.95,Default,,0,0,0,,Tallis. The judge's written ruling put
+Dialogue: 0,0:01:08.95,0:01:11.96,Default,,0,0,0,,it plainly: "Suspicion, however strong, is
+Dialogue: 0,0:01:11.96,0:01:12.97,Default,,0,0,0,,not proof."
+Dialogue: 0,0:01:14.97,0:01:17.92,Default,,0,0,0,,Some online retellings say the case ended
+Dialogue: 0,0:01:17.92,0:01:21.28,Default,,0,0,0,,in a jail sentence. The court record says
+Dialogue: 0,0:01:21.28,0:01:23.81,Default,,0,0,0,,otherwise: the only person charged was
+Dialogue: 0,0:01:23.81,0:01:24.23,Default,,0,0,0,,acquitted.
+Dialogue: 0,0:01:24.23,0:01:27.67,Default,,0,0,0,,As of April 1955, the payroll had
+Dialogue: 0,0:01:27.67,0:01:29.14,Default,,0,0,0,,not been recovered.
+Dialogue: 0,0:01:29.14,0:01:32.32,Default,,0,0,0,,We found no record of anyone else being
+Dialogue: 0,0:01:32.32,0:01:34.70,Default,,0,0,0,,charged, though the surviving sources are
+Dialogue: 0,0:01:34.70,0:01:35.09,Default,,0,0,0,,thin.
+Dialogue: 0,0:01:35.09,0:01:36.86,Default,,0,0,0,,Which leaves the question the court could
+Dialogue: 0,0:01:36.86,0:01:38.37,Default,,0,0,0,,not answer: who opened the safe?

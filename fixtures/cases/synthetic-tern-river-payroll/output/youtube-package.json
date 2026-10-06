@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "youtube-package",
+  "caseId": "case-synthetic-tern-river-payroll",
+  "generatedAt": "2026-09-30T00:00:00Z",
+  "status": "DRAFT",
+  "titleCandidates": [
+    {
+      "text": "An Unforced Safe, One Suspect, and an Acquittal (Synthetic Test Case)",
+      "claimIds": [
+        "clm-safe-not-forced",
+        "clm-tallis-charged",
+        "clm-tallis-acquitted"
+      ],
+      "rationale": "States the documented shape of the case; the acquittal is in the title so it can't be read as a whodunit with an answer."
+    },
+    {
+      "text": "The Tern River Mill Payroll: Suspicion Is Not Proof (Synthetic Test Case)",
+      "claimIds": ["clm-payroll-missing", "clm-judge-quote"],
+      "rationale": "Uses the court's own verified words as the frame."
+    }
+  ],
+  "description": {
+    "text": "SYNTHETIC TEST FIXTURE — a fictional case used to test this production pipeline. Every person, place, and record is invented.\n\nIn November 1954 a mill payroll went missing from an office safe that showed no signs of force. Police alleged the bookkeeper opened it; he denied it, was charged, and a jury acquitted him in March 1955. As of April 1955 the money had not been recovered.\n\nSources are listed below. Illustrations are labeled on screen.",
+    "claimIds": [
+      "clm-payroll-missing",
+      "clm-safe-not-forced",
+      "clm-police-alleged-tallis",
+      "clm-tallis-denied",
+      "clm-tallis-charged",
+      "clm-tallis-acquitted",
+      "clm-not-recovered"
+    ]
+  },
+  "chapters": [
+    { "startSec": 0, "title": "An Unforced Safe" },
+    { "startSec": 16, "title": "The Night Before" },
+    { "startSec": 29, "title": "One Name" },
+    { "startSec": 44, "title": "Two Times for One Light" },
+    { "startSec": 62, "title": "Not Proof" },
+    { "startSec": 84, "title": "Still Missing" }
+  ],
+  "tags": [
+    "synthetic test case",
+    "pipeline fixture",
+    "court case documentary",
+    "unsolved theft"
+  ],
+  "thumbnailBrief": {
+    "concept": "The typeset police-report line 'No marks of force on safe door, dial, or hinges' with its highlight, on paper.",
+    "textOverlay": "NO SIGNS OF FORCE",
+    "imagery": "Record excerpt only (graphic, labeled typeset excerpt). No portrait, no illustration presented as real.",
+    "mustNotImply": [
+      "that Oren Tallis took the money (he was acquitted)",
+      "that the office illustration shows the real room",
+      "that this fictional case is real"
+    ]
+  },
+  "credits": [],
+  "sourceNotes": [
+    {
+      "sourceId": "src-police-report",
+      "citation": "Vellmoor Police Incident Report 54-311 (SYNTHETIC), Vellmoor Police Department (fictional), 1954-11-12, 54-311 (synthetic)"
+    },
+    {
+      "sourceId": "src-court-opinion",
+      "citation": "State v. Tallis — Trial Record and Ruling (SYNTHETIC), Vellmoor County Court (fictional), 1955-03-24, VC-1955-0142 (synthetic)"
+    },
+    {
+      "sourceId": "src-gazette-1954",
+      "citation": "Mill Payroll Vanishes Overnight (SYNTHETIC), Vellmoor Gazette (fictional), 1954-11-13"
+    },
+    {
+      "sourceId": "src-gazette-1955",
+      "citation": "Bookkeeper Acquitted in Payroll Case (SYNTHETIC), Vellmoor Gazette (fictional), 1955-04-02"
+    }
+  ],
+  "publishingChecklist": [
+    { "item": "Publication gate APPROVED by a human", "done": false },
+    {
+      "item": "captions.srt uploaded (master has no burned captions)",
+      "done": false
+    },
+    { "item": "Chapters pasted into description", "done": false },
+    { "item": "Sources and credits in description", "done": false },
+    { "item": "Thumbnail reviewed against mustNotImply", "done": false },
+    { "item": "Synthetic fixture: DO NOT PUBLISH", "done": false }
+  ]
+}

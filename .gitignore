@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build / render output
+dist/
+build/
+out/
+*.log
+
+# Secrets — never commit real keys. Copy .env.example to .env locally.
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Media library: binaries are large and rights-sensitive, so they stay local.
+# Provenance for every file is tracked in data/cases/<id>/assets.json.
+assets/**/*
+!assets/**/
+!assets/README.md
+!assets/**/.gitkeep
+# Fixture assets are original, project-owned, and needed for the fixture render.
+!assets/fixtures/**
+
+# Health-report scratch
+.health/
+
+# Rendered/produced media inside case workspaces (JSON artifacts stay tracked)
+**/output/*.mp4
+**/output/*.wav

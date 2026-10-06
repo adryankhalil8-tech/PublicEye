@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "kind": "claims",
+  "claims": [
+    {
+      "id": "clm-payroll-deposited",
+      "text": "The mill's weekly payroll cash was placed in the office safe on the afternoon of November 11, 1954.",
+      "category": "EVENT",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-police-report"],
+      "evidence": [
+        {
+          "id": "evd-deposit-report",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-police-report",
+            "page": "1",
+            "excerpt": "Payroll cash deposited in office safe approx. 4:30 p.m., 11 Nov."
+          }
+        }
+      ],
+      "entityIds": ["org-tern-river-mill", "loc-mill-office"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-payroll-missing",
+      "text": "On the morning of November 12, 1954, the Tern River Mill's weekly payroll of $18,400 was found missing from the office safe.",
+      "category": "EVENT",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-police-report", "src-gazette-1954"],
+      "evidence": [
+        {
+          "id": "evd-missing-report",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-police-report",
+            "page": "1",
+            "excerpt": "Reported 7:10 a.m., 12 Nov. Payroll ($18,400) absent from safe."
+          }
+        },
+        {
+          "id": "evd-missing-gazette",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-gazette-1954",
+            "paragraph": "1",
+            "excerpt": "The mill's $18,400 payroll was discovered missing Friday morning."
+          }
+        }
+      ],
+      "entityIds": ["org-tern-river-mill", "loc-mill-office"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-safe-not-forced",
+      "text": "The police report recorded no signs of forced entry to the safe.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-police-report"],
+      "evidence": [
+        {
+          "id": "evd-not-forced-report",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-police-report",
+            "page": "2",
+            "excerpt": "No marks of force on safe door, dial, or hinges."
+          }
+        }
+      ],
+      "entityIds": ["loc-mill-office"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-combination-known",
+      "text": "The mill's office manager testified that at least three employees knew the safe combination.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the mill's office manager",
+        "verb": "TESTIFIED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-court-opinion"],
+      "evidence": [
+        {
+          "id": "evd-combination-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Testimony summary",
+            "paragraph": "4",
+            "excerpt": "The office manager stated that no fewer than three employees had been given the combination."
+          }
+        }
+      ],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-police-alleged-tallis",
+      "text": "Police alleged that bookkeeper Oren Tallis opened the safe using the office combination.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "Vellmoor police",
+        "verb": "ALLEGED"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-police-report", "src-court-opinion"],
+      "evidence": [
+        {
+          "id": "evd-alleged-report",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-police-report",
+            "page": "3",
+            "excerpt": "Investigating officers believe the safe was opened by combination by bookkeeper O. Tallis."
+          }
+        },
+        {
+          "id": "evd-alleged-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Summary of charges",
+            "paragraph": "1"
+          }
+        }
+      ],
+      "entityIds": ["per-oren-tallis"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      },
+      "notes": "SUPPORTED means police really made this allegation — NOT that Tallis did it."
+    },
+    {
+      "id": "clm-tallis-denied",
+      "text": "Oren Tallis denied taking the money.",
+      "category": "INVESTIGATION",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "Oren Tallis",
+        "verb": "DENIED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-court-opinion"],
+      "evidence": [
+        {
+          "id": "evd-denied-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Testimony summary",
+            "paragraph": "9",
+            "excerpt": "The defendant denied any knowledge of the missing funds."
+          }
+        }
+      ],
+      "entityIds": ["per-oren-tallis"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-tallis-charged",
+      "text": "Oren Tallis was charged with larceny of the mill payroll in December 1954.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-oren-tallis",
+        "legalStatus": "CHARGED",
+        "matter": "Larceny of the Tern River Mill payroll"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-court-opinion"],
+      "evidence": [
+        {
+          "id": "evd-charged-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Procedural history",
+            "paragraph": "1",
+            "excerpt": "Information filed December 1954 charging the defendant with larceny."
+          }
+        }
+      ],
+      "entityIds": ["per-oren-tallis"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-trial-date",
+      "text": "The trial of Oren Tallis took place in March 1955.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-court-opinion"],
+      "evidence": [
+        {
+          "id": "evd-trial-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Procedural history",
+            "paragraph": "2",
+            "excerpt": "Trial commenced March 14, 1955."
+          }
+        }
+      ],
+      "entityIds": ["loc-courthouse"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-watchman-testimony",
+      "text": "Night watchman Ivo Brandt testified that he saw a light in the office window at about 2 a.m.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "Ivo Brandt",
+        "verb": "TESTIFIED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-court-opinion"],
+      "evidence": [
+        {
+          "id": "evd-watchman-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Testimony summary",
+            "paragraph": "6",
+            "excerpt": "The watchman testified he observed a light in the office window at or near two o'clock."
+          }
+        }
+      ],
+      "entityIds": ["per-ivo-brandt"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-gazette-light-report",
+      "text": "The Vellmoor Gazette reported that a light was seen in the office shortly after midnight.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "ATTRIBUTED",
+        "attributedTo": "the Vellmoor Gazette",
+        "verb": "REPORTED"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-gazette-1954"],
+      "evidence": [
+        {
+          "id": "evd-gazette-light-report",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-gazette-1954",
+            "paragraph": "5",
+            "excerpt": "A light was reportedly seen in the office shortly after midnight."
+          }
+        }
+      ],
+      "entityIds": [],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-light-time",
+      "text": "A light was seen in the mill office at about 2 a.m. on November 12, 1954.",
+      "category": "EVIDENCE",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "DISPUTED",
+      "confidence": "LOW",
+      "sourceIds": ["src-court-opinion", "src-gazette-1954"],
+      "evidence": [
+        {
+          "id": "evd-light-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Testimony summary",
+            "paragraph": "6"
+          }
+        },
+        {
+          "id": "evd-light-gazette",
+          "stance": "CONTRADICTS",
+          "reference": {
+            "sourceId": "src-gazette-1954",
+            "paragraph": "5",
+            "excerpt": "A light was reportedly seen in the office shortly after midnight."
+          }
+        }
+      ],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      },
+      "notes": "Sworn testimony vs. contemporaneous press report. Present both; do not pick one."
+    },
+    {
+      "id": "clm-tallis-acquitted",
+      "text": "A jury acquitted Oren Tallis of larceny on March 24, 1955.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "LEGAL_STATUS",
+        "subjectId": "per-oren-tallis",
+        "legalStatus": "ACQUITTED",
+        "matter": "Larceny of the Tern River Mill payroll"
+      },
+      "importance": "CORE",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-court-opinion", "src-gazette-1955"],
+      "evidence": [
+        {
+          "id": "evd-acquitted-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Verdict",
+            "excerpt": "The jury returned a verdict of not guilty on March 24, 1955."
+          }
+        },
+        {
+          "id": "evd-acquitted-gazette",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-gazette-1955",
+            "paragraph": "1"
+          }
+        }
+      ],
+      "entityIds": ["per-oren-tallis"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-judge-quote",
+      "text": "In the written ruling, Judge Harlan Voss wrote: \"Suspicion, however strong, is not proof.\"",
+      "category": "QUOTE",
+      "assertion": {
+        "type": "QUOTE",
+        "speaker": "Judge Harlan Voss",
+        "quoteText": "Suspicion, however strong, is not proof.",
+        "context": "Written ruling accompanying the verdict."
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-court-opinion"],
+      "evidence": [
+        {
+          "id": "evd-quote-record",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Ruling",
+            "page": "11",
+            "excerpt": "The court is mindful that suspicion, however strong, is not proof."
+          }
+        }
+      ],
+      "entityIds": ["per-harlan-voss"],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-not-recovered",
+      "text": "As of April 1955, the payroll had not been recovered.",
+      "category": "AFTERMATH",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-gazette-1955"],
+      "evidence": [
+        {
+          "id": "evd-not-recovered-gazette",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-gazette-1955",
+            "paragraph": "6",
+            "excerpt": "None of the $18,400 has been recovered."
+          }
+        }
+      ],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      },
+      "notes": "Only known as of the article date. Do not write 'never recovered'."
+    },
+    {
+      "id": "clm-reward-offered",
+      "text": "The mill offered a reward for information in late 1954.",
+      "category": "AFTERMATH",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "DETAIL",
+      "status": "SUPPORTED",
+      "confidence": "MEDIUM",
+      "sourceIds": ["src-gazette-1955"],
+      "evidence": [
+        {
+          "id": "evd-reward-gazette",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-gazette-1955",
+            "paragraph": "7",
+            "excerpt": "A reward posted by the mill late last year produced no leads."
+          }
+        }
+      ],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      }
+    },
+    {
+      "id": "clm-no-other-charges",
+      "text": "No one else was ever charged in connection with the theft.",
+      "category": "AFTERMATH",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "confidence": "LOW",
+      "sourceIds": ["src-listicle"],
+      "evidence": [
+        {
+          "id": "evd-no-others-listicle",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-listicle",
+            "excerpt": "Nobody else was ever arrested."
+          }
+        }
+      ],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      },
+      "notes": "Absence of later charges not established by any citable source. Script may only say we found no record."
+    },
+    {
+      "id": "clm-myth-jailed",
+      "text": "The payroll theft case ended in a jail sentence.",
+      "category": "LEGAL_PROCEEDING",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "CONTRADICTED",
+      "confidence": "HIGH",
+      "sourceIds": ["src-listicle", "src-court-opinion"],
+      "evidence": [
+        {
+          "id": "evd-myth-listicle",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-listicle",
+            "excerpt": "The thief was caught and spent years behind bars."
+          }
+        },
+        {
+          "id": "evd-myth-record",
+          "stance": "CONTRADICTS",
+          "reference": {
+            "sourceId": "src-court-opinion",
+            "section": "Verdict"
+          }
+        }
+      ],
+      "verification": {
+        "verifiedBy": "skill:source-verification@1",
+        "verifiedAt": "2026-09-29"
+      },
+      "notes": "Online myth. Only usable in a CORRECTION unit."
+    },
+    {
+      "id": "clm-rumored-debts",
+      "text": "Oren Tallis had gambling debts.",
+      "category": "PERSON",
+      "assertion": {
+        "type": "FACT"
+      },
+      "importance": "SUPPORTING",
+      "status": "UNVERIFIED",
+      "confidence": "LOW",
+      "sourceIds": ["src-listicle"],
+      "evidence": [
+        {
+          "id": "evd-debts-listicle",
+          "stance": "SUPPORTS",
+          "reference": {
+            "sourceId": "src-listicle",
+            "excerpt": "Rumor had it the bookkeeper owed money around town."
+          }
+        }
+      ],
+      "entityIds": ["per-oren-tallis"],
+      "notes": "Unverified rumor implying motive. Must not appear in the script."
+    }
+  ]
+}

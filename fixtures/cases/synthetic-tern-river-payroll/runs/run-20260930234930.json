@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "kind": "run-manifest",
+  "runId": "run-20260930234930",
+  "projectId": "case-synthetic-tern-river-payroll",
+  "createdAt": "2026-09-30T23:49:30.825Z",
+  "updatedAt": "2026-10-01T00:00:37.211Z",
+  "currentStage": "TIMELINE",
+  "overallStatus": "WAITING_FOR_HUMAN",
+  "stages": [
+    {
+      "stage": "RESEARCH",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-01T00:00:18.387Z",
+      "completedAt": "2026-10-01T00:00:20.858Z",
+      "inputsFingerprint": "fp1-07b1f330f9170c",
+      "items": []
+    },
+    {
+      "stage": "VERIFICATION",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-01T00:00:26.311Z",
+      "completedAt": "2026-10-01T00:00:29.143Z",
+      "inputsFingerprint": "fp1-1354e4cfa932f6",
+      "items": []
+    },
+    {
+      "stage": "TIMELINE",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "maxAttempts": 3,
+      "startedAt": "2026-10-01T00:00:34.727Z",
+      "completedAt": "2026-10-01T00:00:37.211Z",
+      "inputsFingerprint": "fp1-1094a3181065d7",
+      "items": []
+    },
+    {
+      "stage": "GATE_RESEARCH",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "STORY",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "SCRIPT",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "GATE_SCRIPT",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "NARRATION",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "ALIGNMENT",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "VISUAL_BIBLE",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "VISUAL_PLAN",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "GATE_PRE_PRODUCTION",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "ASSETS",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "RENDER",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "TECHNICAL_QA",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "EDITORIAL_QA",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "CAPTIONS",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "PACKAGE",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    },
+    {
+      "stage": "GATE_PUBLICATION",
+      "status": "PENDING",
+      "attemptCount": 0,
+      "maxAttempts": 3,
+      "items": []
+    }
+  ],
+  "artifacts": [],
+  "failures": [],
+  "gates": [
+    {
+      "id": "gate-research-1",
+      "runId": "run-20260930234930",
+      "type": "RESEARCH",
+      "status": "PENDING",
+      "requestedAt": "2026-09-30T23:49:33.899Z",
+      "subjectFingerprint": "fp1-16a4c74391e195",
+      "checklist": [
+        {
+          "id": "core-claims-supported",
+          "question": "Are all CORE claims SUPPORTED by the evidence as read in the source?"
+        },
+        {
+          "id": "allegations-attributed",
+          "question": "Are allegations recorded as ATTRIBUTED claims, never as facts?"
+        },
+        {
+          "id": "legal-outcomes-correct",
+          "question": "Is every named person's legal status (charged, convicted, acquitted…) correct and current?"
+        },
+        {
+          "id": "contradictions-documented",
+          "question": "Are contradictions between sources documented, not silently resolved?"
+        },
+        {
+          "id": "timeline-gaps-understood",
+          "question": "Are the major timeline gaps and uncertain dates understood?"
+        },
+        {
+          "id": "sensitivity-reviewed",
+          "question": "Have minors, living private individuals, and victims' families been considered?"
+        }
+      ],
+      "blockingIssues": []
+    },
+    {
+      "id": "gate-script-1",
+      "runId": "run-20260930234930",
+      "type": "SCRIPT",
+      "status": "PENDING",
+      "requestedAt": "2026-09-30T23:49:36.543Z",
+      "subjectFingerprint": "fp1-14fd0b91d6b641",
+      "checklist": [
+        {
+          "id": "script-accurate",
+          "question": "Does every factual sentence match its cited claims?"
+        },
+        {
+          "id": "framing-fair",
+          "question": "Is uncertainty audible and is framing fair to everyone named?"
+        },
+        {
+          "id": "no-invention",
+          "question": "Is the script free of invented dialogue, thoughts, motives, and events?"
+        },
+        {
+          "id": "ready-to-voice",
+          "question": "Is the script final enough to produce narration?"
+        }
+      ],
+      "blockingIssues": []
+    }
+  ],
+  "costApprovals": [],
+  "cost": {
+    "estimatedUsd": 0,
+    "approvedUsd": 0,
+    "spentUsd": 0
+  }
+}

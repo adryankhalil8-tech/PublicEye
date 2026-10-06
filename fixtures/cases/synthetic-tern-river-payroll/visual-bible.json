@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "kind": "visual-bible",
+  "styleId": "vb-tern-river-house",
+  "projectId": "case-synthetic-tern-river-payroll",
+  "revision": 1,
+  "updatedAt": "2026-09-30T00:00:00Z",
+  "visualTone": [
+    "serious",
+    "investigative",
+    "restrained",
+    "paper-and-ink",
+    "evidence-driven"
+  ],
+  "palette": {
+    "ground": "#0f0e0c",
+    "groundRaised": "#191815",
+    "text": "#ece6da",
+    "textMuted": "#9a9282",
+    "rule": "#4a463e",
+    "paper": "#e6dfcf",
+    "paperInk": "#221f1a",
+    "highlight": "#c9a454",
+    "strike": "#8a3a2e",
+    "label": "#d8cfbd"
+  },
+  "typography": {
+    "titles": "Georgia, 'Times New Roman', serif",
+    "body": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+    "records": "'Courier New', Courier, monospace",
+    "localFontFiles": []
+  },
+  "compositionRules": [
+    "Left-weighted layouts; avoid centering text in every scene",
+    "Records occupy the left two-thirds; citation bottom-left, above captions",
+    "One focal point per visual state"
+  ],
+  "archivalTreatment": "Show archival images unaltered except crop and slow push-in; always credit; never colorize",
+  "documentTreatment": "Typeset verbatim excerpts on paper, footnoted 'not a facsimile'; highlight, then dim unrelated lines",
+  "mapTreatment": "Schematic and labeled 'not to scale' until real cartography with verified locations exists",
+  "timelineTreatment": "Ordinal spacing; marker shape encodes date precision; undocumented periods shown dashed",
+  "reconstructionTreatment": {
+    "alwaysLabeled": true,
+    "description": "Simple line illustrations only, labeled for the whole shot; never photoreal; never presented as the real place"
+  },
+  "cameraRules": [
+    "Slow push-ins of at most 5%",
+    "No shake, no whip pans, no constant zoom"
+  ],
+  "transitionRules": [
+    "Hard cuts by default",
+    "Dissolve into date cards",
+    "Fade through black only at act breaks"
+  ],
+  "textureRules": [
+    "Paper grain only on records",
+    "No film-burn or dust overlays"
+  ],
+  "negativeConstraints": [
+    "No generic police lights or red/blue flashing",
+    "No crime-scene tape as decoration",
+    "No blood splatter or gore imagery",
+    "No fingerprint or magnifying-glass clichés",
+    "No generic dark alleys",
+    "No neon grids, floating glass cards, or random particles",
+    "No fake newspaper headlines or fake evidence documents",
+    "No centered text in every scene"
+  ],
+  "approvedReferences": []
+}

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "kind": "production-manifest",
+  "caseId": "case-synthetic-tern-river-payroll",
+  "isSynthetic": true,
+  "stage": "DRAFT",
+  "generatedAt": "2026-09-30T00:00:00Z",
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 3041
+  },
+  "timingSource": "AUDIO",
+  "alignmentSource": "PER_UNIT_SYNTHESIS",
+  "narration": {
+    "narrationId": "narr-synthetic-tern-river-payroll",
+    "audioPath": "audio/case-synthetic-tern-river-payroll/narration.wav",
+    "durationSec": 101.372
+  },
+  "visualBibleRevision": 1,
+  "inputs": {
+    "script": "fp1-1d50d74b010095",
+    "visualPlan": "fp1-0f88bc656e01c9",
+    "alignment": "fp1-1bbeb60a683b1c",
+    "visualBible": "fp1-0118cd3e38b729"
+  },
+  "shots": [
+    {
+      "shotId": "shot-01",
+      "sequenceId": "seq-hook",
+      "shotType": "DOCUMENT_HIGHLIGHT",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 0,
+      "durationInFrames": 483,
+      "narrationIds": ["nu-001", "nu-002"],
+      "assetIds": ["ast-paper-texture"],
+      "states": [
+        {
+          "beatId": "beat-01-establish",
+          "state": "ESTABLISH",
+          "target": "src-police-report",
+          "atFrame": 0
+        },
+        {
+          "beatId": "beat-01-highlight",
+          "state": "HIGHLIGHT",
+          "target": "excerpt:evd-not-forced-report",
+          "atFrame": 264
+        },
+        {
+          "beatId": "beat-01-dim",
+          "state": "DIM_OTHERS",
+          "target": "excerpt:evd-not-forced-report",
+          "atFrame": 309
+        }
+      ]
+    },
+    {
+      "shotId": "shot-02",
+      "sequenceId": "seq-inciting",
+      "shotType": "DATE_CARD",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 483,
+      "durationInFrames": 197,
+      "narrationIds": ["nu-003"],
+      "assetIds": [],
+      "states": []
+    },
+    {
+      "shotId": "shot-03",
+      "sequenceId": "seq-inciting",
+      "shotType": "RECONSTRUCTION",
+      "representation": {
+        "type": "ILLUSTRATIVE",
+        "label": "ILLUSTRATION"
+      },
+      "startFrame": 680,
+      "durationInFrames": 191,
+      "narrationIds": ["nu-004"],
+      "assetIds": ["ast-office-illustration"],
+      "states": []
+    },
+    {
+      "shotId": "shot-04",
+      "sequenceId": "seq-investigation",
+      "shotType": "EVIDENCE_DIAGRAM",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 871,
+      "durationInFrames": 315,
+      "narrationIds": ["nu-005", "nu-006"],
+      "assetIds": [],
+      "states": [
+        {
+          "beatId": "beat-04-allegation",
+          "state": "REVEAL",
+          "target": "card:1",
+          "atFrame": 0
+        },
+        {
+          "beatId": "beat-04-denial",
+          "state": "COMPARE",
+          "target": "card:2",
+          "atFrame": 241
+        }
+      ]
+    },
+    {
+      "shotId": "shot-05",
+      "sequenceId": "seq-investigation",
+      "shotType": "TIMELINE",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 1186,
+      "durationInFrames": 159,
+      "narrationIds": ["nu-007"],
+      "assetIds": [],
+      "states": []
+    },
+    {
+      "shotId": "shot-06",
+      "sequenceId": "seq-court",
+      "shotType": "EVIDENCE_DIAGRAM",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 1345,
+      "durationInFrames": 353,
+      "narrationIds": ["nu-008"],
+      "assetIds": [],
+      "states": [
+        {
+          "beatId": "beat-06-testimony",
+          "state": "REVEAL",
+          "target": "card:1",
+          "atFrame": 0
+        },
+        {
+          "beatId": "beat-06-compare",
+          "state": "COMPARE",
+          "target": "card:2",
+          "atFrame": 150
+        }
+      ]
+    },
+    {
+      "shotId": "shot-07",
+      "sequenceId": "seq-court",
+      "shotType": "TYPOGRAPHY",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 1698,
+      "durationInFrames": 189,
+      "narrationIds": ["nu-009"],
+      "assetIds": [],
+      "states": []
+    },
+    {
+      "shotId": "shot-08",
+      "sequenceId": "seq-verdict",
+      "shotType": "QUOTE",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 1887,
+      "durationInFrames": 362,
+      "narrationIds": ["nu-010"],
+      "assetIds": [],
+      "states": [
+        {
+          "beatId": "beat-08-hold",
+          "state": "HOLD",
+          "target": "quote",
+          "atFrame": 0
+        }
+      ]
+    },
+    {
+      "shotId": "shot-09",
+      "sequenceId": "seq-verdict",
+      "shotType": "DOCUMENT_HIGHLIGHT",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 2249,
+      "durationInFrames": 278,
+      "narrationIds": ["nu-011"],
+      "assetIds": [],
+      "states": [
+        {
+          "beatId": "beat-09-verdict",
+          "state": "HIGHLIGHT",
+          "target": "excerpt:evd-acquitted-record",
+          "atFrame": 120
+        }
+      ]
+    },
+    {
+      "shotId": "shot-10",
+      "sequenceId": "seq-unresolved",
+      "shotType": "MAP",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 2527,
+      "durationInFrames": 326,
+      "narrationIds": ["nu-012", "nu-013"],
+      "assetIds": [],
+      "states": []
+    },
+    {
+      "shotId": "shot-11",
+      "sequenceId": "seq-unresolved",
+      "shotType": "TYPOGRAPHY",
+      "representation": {
+        "type": "GRAPHIC"
+      },
+      "startFrame": 2853,
+      "durationInFrames": 188,
+      "narrationIds": ["nu-014"],
+      "assetIds": [],
+      "states": []
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "ast-paper-texture",
+      "localPath": "fixtures/paper-texture.svg",
+      "rightsStatus": "OWNED",
+      "approved": true
+    },
+    {
+      "assetId": "ast-office-illustration",
+      "localPath": "fixtures/office-illustration.svg",
+      "rightsStatus": "OWNED",
+      "approved": true
+    }
+  ],
+  "credits": [],
+  "qc": {
+    "factQc": "PENDING",
+    "visualQc": "PENDING",
+    "humanApproval": {
+      "status": "PENDING"
+    }
+  },
+  "validation": {
+    "errors": 0,
+    "warnings": 2
+  }
+}

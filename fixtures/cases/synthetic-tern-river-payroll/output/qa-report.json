@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "kind": "qa-report",
+  "caseId": "case-synthetic-tern-river-payroll",
+  "generatedAt": "2026-09-30T23:59:25.882Z",
+  "renderPath": "output/master.mp4",
+  "checks": [
+    {
+      "id": "qa-technical-render-exists",
+      "category": "TECHNICAL",
+      "name": "Rendered master exists",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-technical-duration",
+      "category": "TECHNICAL",
+      "name": "Duration matches manifest",
+      "status": "PASS",
+      "automated": true,
+      "detail": "101.42s vs 101.37s"
+    },
+    {
+      "id": "qa-technical-resolution",
+      "category": "TECHNICAL",
+      "name": "Resolution",
+      "status": "PASS",
+      "automated": true,
+      "detail": "1920x1080"
+    },
+    {
+      "id": "qa-technical-fps",
+      "category": "TECHNICAL",
+      "name": "Frame rate",
+      "status": "PASS",
+      "automated": true,
+      "detail": "30 fps"
+    },
+    {
+      "id": "qa-technical-codec",
+      "category": "TECHNICAL",
+      "name": "Video codec",
+      "status": "PASS",
+      "automated": true,
+      "detail": "h264"
+    },
+    {
+      "id": "qa-technical-file-size",
+      "category": "TECHNICAL",
+      "name": "File size",
+      "status": "PASS",
+      "automated": true,
+      "detail": "10.6 MB"
+    },
+    {
+      "id": "qa-technical-audio-present",
+      "category": "TECHNICAL",
+      "name": "Audio present",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-technical-audio-duration",
+      "category": "TECHNICAL",
+      "name": "Audio covers narration",
+      "status": "PASS",
+      "automated": true,
+      "detail": "101.42s audio vs 101.37s narration"
+    },
+    {
+      "id": "qa-technical-silence",
+      "category": "TECHNICAL",
+      "name": "No unexpected silence",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-technical-assets",
+      "category": "TECHNICAL",
+      "name": "All manifest assets produced",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-technical-caption-duration",
+      "category": "TECHNICAL",
+      "name": "Captions fit the video",
+      "status": "PASS",
+      "automated": true,
+      "detail": "last caption ends 98.37s"
+    },
+    {
+      "id": "qa-visual-repetition",
+      "category": "VISUAL",
+      "name": "No long runs of the same shot type",
+      "status": "PASS",
+      "automated": true,
+      "detail": "longest run: 1"
+    },
+    {
+      "id": "qa-visual-overuse",
+      "category": "VISUAL",
+      "name": "No overused visual pattern",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-visual-placeholders",
+      "category": "VISUAL",
+      "name": "No placeholder visuals",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-visual-reconstruction-labels",
+      "category": "VISUAL",
+      "name": "Reconstructions labeled",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-visual-style-consistency",
+      "category": "VISUAL",
+      "name": "Rendered against the current visual bible",
+      "status": "PASS",
+      "automated": true,
+      "detail": "manifest rev 1, bible rev 1"
+    },
+    {
+      "id": "qa-visual-composition",
+      "category": "VISUAL",
+      "name": "Composition, cropping, and framing",
+      "status": "MANUAL_REQUIRED",
+      "automated": false,
+      "detail": "requires watching the render"
+    },
+    {
+      "id": "qa-visual-document-legibility",
+      "category": "VISUAL",
+      "name": "Documents readable at 1080p",
+      "status": "MANUAL_REQUIRED",
+      "automated": false,
+      "detail": "requires watching the render"
+    },
+    {
+      "id": "qa-visual-safe-area",
+      "category": "VISUAL",
+      "name": "Text inside safe areas",
+      "status": "MANUAL_REQUIRED",
+      "automated": false,
+      "detail": "requires watching the render"
+    },
+    {
+      "id": "qa-editorial-claims-supported",
+      "category": "EDITORIAL",
+      "name": "Script claims remain supported",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-editorial-legal-status",
+      "category": "EDITORIAL",
+      "name": "Legal statuses correct",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-editorial-quotes",
+      "category": "EDITORIAL",
+      "name": "Quotes match sources",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-editorial-dates",
+      "category": "EDITORIAL",
+      "name": "Dates and chronology correct",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-editorial-visual-evidence",
+      "category": "EDITORIAL",
+      "name": "Visuals do not misrepresent evidence",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-editorial-attribution",
+      "category": "EDITORIAL",
+      "name": "Required attribution present",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-editorial-captions-match",
+      "category": "EDITORIAL",
+      "name": "Captions match narration script",
+      "status": "PASS",
+      "automated": true
+    },
+    {
+      "id": "qa-editorial-human-review",
+      "category": "EDITORIAL",
+      "name": "Human editorial review of the full video",
+      "status": "MANUAL_REQUIRED",
+      "automated": false,
+      "detail": "a person must watch it against the claim ledger"
+    }
+  ],
+  "overall": "INCOMPLETE"
+}

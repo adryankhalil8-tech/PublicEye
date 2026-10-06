@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "kind": "research-brief",
+  "summary": "SYNTHETIC. A mill payroll vanished from an unforced safe overnight in November 1954. Police alleged the bookkeeper opened it; he was charged, tried, and acquitted in March 1955. The money had not been recovered as of April 1955.",
+  "sensitivityFlags": ["LIVING_PRIVATE_INDIVIDUALS", "CONTESTED_OUTCOME"],
+  "openQuestions": [
+    {
+      "id": "q-who-took-it",
+      "question": "Who removed the payroll from the safe?",
+      "status": "UNRESOLVABLE",
+      "relatedClaimIds": ["clm-tallis-acquitted", "clm-not-recovered"]
+    },
+    {
+      "id": "q-light-time",
+      "question": "When exactly was the office light seen: about 2 a.m. or shortly after midnight?",
+      "status": "OPEN",
+      "relatedClaimIds": [
+        "clm-watchman-testimony",
+        "clm-light-time",
+        "clm-gazette-light-report"
+      ]
+    },
+    {
+      "id": "q-later-charges",
+      "question": "Was anyone else ever investigated or charged?",
+      "status": "OPEN",
+      "relatedClaimIds": ["clm-no-other-charges"]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "ctr-light-time",
+      "description": "Trial testimony places the light at about 2 a.m.; the next-day newspaper said shortly after midnight.",
+      "claimIds": [
+        "clm-light-time",
+        "clm-gazette-light-report",
+        "clm-watchman-testimony"
+      ],
+      "sourceIds": ["src-court-opinion", "src-gazette-1954"]
+    },
+    {
+      "id": "ctr-jail-myth",
+      "description": "A listicle says the case ended in a jail sentence; the court record shows an acquittal.",
+      "claimIds": ["clm-myth-jailed", "clm-tallis-acquitted"],
+      "sourceIds": ["src-listicle", "src-court-opinion"],
+      "resolution": "Court record prevails. The listicle is DISCOVERY_ONLY."
+    }
+  ],
+  "sourcesToObtain": [
+    {
+      "description": "Full trial transcript (synthetic placeholder)",
+      "url": "https://records.example.invalid/vellmoor-county-court/state-v-tallis/transcript"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "sources",
+  "sources": [
+    {
+      "id": "src-police-report",
+      "url": "https://records.example.invalid/vellmoor-police/incident-54-311",
+      "title": "Vellmoor Police Incident Report 54-311 (SYNTHETIC)",
+      "publisher": "Vellmoor Police Department (fictional)",
+      "sourceType": "AGENCY_RECORD",
+      "authorityLevel": "PRIMARY",
+      "accessedAt": "2026-09-29",
+      "publicationDate": "1954-11-12",
+      "recordIdentifier": "54-311 (synthetic)",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "USABLE",
+      "notes": "Synthetic record invented for testing. Not a real document."
+    },
+    {
+      "id": "src-court-opinion",
+      "url": "https://records.example.invalid/vellmoor-county-court/state-v-tallis",
+      "title": "State v. Tallis — Trial Record and Ruling (SYNTHETIC)",
+      "publisher": "Vellmoor County Court (fictional)",
+      "sourceType": "COURT_OPINION",
+      "authorityLevel": "PRIMARY",
+      "accessedAt": "2026-09-29",
+      "publicationDate": "1955-03-24",
+      "recordIdentifier": "VC-1955-0142 (synthetic)",
+      "rightsStatus": "PUBLIC_DOMAIN",
+      "assetUsageStatus": "USABLE",
+      "notes": "Synthetic record invented for testing. Not a real document."
+    },
+    {
+      "id": "src-gazette-1954",
+      "url": "https://news.example.invalid/vellmoor-gazette/1954-11-13/mill-payroll-vanishes",
+      "title": "Mill Payroll Vanishes Overnight (SYNTHETIC)",
+      "publisher": "Vellmoor Gazette (fictional)",
+      "sourceType": "NEWS_ARTICLE",
+      "authorityLevel": "STRONG_SECONDARY",
+      "accessedAt": "2026-09-29",
+      "publicationDate": "1954-11-13",
+      "rightsStatus": "UNKNOWN",
+      "assetUsageStatus": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "src-gazette-1955",
+      "url": "https://news.example.invalid/vellmoor-gazette/1955-04-02/bookkeeper-acquitted",
+      "title": "Bookkeeper Acquitted in Payroll Case (SYNTHETIC)",
+      "publisher": "Vellmoor Gazette (fictional)",
+      "sourceType": "NEWS_ARTICLE",
+      "authorityLevel": "STRONG_SECONDARY",
+      "accessedAt": "2026-09-29",
+      "publicationDate": "1955-04-02",
+      "rightsStatus": "UNKNOWN",
+      "assetUsageStatus": "REVIEW_REQUIRED"
+    },
+    {
+      "id": "src-listicle",
+      "url": "https://blog.example.invalid/10-strangest-small-town-heists",
+      "title": "10 Strangest Small-Town Heists (SYNTHETIC)",
+      "publisher": "Example Blog (fictional)",
+      "sourceType": "LISTICLE",
+      "authorityLevel": "DISCOVERY_ONLY",
+      "accessedAt": "2026-09-29",
+      "notes": "Discovery source: surfaced the case. Makes unsourced claims; never factual authority."
+    }
+  ]
+}

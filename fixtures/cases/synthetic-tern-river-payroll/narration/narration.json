@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "kind": "narration",
+  "id": "narr-synthetic-tern-river-payroll",
+  "scriptFingerprint": "fp1-1d50d74b010095",
+  "provider": {
+    "id": "system-sapi",
+    "costTier": "LOCAL"
+  },
+  "status": "MEASURED",
+  "audioPath": "audio/case-synthetic-tern-river-payroll/narration.wav",
+  "durationSec": 101.372,
+  "sampleRate": 22050,
+  "channels": 1,
+  "createdAt": "2026-09-30T23:50:11.789Z",
+  "measuredAt": "2026-09-30T23:50:58.187Z",
+  "units": [
+    {
+      "narrationUnitId": "nu-001",
+      "textFingerprint": "fp1-06b6f09bbfd090",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-001.wav",
+      "durationSec": 8.307845804988663
+    },
+    {
+      "narrationUnitId": "nu-002",
+      "textFingerprint": "fp1-131fecf504be07",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-002.wav",
+      "durationSec": 6.988253968253968
+    },
+    {
+      "narrationUnitId": "nu-003",
+      "textFingerprint": "fp1-182ee351db3879",
+      "status": "COMPLETE",
+      "attemptCount": 2,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-003.wav",
+      "durationSec": 6.578367346938776
+    },
+    {
+      "narrationUnitId": "nu-004",
+      "textFingerprint": "fp1-163398f80ffb78",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-004.wav",
+      "durationSec": 6.353514739229025
+    },
+    {
+      "narrationUnitId": "nu-005",
+      "textFingerprint": "fp1-13a7dc7dea2330",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-005.wav",
+      "durationSec": 8.033424036281179
+    },
+    {
+      "narrationUnitId": "nu-006",
+      "textFingerprint": "fp1-10231331a50bce",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-006.wav",
+      "durationSec": 2.4691156462585035
+    },
+    {
+      "narrationUnitId": "nu-007",
+      "textFingerprint": "fp1-097021861c91c2",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-007.wav",
+      "durationSec": 4.6886167800453515
+    },
+    {
+      "narrationUnitId": "nu-008",
+      "textFingerprint": "fp1-01f0e1aca7474b",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-008.wav",
+      "durationSec": 11.777777777777779
+    },
+    {
+      "narrationUnitId": "nu-009",
+      "textFingerprint": "fp1-197bacc4d2b41a",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-009.wav",
+      "durationSec": 5.713424036281179
+    },
+    {
+      "narrationUnitId": "nu-010",
+      "textFingerprint": "fp1-1044f73eb247a3",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-010.wav",
+      "durationSec": 11.057777777777778
+    },
+    {
+      "narrationUnitId": "nu-011",
+      "textFingerprint": "fp1-02e863934dcfc9",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-011.wav",
+      "durationSec": 9.262675736961452
+    },
+    {
+      "narrationUnitId": "nu-012",
+      "textFingerprint": "fp1-0dda08a29afe06",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-012.wav",
+      "durationSec": 4.908707482993197
+    },
+    {
+      "narrationUnitId": "nu-013",
+      "textFingerprint": "fp1-1e9d2443ce0d7d",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-013.wav",
+      "durationSec": 5.953378684807256
+    },
+    {
+      "narrationUnitId": "nu-014",
+      "textFingerprint": "fp1-0b3e08a2b16f18",
+      "status": "COMPLETE",
+      "attemptCount": 1,
+      "audioPath": "audio/case-synthetic-tern-river-payroll/units/nu-014.wav",
+      "durationSec": 4.778684807256236
+    }
+  ],
+  "producedFromApprovedScript": false,
+  "isSynthetic": true,
+  "notes": "Draft narration (script not yet approved) — timing work only."
+}
